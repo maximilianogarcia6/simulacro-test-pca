@@ -897,7 +897,7 @@
     "options": {
       "A": "31.00.",
       "B": "32.00.",
-      "C": "3050."
+      "C": "30.50."
     },
     "answer": "A",
     "explanation": "Existen restricciones de vuelo especiales cuando cualquier información indica que la presión \nbarométrica en la ruta de vuelo excede actualmente o excederá las 31 pulgadas de mercurio y ninguna \npersona puede operar una aeronave o iniciar un vuelo en contra de los requisitos establecidos."
@@ -955,9 +955,9 @@
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5133.- Al planificar un vuelo nocturno, un piloto debe verificar: destino.",
     "options": {
-      "A": "disponibilidad y estado de los sistemas de iluminación de los aeropuertos de ruta y de",
+      "A": "disponibilidad y estado de los sistemas de iluminación de los aeropuertos de ruta y de destino",
       "B": "luces rojas de rumbo en ruta.",
-      "C": "ubicación de balizas de luz giratorias”."
+      "C": "ubicación de balizas de luz giratorias."
     },
     "answer": "A",
     "explanation": "Antes de un vuelo nocturno, y particularmente de un vuelo nocturno, los pilotos deben verificar la \ndisponibilidad y el estado de los sistemas de iluminación en el aeropuerto de destino."
@@ -1025,7 +1025,7 @@
   {
     "id": "5140",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5140.- Cuál es la visibilidad mínima y el techo requeridos para que un pi loto reciba una autorización de:",
+    "question": "5140.- Cuál es la visibilidad mínima y el techo requeridos para que un piloto reciba una autorización de aterrizaje y espera corta (LAHSO):",
     "options": {
       "A": "3 millas terrestres y 1,000 pies.",
       "B": "3 millas náuticas y 1,000 pies.",
@@ -1038,6 +1038,7 @@
     "id": "5145",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5145.- (Refiérase a la Figura 60). El signo \"1\" es una indicación:",
+    "image": "./figures/figure_60.png",
     "options": {
       "A": "de un área donde los aviones están prohibidos.",
       "B": "que la calle de rodaje no continúa.",

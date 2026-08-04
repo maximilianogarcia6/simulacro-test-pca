@@ -15,6 +15,8 @@ const idPreviewQuestion = document.getElementById('id-preview-question');
 const idPreviewOptions = document.getElementById('id-preview-options');
 const clearSearchBtn = document.getElementById('clear-search-btn');
 const startFromPreviewBtn = document.getElementById('start-from-preview-btn');
+const confirmBtn = document.getElementById('confirm-btn');
+const skipBtn = document.getElementById('skip-btn');
 const appConfirmOverlay = document.getElementById('app-confirm-overlay');
 const appConfirmTitle = document.getElementById('app-confirm-title');
 const appConfirmText = document.getElementById('app-confirm-text');
@@ -151,8 +153,6 @@ function startQuestionById(inputId) {
         return false;
     }
 
-    sectionSelect.value = found.section;
-    lengthSelect.value = 1;
     session = { questions: [found], idx: 0, correct: 0, wrong: 0, missed: [] };
     showScreen('screen-quiz');
     renderQuestion();
@@ -195,9 +195,6 @@ sessionToggleBtn.addEventListener('click', (event) => {
 clearSearchBtn.addEventListener('click', () => hideQuestionPreview());
 searchIdBtn.addEventListener('click', () => toggleIdSearchControls());
 appConfirmCancel.addEventListener('click', closeConfirmModal);
-appConfirmOverlay.addEventListener('click', (event) => {
-    if (event.target === appConfirmOverlay) closeConfirmModal();
-});
 appConfirmYes.addEventListener('click', () => {
     if (typeof pendingConfirmAction === 'function') pendingConfirmAction();
     closeConfirmModal();
@@ -237,20 +234,6 @@ function shuffle(arr) {
 }
 
 function buildQuestionSet() {
-    const inputId = (idSearchInput.value || '').trim();
-    if (inputId) {
-        const found = QUIZ_DATA.find(q => String(q.id) === inputId);
-        if (!found) {
-            searchIdResult.textContent = 'No encontré una pregunta con ese ID.';
-            return [];
-        }
-
-        searchIdResult.textContent = `Pregunta ${found.id} encontrada en ${found.section}.`;
-        sectionSelect.value = found.section;
-        lengthSelect.value = 1;
-        return [found];
-    }
-
     const sec = sectionSelect.value;
     const mode = document.getElementById('mode-select').value;
     const len = parseInt(lengthSelect.value, 10);
@@ -304,15 +287,48 @@ document.getElementById('start-btn').addEventListener('click', () => {
         return;
     }
 
-    session = { questions: qs, idx: 0, correct: 0, wrong: 0, missed: [] };
+    session = { questions: qs, idx: 0, correct: 0, wrong: 0, missed: [], selectedLetter: null };
     showScreen('screen-quiz');
     renderQuestion();
 });
 
+function resolveQuestionFigure(question) {
+    if (typeof question.image === 'string' && question.image.trim()) {
+        return question.image.trim();
+    }
+    return null;
+}
+
+function renderQuestionFigure(question) {
+    const figContainer = document.getElementById('quiz-figure');
+    const figurePath = resolveQuestionFigure(question);
+
+    if (!figurePath) {
+        figContainer.style.display = 'none';
+        figContainer.innerHTML = '';
+        return;
+    }
+
+    const figureFileName = figurePath.split('/').pop() || 'figura';
+    figContainer.style.display = 'block';
+    figContainer.innerHTML = `
+        <img src="${figurePath}" alt="${figureFileName}" loading="lazy" />
+    `;
+
+    const figureImg = figContainer.querySelector('img');
+    if (figureImg) {
+        figureImg.onerror = () => {
+            figContainer.innerHTML = `<div class="figure-placeholder">No se encontró la figura local para esta pregunta. Verificá el asset configurado en el campo <strong>image</strong>.</div>`;
+        };
+    }
+}
+
 function renderQuestion() {
     const q = session.questions[session.idx];
+    session.selectedLetter = null;
     document.getElementById('quiz-tag').textContent = `${q.section} · ${session.idx + 1}/${session.questions.length}`;
     document.getElementById('quiz-question').textContent = q.question;
+    renderQuestionFigure(q);
     document.getElementById('progress-fill').style.width = Math.round(100 * session.idx / session.questions.length) + '%';
 
     const optsDiv = document.getElementById('quiz-options');
@@ -325,15 +341,36 @@ function renderQuestion() {
         optsDiv.appendChild(btn);
     });
 
+    confirmBtn.disabled = false;
+    skipBtn.disabled = false;
     document.getElementById('quiz-feedback').innerHTML = '';
     document.getElementById('next-btn').style.display = 'none';
 }
 
 function selectAnswer(letter) {
+    session.selectedLetter = letter;
+    document.querySelectorAll('.opt').forEach(btn => {
+        btn.classList.remove('selected');
+        const btnLetter = btn.querySelector('b').textContent.replace('.', '').trim();
+        if (btnLetter === letter) btn.classList.add('selected');
+    });
+}
+
+function confirmCurrentAnswer() {
+    if (!session || !session.selectedLetter) {
+        openConfirmModal({
+            title: 'Elija una opción',
+            text: 'Antes de confirmar, seleccioná una opción para responder la pregunta.',
+            confirmText: 'Entendido',
+            onConfirm: () => { }
+        });
+        return;
+    }
+
     const q = session.questions[session.idx];
+    const letter = session.selectedLetter;
     const isCorrect = letter === q.answer;
 
-    // update stored progress
     if (!progress.byId[q.id]) progress.byId[q.id] = { seen: 0, correctCount: 0, wrongCount: 0, lastCorrect: null };
     const rec = progress.byId[q.id];
     rec.seen += 1;
@@ -344,7 +381,6 @@ function selectAnswer(letter) {
     if (isCorrect) session.correct++;
     else { session.wrong++; session.missed.push(q); }
 
-    // lock options, mark correct/incorrect
     document.querySelectorAll('.opt').forEach(btn => {
         btn.classList.add('disabled');
         const btnLetter = btn.querySelector('b').textContent.replace('.', '').trim();
@@ -358,8 +394,23 @@ function selectAnswer(letter) {
       <div class="expl">${q.explanation}</div>
     </div>`;
 
+    confirmBtn.disabled = true;
+    skipBtn.disabled = true;
     document.getElementById('next-btn').style.display = 'block';
 }
+
+function skipQuestion() {
+    if (!session) return;
+    session.idx++;
+    if (session.idx >= session.questions.length) {
+        finishSession();
+    } else {
+        renderQuestion();
+    }
+}
+
+confirmBtn.addEventListener('click', confirmCurrentAnswer);
+skipBtn.addEventListener('click', skipQuestion);
 
 document.getElementById('next-btn').addEventListener('click', () => {
     session.idx++;
@@ -376,11 +427,17 @@ document.getElementById('quit-btn').addEventListener('click', () => {
         text: '¿Seguro que querés salir de la práctica actual? La sesión en curso se perderá.',
         confirmText: 'Salir',
         onConfirm: () => {
+            resetQuizSessionState();
             showScreen('screen-home');
             refreshHomeStats();
         }
     });
 });
+
+function resetQuizSessionState() {
+    session = null;
+    hideQuestionPreview();
+}
 
 function finishSession() {
     document.getElementById('progress-fill').style.width = '100%';
@@ -411,10 +468,12 @@ function finishSession() {
 }
 
 document.getElementById('again-btn').addEventListener('click', () => {
+    resetQuizSessionState();
     showScreen('screen-home');
     refreshHomeStats();
 });
 document.getElementById('home-btn').addEventListener('click', () => {
+    resetQuizSessionState();
     showScreen('screen-home');
     refreshHomeStats();
 });
