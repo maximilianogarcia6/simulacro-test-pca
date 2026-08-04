@@ -151,6 +151,82 @@
       flex: 1;
     }
 
+    .row-between {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .session-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 10px 12px;
+      margin-bottom: 12px;
+      border-radius: 12px;
+      background: linear-gradient(180deg, rgba(56, 189, 248, 0.12), rgba(17, 24, 39, 0.2));
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: all .2s ease;
+    }
+
+    .session-header:hover {
+      border-color: rgba(56, 189, 248, 0.8);
+      transform: translateY(-1px);
+    }
+
+    .session-title {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .btn.tiny {
+      width: auto;
+      min-width: 42px;
+      padding: 8px 10px;
+      font-size: 0.9rem;
+      margin-top: 0;
+    }
+
+    .session-toggle-btn {
+      width: auto;
+      min-width: 38px;
+      padding: 7px 10px;
+      margin: 0;
+      background: var(--card2);
+      color: var(--text);
+      border: 1px solid var(--border);
+      font-weight: 700;
+      cursor: pointer;
+      border-radius: 999px;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+    }
+
+    .session-collapsed {
+      display: none;
+      opacity: 0;
+      transform: translateY(-6px);
+    }
+
+    .session-body {
+      transition: all .24s ease;
+      overflow: hidden;
+    }
+
+    .search-inline-row {
+      display: none;
+      margin-top: 12px;
+    }
+
+    .search-inline-row.visible {
+      display: block;
+    }
+
     .section-list label {
       display: flex;
       align-items: center;
@@ -323,6 +399,49 @@
       color: var(--good);
     }
 
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(2, 6, 23, 0.62);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 1000;
+    }
+
+    .modal-overlay.show {
+      display: flex;
+    }
+
+    .modal {
+      width: min(420px, 100%);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    .modal-title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0 0 8px;
+    }
+
+    .modal-text {
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.5;
+      margin: 0 0 16px;
+    }
+
+    .modal-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
     a.link {
       color: var(--accent);
     }
@@ -354,25 +473,57 @@
       </div>
 
       <div class="card">
-        <div class="tag">Configurar sesión</div>
-        <label class="small muted" style="display:block; margin-bottom:6px;">Usuario</label>
-        <input id="user-input" type="text" value="usuario1" placeholder="Nombre del usuario"
-          style="width:100%; padding:12px; background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:10px; margin-bottom:10px;">
+        <div class="session-header" id="session-header">
+          <span class="session-title">Configurar sesión</span>
+          <button class="session-toggle-btn" id="session-toggle-btn" type="button" aria-expanded="true"
+            title="Abrir o cerrar configuración">▾</button>
+        </div>
 
-        <label class="small muted" style="display:block; margin-bottom:6px;">Materia</label>
-        <select id="section-select"></select>
+        <div id="session-settings-body" class="session-body">
+          <label class="small muted" style="display:block; margin-bottom:6px;">Usuario</label>
+          <input id="user-input" type="text" value="usuario1" placeholder="Nombre del usuario"
+            style="width:100%; padding:12px; background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:10px; margin-bottom:10px;">
 
-        <label class="small muted" style="display:block; margin:10px 0 6px;">Modo</label>
-        <select id="mode-select">
-          <option value="all">Todas las preguntas de la materia</option>
-          <option value="unseen">Solo las que no practiqué</option>
-          <option value="wrong">Repasar mis errores</option>
-        </select>
+          <label class="small muted" style="display:block; margin-bottom:6px;">Materia</label>
+          <select id="section-select"></select>
 
-        <label class="small muted" style="display:block; margin:10px 0 6px;">Cantidad de preguntas</label>
-        <select id="length-select"></select>
+          <label class="small muted" style="display:block; margin:10px 0 6px;">Modo</label>
+          <select id="mode-select">
+            <option value="all">Todas las preguntas de la materia</option>
+            <option value="unseen">Solo las que no practiqué</option>
+            <option value="wrong">Repasar mis errores</option>
+          </select>
 
-        <button class="btn" id="start-btn">Empezar práctica</button>
+          <label class="small muted" style="display:block; margin:10px 0 6px;">Cantidad de preguntas</label>
+          <select id="length-select"></select>
+        </div>
+
+        <div class="row" style="margin-top:12px;">
+          <button class="btn secondary" id="search-id-btn"
+            style="margin-top:0; width:auto; min-width:110px; flex:1;">Buscar pregunta por ID</button>
+          <button class="btn" id="start-btn" style="margin-top:0; flex:1;">Empezar práctica</button>
+        </div>
+
+        <div id="search-inline-row" class="search-inline-row">
+          <div style="display:flex; gap:8px; margin-bottom:8px;">
+            <input id="id-search-input" type="text" placeholder="Ej: 5156 o 5989.2"
+              style="flex:1; padding:12px; background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:10px;">
+            <button class="btn secondary" id="search-id-inline-btn"
+              style="margin-top:0; width:auto; min-width:110px;">Buscar</button>
+          </div>
+          <div id="search-id-result" class="muted" style="font-size:0.82rem; min-height:1.2rem;"></div>
+
+          <div id="id-preview-card"
+            style="display:none; margin-top:12px; padding:12px; border:1px solid var(--border); border-radius:12px; background:rgba(56,189,248,0.06);">
+            <div class="tag" style="margin-bottom:8px;">Vista previa</div>
+            <div class="qtext" id="id-preview-question" style="font-size:0.98rem; margin-bottom:10px;"></div>
+            <div id="id-preview-options" style="margin-bottom:10px;"></div>
+            <div class="row">
+              <button class="btn ghost" id="clear-search-btn" style="margin-top:0;">Volver</button>
+              <button class="btn secondary" id="start-from-preview-btn" style="margin-top:0;">Ver pregunta</button>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="card">
@@ -415,12 +566,40 @@
     </div>
   </div>
 
+  <div id="app-confirm-overlay" class="modal-overlay">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="app-confirm-title">
+      <h3 id="app-confirm-title" class="modal-title">Confirmar acción</h3>
+      <p id="app-confirm-text" class="modal-text">¿Seguro que querés continuar?</p>
+      <div class="modal-actions">
+        <button class="btn ghost" id="app-confirm-cancel">Cancelar</button>
+        <button class="btn" id="app-confirm-yes">Confirmar</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     let QUIZ_DATA = [];
     const STORAGE_PREFIX = 'srvsop_pc_avion_progress_v1';
     const userInput = document.getElementById('user-input');
     const sectionSelect = document.getElementById('section-select');
     const lengthSelect = document.getElementById('length-select');
+    const idSearchInput = document.getElementById('id-search-input');
+    const searchIdResult = document.getElementById('search-id-result');
+    const sessionToggleBtn = document.getElementById('session-toggle-btn');
+    const sessionHeader = document.getElementById('session-header');
+    const sessionSettingsBody = document.getElementById('session-settings-body');
+    const searchInlineRow = document.getElementById('search-inline-row');
+    const searchIdBtn = document.getElementById('search-id-btn');
+    const idPreviewCard = document.getElementById('id-preview-card');
+    const idPreviewQuestion = document.getElementById('id-preview-question');
+    const idPreviewOptions = document.getElementById('id-preview-options');
+    const clearSearchBtn = document.getElementById('clear-search-btn');
+    const startFromPreviewBtn = document.getElementById('start-from-preview-btn');
+    const appConfirmOverlay = document.getElementById('app-confirm-overlay');
+    const appConfirmTitle = document.getElementById('app-confirm-title');
+    const appConfirmText = document.getElementById('app-confirm-text');
+    const appConfirmCancel = document.getElementById('app-confirm-cancel');
+    const appConfirmYes = document.getElementById('app-confirm-yes');
 
     function getUserStorageKey() {
       const safeName = (userInput.value || 'anon').trim().toLowerCase().replace(/[^a-z0-9]+/g, '_');
@@ -507,16 +686,122 @@
       document.getElementById(id).classList.add('active');
     }
 
+    let sessionPanelOpen = true;
+
+    function toggleSessionPanel(forceState) {
+      if (typeof forceState === 'boolean') {
+        sessionPanelOpen = forceState;
+      } else {
+        sessionPanelOpen = !sessionPanelOpen;
+      }
+
+      sessionSettingsBody.classList.toggle('session-collapsed', !sessionPanelOpen);
+      sessionToggleBtn.setAttribute('aria-expanded', String(sessionPanelOpen));
+      sessionToggleBtn.textContent = sessionPanelOpen ? '▾' : '▸';
+    }
+
+    function showQuestionPreview(question) {
+      idPreviewCard.style.display = 'block';
+      idPreviewQuestion.textContent = question.question;
+      idPreviewOptions.innerHTML = '';
+      Object.keys(question.options).sort().forEach(letter => {
+        const item = document.createElement('div');
+        item.style.marginBottom = '8px';
+        item.style.padding = '10px 12px';
+        item.style.border = '1px solid var(--border)';
+        item.style.borderRadius = '10px';
+        item.style.background = 'var(--card2)';
+        item.innerHTML = `<b>${letter}.</b> ${question.options[letter]}`;
+        idPreviewOptions.appendChild(item);
+      });
+    }
+
+    function hideQuestionPreview() {
+      idPreviewCard.style.display = 'none';
+      idPreviewQuestion.textContent = '';
+      idPreviewOptions.innerHTML = '';
+      searchIdResult.textContent = '';
+      idSearchInput.value = '';
+    }
+
+    function startQuestionById(inputId) {
+      const found = QUIZ_DATA.find(q => String(q.id) === inputId);
+      if (!found) {
+        searchIdResult.textContent = 'No encontré una pregunta con ese ID.';
+        return false;
+      }
+
+      sectionSelect.value = found.section;
+      lengthSelect.value = 1;
+      session = { questions: [found], idx: 0, correct: 0, wrong: 0, missed: [] };
+      showScreen('screen-quiz');
+      renderQuestion();
+      return true;
+    }
+
+    function toggleIdSearchControls() {
+      const visible = searchInlineRow.classList.toggle('visible');
+      searchIdBtn.textContent = visible ? 'Cerrar buscador por ID' : 'Buscar pregunta por ID';
+      if (!visible) {
+        hideQuestionPreview();
+      }
+    }
+
+    let pendingConfirmAction = null;
+
+    function openConfirmModal({ title, text, confirmText, onConfirm }) {
+      appConfirmTitle.textContent = title;
+      appConfirmText.textContent = text;
+      appConfirmYes.textContent = confirmText;
+      pendingConfirmAction = onConfirm;
+      appConfirmOverlay.classList.add('show');
+    }
+
+    function closeConfirmModal() {
+      appConfirmOverlay.classList.remove('show');
+      pendingConfirmAction = null;
+    }
+
     // ---------- HOME SCREEN SETUP ----------
     populateLengths();
     loadQuizData();
 
-    document.getElementById('reset-btn').addEventListener('click', () => {
-      if (confirm(`¿Borrar todo el progreso guardado para "${userInput.value || 'anon'}" en este dispositivo?`)) {
-        progress = { byId: {} };
-        saveProgress(progress);
-        refreshHomeStats();
+    toggleSessionPanel(false);
+    sessionHeader.addEventListener('click', () => toggleSessionPanel());
+    sessionToggleBtn.addEventListener('click', (event) => {
+      event.stopPropagation();
+      toggleSessionPanel();
+    });
+    clearSearchBtn.addEventListener('click', () => hideQuestionPreview());
+    searchIdBtn.addEventListener('click', () => toggleIdSearchControls());
+    appConfirmCancel.addEventListener('click', closeConfirmModal);
+    appConfirmOverlay.addEventListener('click', (event) => {
+      if (event.target === appConfirmOverlay) closeConfirmModal();
+    });
+    appConfirmYes.addEventListener('click', () => {
+      if (typeof pendingConfirmAction === 'function') pendingConfirmAction();
+      closeConfirmModal();
+    });
+    startFromPreviewBtn.addEventListener('click', () => {
+      const inputId = (idSearchInput.value || '').trim();
+      if (!inputId) {
+        searchIdResult.textContent = 'Ingresá un ID para ver la pregunta.';
+        return;
       }
+      startQuestionById(inputId);
+    });
+
+    document.getElementById('reset-btn').addEventListener('click', () => {
+      openConfirmModal({
+        title: 'Reiniciar progreso',
+        text: `¿Borrar todo el progreso guardado para "${userInput.value || 'anon'}" en este dispositivo?`,
+        confirmText: 'Reiniciar',
+        onConfirm: () => {
+          progress = { byId: {} };
+          saveProgress(progress);
+          refreshHomeStats();
+        }
+      });
     });
 
     // ---------- QUIZ STATE ----------
@@ -532,6 +817,20 @@
     }
 
     function buildQuestionSet() {
+      const inputId = (idSearchInput.value || '').trim();
+      if (inputId) {
+        const found = QUIZ_DATA.find(q => String(q.id) === inputId);
+        if (!found) {
+          searchIdResult.textContent = 'No encontré una pregunta con ese ID.';
+          return [];
+        }
+
+        searchIdResult.textContent = `Pregunta ${found.id} encontrada en ${found.section}.`;
+        sectionSelect.value = found.section;
+        lengthSelect.value = 1;
+        return [found];
+      }
+
       const sec = sectionSelect.value;
       const mode = document.getElementById('mode-select').value;
       const len = parseInt(lengthSelect.value, 10);
@@ -548,6 +847,30 @@
       if (len !== 9999) pool = pool.slice(0, len);
       return pool;
     }
+
+    const performSearchById = () => {
+      const inputId = (idSearchInput.value || '').trim();
+      if (!inputId) {
+        searchIdResult.textContent = 'Ingresá un ID para buscar.';
+        idPreviewCard.style.display = 'none';
+        return;
+      }
+
+      const found = QUIZ_DATA.find(q => String(q.id) === inputId);
+      if (!found) {
+        searchIdResult.textContent = 'No encontré una pregunta con ese ID.';
+        idPreviewCard.style.display = 'none';
+        return;
+      }
+
+      searchIdResult.textContent = `Encontrada: ${found.id} · ${found.section}.`;
+      hideQuestionPreview();
+      startQuestionById(inputId);
+    };
+
+    document.getElementById('search-id-inline-btn').addEventListener('click', () => {
+      performSearchById();
+    });
 
     document.getElementById('start-btn').addEventListener('click', () => {
       if (!QUIZ_DATA.length) {
@@ -628,10 +951,15 @@
     });
 
     document.getElementById('quit-btn').addEventListener('click', () => {
-      if (confirm('¿Salir de la práctica actual?')) {
-        showScreen('screen-home');
-        refreshHomeStats();
-      }
+      openConfirmModal({
+        title: 'Salir al inicio',
+        text: '¿Seguro que querés salir de la práctica actual? La sesión en curso se perderá.',
+        confirmText: 'Salir',
+        onConfirm: () => {
+          showScreen('screen-home');
+          refreshHomeStats();
+        }
+      });
     });
 
     function finishSession() {

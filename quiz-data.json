@@ -867,12 +867,24 @@
     "explanation": "El radio normal del área exterior será de 20 NM. Esta es el área donde se proporciona la separación \ndespués de que se establece la comunicación bidireccional. Es solo un requisito comunicarse con ATC \nantes de ingresar al espacio aéreo Clase C de 10 NM que se muestra en la carta seccional."
   },
   {
+    "id": "5120.1",
+    "section": "Procedimientos operacionales de aeródromos",
+    "question": "5120.2.- ¿Cuál de las siguientes afirmaciones es cierta respecto a las operaciones de vuelo en el espacio aéreo de Clase A? altitud.",
+    "options": {
+      "A": "La aeronave debe estar equipada con equipo de medición de distancia (DME) aprobado.",
+      "B": "Se debe realizar las operaciones bajo las reglas de vuelo instrumental.",
+      "C": "La aeronave debe estar equipada con un transpondedor ATC."
+    },
+    "answer": "B",
+    "explanation": "A menos que el ATC lo autorice de otra manera, ninguna persona puede operar una aeronave dentro \ndel espacio aéreo de Clase A menos que la aeronave esté equipada con un transpondedor aprobado \ny un equipo de notificación de altitud."
+  },
+  {
     "id": "5120.2",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5120.2.- ¿Cuál de las siguientes afirmaciones es cierta respecto a las operaciones de vuelo en el espacio aéreo de Clase A? altitud.",
     "options": {
       "A": "La aeronave debe estar equipada con equipo de medición de distancia (DME) aprobado.",
-      "B": "La aeronave debe estar equipada con un transpondedor ATC y un equipo de notificación de",
+      "B": "La aeronave debe estar equipada con un transpondedor ATC y un equipo de notificación de altitud",
       "C": "Puede realizar operaciones bajo reglas de vuelo visual."
     },
     "answer": "B",

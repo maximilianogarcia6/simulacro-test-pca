@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Piloto Comercial - Avión (SRVSOP)</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <h1>✈️ Quiz Piloto Comercial – Avión</h1>
+            <p>Banco de preguntas SRVSOP · práctica diaria</p>
+        </header>
+
+        <div id="screen-home" class="screen active">
+            <div class="stat-grid">
+                <div class="stat">
+                    <div class="num" id="stat-total">-</div>
+                    <div class="lbl">Preguntas</div>
+                </div>
+                <div class="stat">
+                    <div class="num" id="stat-answered">-</div>
+                    <div class="lbl">Respondidas</div>
+                </div>
+                <div class="stat">
+                    <div class="num" id="stat-accuracy">-</div>
+                    <div class="lbl">Acierto global</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="session-header" id="session-header">
+                    <span class="session-title">Configurar sesión</span>
+                    <button class="session-toggle-btn" id="session-toggle-btn" type="button" aria-expanded="true"
+                        title="Abrir o cerrar configuración">▾</button>
+                </div>
+
+                <div id="session-settings-body" class="session-body">
+                    <label class="small muted" style="display:block; margin-bottom:6px;">Usuario</label>
+                    <input id="user-input" type="text" value="usuario1" placeholder="Nombre del usuario"
+                        style="width:100%; padding:12px; background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:10px; margin-bottom:10px;">
+
+                    <label class="small muted" style="display:block; margin-bottom:6px;">Materia</label>
+                    <select id="section-select"></select>
+
+                    <label class="small muted" style="display:block; margin:10px 0 6px;">Modo</label>
+                    <select id="mode-select">
+                        <option value="all">Todas las preguntas de la materia</option>
+                        <option value="unseen">Solo las que no practiqué</option>
+                        <option value="wrong">Repasar mis errores</option>
+                    </select>
+
+                    <label class="small muted" style="display:block; margin:10px 0 6px;">Cantidad de preguntas</label>
+                    <select id="length-select"></select>
+                </div>
+
+                <div class="row" style="margin-top:12px;">
+                    <button class="btn secondary" id="search-id-btn"
+                        style="margin-top:0; width:auto; min-width:110px; flex:1;">Buscar pregunta por ID</button>
+                    <button class="btn" id="start-btn" style="margin-top:0; flex:1;">Empezar práctica</button>
+                </div>
+
+                <div id="search-inline-row" class="search-inline-row">
+                    <div style="display:flex; gap:8px; margin-bottom:8px;">
+                        <input id="id-search-input" type="text" placeholder="Ej: 5156 o 5989.2"
+                            style="flex:1; padding:12px; background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:10px;">
+                        <button class="btn secondary" id="search-id-inline-btn"
+                            style="margin-top:0; width:auto; min-width:110px;">Buscar</button>
+                    </div>
+                    <div id="search-id-result" class="muted" style="font-size:0.82rem; min-height:1.2rem;"></div>
+
+                    <div id="id-preview-card"
+                        style="display:none; margin-top:12px; padding:12px; border:1px solid var(--border); border-radius:12px; background:rgba(56,189,248,0.06);">
+                        <div class="tag" style="margin-bottom:8px;">Vista previa</div>
+                        <div class="qtext" id="id-preview-question" style="font-size:0.98rem; margin-bottom:10px;">
+                        </div>
+                        <div id="id-preview-options" style="margin-bottom:10px;"></div>
+                        <div class="row">
+                            <button class="btn ghost" id="clear-search-btn" style="margin-top:0;">Volver</button>
+                            <button class="btn secondary" id="start-from-preview-btn" style="margin-top:0;">Ver
+                                pregunta</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="tag">Tu progreso</div>
+                <div id="section-progress"></div>
+                <button class="btn ghost" id="reset-btn">Reiniciar progreso guardado</button>
+            </div>
+        </div>
+
+        <div id="screen-quiz" class="screen">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <div class="card">
+                <div class="tag" id="quiz-tag">Materia · 1/10</div>
+                <div class="qtext" id="quiz-question"></div>
+                <div id="quiz-options"></div>
+                <div id="quiz-feedback"></div>
+            </div>
+            <div class="footer-nav">
+                <button class="btn" id="next-btn" style="display:none;">Siguiente pregunta</button>
+                <button class="btn secondary" id="quit-btn">Salir al inicio</button>
+            </div>
+        </div>
+
+        <div id="screen-results" class="screen">
+            <div class="card center">
+                <div class="tag">Resultado de la sesión</div>
+                <div class="big-num" id="result-score">-</div>
+                <div class="muted" id="result-sub"></div>
+            </div>
+            <div class="card" id="miss-card" style="display:none;">
+                <div class="tag">Para repasar</div>
+                <div id="miss-list"></div>
+            </div>
+            <button class="btn" id="again-btn">Practicar otra vez</button>
+            <button class="btn secondary" id="home-btn">Volver al inicio</button>
+        </div>
+    </div>
+
+    <div id="app-confirm-overlay" class="modal-overlay">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="app-confirm-title">
+            <h3 id="app-confirm-title" class="modal-title">Confirmar acción</h3>
+            <p id="app-confirm-text" class="modal-text">¿Seguro que querés continuar?</p>
+            <div class="modal-actions">
+                <button class="btn ghost" id="app-confirm-cancel">Cancelar</button>
+                <button class="btn" id="app-confirm-yes">Confirmar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
