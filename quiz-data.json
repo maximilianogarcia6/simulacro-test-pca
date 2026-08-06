@@ -33,7 +33,19 @@
       "C": "dividido por el peso en vació del avión."
     },
     "answer": "A",
-    "explanation": "El factor de carga es la relación entre la carga total soportada por el ala y el peso total del avión; es \ndecir, la carga aérea total soportada por las alas dividida por el peso total del avión. \nLa respuesta (B) es incorrecta porque el factor de carga multiplicado por el peso del avión es igual a la \nsustentación requerida. La respuesta (C) es incorrecta porque el factor de carga es la sustentación \ndividida por el peso total del avión.  \n \n5152.1- Mientras se ejecuta un giro nivelado a 60 grados, el avión tiene un factor de carga de \n2,0. ¿Qué significa esto? \nA. La carga total sobre la estructura del avión es dos veces su peso."
+    "explanation": "El factor de carga es la relación entre la carga total soportada por el ala y el peso total del avión; es \ndecir, la carga aérea total soportada por las alas dividida por el peso total del avión. \nLa respuesta (B) es incorrecta porque el factor de carga multiplicado por el peso del avión es igual a la \nsustentación requerida. La respuesta (C) es incorrecta porque el factor de carga es la sustentación \ndividida por el peso total del avión."
+  },
+  {
+    "id": "5152.1",
+    "section": "Aerodinámica básica",
+    "question": "5152.1- Mientras se ejecuta un giro nivelado a 60 grados, el avión tiene un factor de carga de 2,0. ¿Qué significa esto?",
+    "options": {
+      "A": "La carga total sobre la estructura del avión es dos veces su peso.",
+      "B": "El factor de carga está por encima de la carga limite.",
+      "C": "El factor de ráfagas es dos veces la carga limite total."
+    },
+    "answer": "A",
+    "explanation": "El factor de carga es la relación entre la carga aérea total soportada por el ala y el peso total del avión; es decir, la carga total soportada por las alas dividida por el peso total del avión."
   },
   {
     "id": "5153",
@@ -6088,7 +6100,7 @@
     "explanation": ""
   },
   {
-    "id": "5120.1",
+    "id": "5120.2",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5120.2.- ¿Cuál de las siguientes afirmaciones es cierta respecto a las operaciones de vuelo en el espacio aéreo de Clase A? altitud.",
     "options": {
@@ -6116,15 +6128,17 @@
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5989.1.- La marca de \"barra de demarcación amarilla\" indica:",
     "options": {
-      "A": "la pista con umbral desplazado que precede a la pista."
+      "A": "la pista con umbral desplazado que precede a la pista.",
+      "B": "una línea de espera desde una calle de rodaje hasta una pista.",
+      "C": "el comienzo de la pista disponible para aterrizar en el lado de aproximación."
     },
     "answer": "A",
-    "explanation": ""
+    "explanation": "Una barra de demarcación delimita una pista con un umbral desplazado de una pista explosiva, una parada o una calle de rodaje que precede a la pista. Una barra de demarcación tiene 3 pies (1 m) de ancho y es amarilla, ya que no está ubicada en la pista."
   },
   {
     "id": "5989.2",
     "section": "Servicios meteorológicos",
-    "question": "5989.2.- ¿Cuál es la base de la capa nublada más baja en el siguiente informe piloto? KMOB UA / OV APE230010 / TM 1515 / FL085 / TP BE20 / SK BKN065 / WX FV03SM HZ FU / TQ 20 / TB LGT",
+    "question": "5989.- ¿Cuál es la base de la capa nublada más baja en el siguiente informe piloto? KMOB UA / OV APE230010 / TM 1515 / FL085 / TP BE20 / SK BKN065 / WX FV03SM HZ FU / TQ 20 / TB LGT",
     "options": {
       "A": "No hay un límite máximo definido en este informe.",
       "B": "Hay una capa reportada a 8.500 pies.",
