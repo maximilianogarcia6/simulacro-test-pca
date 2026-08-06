@@ -1,0 +1,126 @@
+{
+    "figure_1": {
+        "path": "./figures/figure_1.png",
+        "placeholder": "Figure 1. Drag vs. Velocity"
+    },
+    "figure_2": {
+        "path": "./figures/figure_2.png",
+        "placeholder": "Figure 2. Stall Speeds"
+    },
+    "figure_3": {
+        "path": "./figures/figure_3.png",
+        "placeholder": "Figure 3. Angle of Attack vs. Lift"
+    },
+    "figure_3A": {
+        "path": "./figures/figure_3A.png",
+        "placeholder": "Figure 3A. Maximum Glide Distance"
+    },
+    "figure_4": {
+        "path": "./figures/figure_4.png",
+        "placeholder": "Figure 4. Stall Speed vs. Load Factor"
+    },
+    "figure_5": {
+        "path": "./figures/figure_5.png",
+        "placeholder": "Figure 5. Velocity vs. Load Factor"
+    },
+    "figure_8": {
+        "path": "./figures/figure_8.png",
+        "placeholder": "Figure 8. Fuel Consumption vs. Brake Horsepower"
+    },
+    "figure_9": {
+        "path": "./figures/figure_9.png",
+        "placeholder": "Figure 9. Fuel, Time, and Distance to Climb"
+    },
+    "figure_10": {
+        "path": "./figures/figure_10.png",
+        "placeholder": "Figure 10. Fuel, Time, and Distance to Climb"
+    },
+    "figure_11": {
+        "path": "./figures/figure_11.png",
+        "placeholder": "Figure 11. Cruise and Range Performance"
+    },
+    "figure_12": {
+        "path": "./figures/figure_12.png",
+        "placeholder": "Figure 12. Cruise Performance"
+    },
+    "figure_13": {
+        "path": "./figures/figure_13.png",
+        "placeholder": "Figure 13. Fuel, Time, and Distance to Climb"
+    },
+    "figure_14": {
+        "path": "./figures/figure_14.png",
+        "placeholder": "Figure 14. Fuel, Time, and Distance to Climb"
+    },
+    "figure_15": {
+        "path": "./figures/figure_15.png",
+        "placeholder": "Figure 15. Fuel, Time, and Distance to Climb"
+    },
+    "figure_17": {
+        "path": "./figures/figure_17.png",
+        "placeholder": "Figure 17. Horizontal Situation Indicator (HSI)"
+    },
+    "figure_31": {
+        "path": "./figures/figure_31.png",
+        "placeholder": "Figure 31. Wind Component Chart"
+    },
+    "figure_32": {
+        "path": "./figures/figure_32.png",
+        "placeholder": "Figure 32. Obstacle Take-off Chart"
+    },
+    "figure_33": {
+        "path": "./figures/figure_33.png",
+        "placeholder": "Figure 33. Maximum Rate of Climb Chart"
+    },
+    "figure_34": {
+        "path": "./figures/figure_34.png",
+        "placeholder": "Figure 34. Cruise Performance Chart"
+    },
+    "figure_35": {
+        "path": "./figures/figure_35.png",
+        "placeholder": "Figure 35. Normal Landing Chart"
+    },
+    "figure_38": {
+        "path": "./figures/figure_38.png",
+        "placeholder": "Figure 38. Loading Graph and Center of Gravity Envelope"
+    },
+    "figure_50": {
+        "path": "./figures/figure_50.png",
+        "placeholder": "Figure 50. Wind Sock Airport Landing Indicator"
+    },
+    "figure_51": {
+        "path": "./figures/figure_51.png",
+        "placeholder": "Figure 51. Airport Signs"
+    },
+    "figure_52": {
+        "path": "./figures/figure_52.png",
+        "placeholder": "Figure 52. Sectional Chart Excerpt"
+    },
+    "figure_53": {
+        "path": "./figures/figure_53.png",
+        "placeholder": "Figure 53. Sectional Chart Excerpt"
+    },
+    "figure_54": {
+        "path": "./figures/figure_54.png",
+        "placeholder": "Figure 54. Sectional Chart Excerpt"
+    },
+    "figure_57": {
+        "path": "./figures/figure_57.png",
+        "placeholder": "Figure 57. Sign"
+    },
+    "figure_58": {
+        "path": "./figures/figure_58.png",
+        "placeholder": "Figure 58. Airport Diagram and Sign"
+    },
+    "figure_60": {
+        "path": "./figures/figure_60.png",
+        "placeholder": "Figure 60. Two Signs"
+    },
+    "figure_61": {
+        "path": "./figures/figure_61.png",
+        "placeholder": "Figure 61. Sign"
+    },
+    "figure_64": {
+        "path": "./figures/figure_64.png",
+        "placeholder": "Figure 64. Sign"
+    }
+}

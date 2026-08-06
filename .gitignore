@@ -1,3 +1,5 @@
 # Ignore docs and backups folders
 docs/
 backup/
+
+.venv

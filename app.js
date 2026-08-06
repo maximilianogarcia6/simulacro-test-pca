@@ -1,4 +1,5 @@
 let QUIZ_DATA = [];
+let QUIZ_IMAGE_META = {};
 const STORAGE_PREFIX = 'srvsop_pc_avion_progress_v1';
 const userInput = document.getElementById('user-input');
 const sectionSelect = document.getElementById('section-select');
@@ -17,6 +18,7 @@ const clearSearchBtn = document.getElementById('clear-search-btn');
 const startFromPreviewBtn = document.getElementById('start-from-preview-btn');
 const confirmBtn = document.getElementById('confirm-btn');
 const skipBtn = document.getElementById('skip-btn');
+const randomOrderCheckbox = document.getElementById('random-order-checkbox');
 const appConfirmOverlay = document.getElementById('app-confirm-overlay');
 const appConfirmTitle = document.getElementById('app-confirm-title');
 const appConfirmText = document.getElementById('app-confirm-text');
@@ -61,11 +63,22 @@ function populateLengths() {
 
 async function loadQuizData() {
     try {
-        const response = await fetch('./quiz-data.json', { cache: 'no-store' });
-        if (!response.ok) throw new Error('No se pudo cargar quiz-data.json');
-        QUIZ_DATA = await response.json();
+        const [dataResponse, metaResponse] = await Promise.all([
+            fetch('./quiz-data.json', { cache: 'no-store' }),
+            fetch('./quiz-image-meta.json', { cache: 'no-store' })
+        ]);
+
+        if (!dataResponse.ok) throw new Error('No se pudo cargar quiz-data.json');
+        QUIZ_DATA = await dataResponse.json();
+
+        if (metaResponse.ok) {
+            QUIZ_IMAGE_META = await metaResponse.json();
+        }
+
         populateSections();
         populateLengths();
+        // load session settings (toggle states) after UI exists
+        loadSessionSettings();
         refreshHomeStats();
     } catch (err) {
         console.error(err);
@@ -73,9 +86,28 @@ async function loadQuizData() {
     }
 }
 
+function loadSessionSettings() {
+    try {
+        if (!randomOrderCheckbox) return;
+        const raw = localStorage.getItem(getUserStorageKey() + '_settings');
+        if (!raw) return;
+        const s = JSON.parse(raw);
+        if (typeof s.randomOrder !== 'undefined') randomOrderCheckbox.checked = !!s.randomOrder;
+    } catch (e) { }
+}
+
+function saveSessionSettings() {
+    try {
+        if (!randomOrderCheckbox) return;
+        const s = { randomOrder: !!randomOrderCheckbox.checked };
+        localStorage.setItem(getUserStorageKey() + '_settings', JSON.stringify(s));
+    } catch (e) { }
+}
+
 userInput.addEventListener('change', () => {
     progress = loadProgress();
     refreshHomeStats();
+    loadSessionSettings();
 });
 
 function refreshHomeStats() {
@@ -199,6 +231,7 @@ appConfirmYes.addEventListener('click', () => {
     if (typeof pendingConfirmAction === 'function') pendingConfirmAction();
     closeConfirmModal();
 });
+if (randomOrderCheckbox) randomOrderCheckbox.addEventListener('change', saveSessionSettings);
 startFromPreviewBtn.addEventListener('click', () => {
     const inputId = (idSearchInput.value || '').trim();
     if (!inputId) {
@@ -246,7 +279,9 @@ function buildQuestionSet() {
         pool = pool.filter(q => progress.byId[q.id] && progress.byId[q.id].lastCorrect === false);
     }
 
-    pool = shuffle(pool);
+    // Respect 'Orden aleatorio' toggle: shuffle only when enabled
+    const randomOrderEnabled = (randomOrderCheckbox && randomOrderCheckbox.checked) || false;
+    if (randomOrderEnabled) pool = shuffle(pool);
     if (len !== 9999) pool = pool.slice(0, len);
     return pool;
 }
@@ -293,6 +328,11 @@ document.getElementById('start-btn').addEventListener('click', () => {
 });
 
 function resolveQuestionFigure(question) {
+    const imageId = typeof question['image-id'] === 'string' ? question['image-id'].trim() : '';
+    if (imageId && QUIZ_IMAGE_META[imageId] && typeof QUIZ_IMAGE_META[imageId].path === 'string') {
+        return QUIZ_IMAGE_META[imageId].path.trim();
+    }
+
     if (typeof question.image === 'string' && question.image.trim()) {
         return question.image.trim();
     }
@@ -302,6 +342,16 @@ function resolveQuestionFigure(question) {
 function renderQuestionFigure(question) {
     const figContainer = document.getElementById('quiz-figure');
     const figurePath = resolveQuestionFigure(question);
+    const imageId = typeof question['image-id'] === 'string' ? question['image-id'].trim() : '';
+    const meta = imageId && QUIZ_IMAGE_META[imageId] ? QUIZ_IMAGE_META[imageId] : null;
+    const figureDescription =
+        (meta && typeof meta.placeholder === 'string' && meta.placeholder.trim())
+            ? meta.placeholder.trim()
+            : (typeof question.image_description === 'string' && question.image_description.trim())
+                ? question.image_description.trim()
+                : (typeof question.image_placeholder === 'string' && question.image_placeholder.trim())
+                    ? question.image_placeholder.trim()
+                    : '';
 
     if (!figurePath) {
         figContainer.style.display = 'none';
@@ -313,12 +363,13 @@ function renderQuestionFigure(question) {
     figContainer.style.display = 'block';
     figContainer.innerHTML = `
         <img src="${figurePath}" alt="${figureFileName}" loading="lazy" />
+        ${figureDescription ? `<div class="figure-description">${figureDescription}</div>` : ''}
     `;
 
     const figureImg = figContainer.querySelector('img');
     if (figureImg) {
         figureImg.onerror = () => {
-            figContainer.innerHTML = `<div class="figure-placeholder">No se encontró la figura local para esta pregunta. Verificá el asset configurado en el campo <strong>image</strong>.</div>`;
+            figContainer.innerHTML = `<div class="figure-placeholder">No se encontró la figura local para esta pregunta. Verificá el asset configurado en el archivo de metadata.</div>`;
         };
     }
 }

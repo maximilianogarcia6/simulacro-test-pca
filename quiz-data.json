@@ -81,12 +81,13 @@
       "C": "no varía."
     },
     "answer": "A",
-    "explanation": ""
+    "explanation": "Hay una relación directa entre el factor de carga sobre el ala y sus características de pérdida. La velocidad de pérdida incrementa en proporción a la raíz cuadrada del factor de carga."
   },
   {
     "id": "5156",
     "section": "Aerodinámica básica",
     "question": "5156.- (Refiérase a la Figura 4). Si una aeronave con un peso bruto de 2000 libras se somete a un banqueo de 60° con altitud constante, la carga total será:",
+    "image-id": "figure_4",
     "options": {
       "A": "3,000 libras.",
       "B": "4,000 libras.",
@@ -151,7 +152,19 @@
       "C": "cuatro veces más grande."
     },
     "answer": "C",
-    "explanation": "La resistencia parásita tiene más influencia a altas velocidades, y la resistencia inducida tiene más \ninfluencia a bajas velocidades. Por ejemplo, si un avión en condiciones de vuelo estable a 100 nudos \nes acelerado a 200 nudos, la resistencia parásita será 4 veces más grande.  \n5161.1- En teoría, si la velocidad del aire de una aeronave en vuelo nivelado es cortada a la \nmitad, el valor de la resistencia parásita será:"
+    "explanation": "La resistencia parásita tiene más influencia a altas velocidades, y la resistencia inducida tiene más \ninfluencia a bajas velocidades. Por ejemplo, si un avión en condiciones de vuelo estable a 100 nudos \nes acelerado a 200 nudos, la resistencia parásita será 4 veces más grande."
+  },
+  {
+    "id": "5161.1",
+    "section": "Aerodinámica básica",
+    "question": "5161.1.- En teoría, si la velocidad del aire de una aeronave en vuelo nivelado es cortada a la mitad, el valor de la resistencia parásita será:",
+    "options": {
+      "A": "un tercio del valor.",
+      "B": "la mitad del valor.",
+      "C": "un cuarto del valor."
+    },
+    "answer": "C",
+    "explanation": "La resistencia parásita incrementa como el cuadrado de la velocidad del aire."
   },
   {
     "id": "5162",
@@ -175,12 +188,25 @@
       "C": "permanecerá igual pero el radio de giro se incrementará."
     },
     "answer": "C",
-    "explanation": "A un ángulo de banqueo determinado, una mayor velocidad del aire hará que el radio de giro sea mayor \ny el avión girara a una velocidad más lenta. Esto compensa la fuerza centrífuga añadida, permitiendo \nque el factor de carga permanezca constante.  \n \n5163.1- Un factor de carga de 1,2 significa que la carga total sobre la estructura de un avión es \n1,2 veces su: \nA. peso bruto. \nB. carga limite. \nC. factor de ráfaga. \nExplicación \nEn aerodinámica, el factor de carga es la relación de la máxima carga que puede soportar el avión y el \npeso bruto del avión. Por ejemplo, un factor de carga de 1,2 significa que la carga total sobre la \nestructura del avión es 1,2 veces su peso bruto."
+    "explanation": "A un ángulo de banqueo determinado, una mayor velocidad del aire hará que el radio de giro sea mayor \ny el avión girara a una velocidad más lenta. Esto compensa la fuerza centrífuga añadida, permitiendo \nque el factor de carga permanezca constante."
+  },
+  {
+    "id": "5163.1",
+    "section": "Aerodinámica básica",
+    "question": "5163.1.- Un factor de carga de 1,2 significa que la carga total sobre la estructura de un avión es 1,2 veces su:",
+    "options": {
+      "A": "peso bruto.",
+      "B": "carga limite.",
+      "C": "factor de ráfaga."
+    },
+    "answer": "A",
+    "explanation": "En aerodinámica, el factor de carga es la relación de la máxima carga que puede soportar el avión y el peso bruto del avión. Por ejemplo, un factor de carga de 1,2 significa que la carga total sobre la estructura del avión es 1,2 veces su peso bruto."
   },
   {
     "id": "5165",
     "section": "Aerodinámica básica",
     "question": "5165.- (Refiérase a la Figura 1). La velocidad del aire representada por el punto (A), en vuelo estable, el avión:",
+    "image-id": "figure_1",
     "options": {
       "A": "tiene su máxima relación L/D.",
       "B": "tiene su mínima relación L/D.",
@@ -193,6 +219,7 @@
     "id": "5166",
     "section": "Aerodinámica básica",
     "question": "5166.- (Refiérase a la Figura 1). A una velocidad del aire representada por el punto B, en vuelo estable, el piloto puede esperar del avión obtener el máximo:",
+    "image-id": "figure_1",
     "options": {
       "A": "rango de autonomía.",
       "B": "rango de planeo.",
@@ -217,6 +244,7 @@
     "id": "5179",
     "section": "Aerodinámica básica",
     "question": "5179.- (Refiérase a la Figura 2). Seleccione la afirmación correcta acerca de las velocidades de pérdida:",
+    "image-id": "figure_2",
     "options": {},
     "answer": "C",
     "explanation": ""
@@ -225,6 +253,7 @@
     "id": "5180",
     "section": "Aerodinámica básica",
     "question": "5180.- (Refiérase a la Figura 2).  Seleccione la afirmación correcta con respecto a las velocidades de pérdida. El avión entrara en pérdida: configuración de tren y flaps abajo. potencia, con flaps abajo, en configuración a nivel de las alas. pérdida a nivel de alas, con flaps arriba.",
+    "image-id": "figure_2",
     "options": {
       "A": "10 nudos más alto, con potencia en un banqueo a 60° con tren y flaps arriba, que en una",
       "B": "25 nudos más bajo sin potencia, con flaps arriba, en un banqueo de 60°, que, en configuración sin",
@@ -333,7 +362,19 @@
       "C": "sustentación y velocidad, pero no la resistencia."
     },
     "answer": "A",
-    "explanation": "Al cambiar el ángulo de ataque, el piloto puede controlar la sustentación, la velocidad del aire y la \nresistencia. \nLa respuesta (B) es incorrecta porque el ángulo de ataque no afecta al centro de gravedad. La \nrespuesta (C) es incorrecta porque el ángulo de ataque también determina la resistencia.  \n \n5198.1- El perfil aerodinámico de un avión está diseñado para producir la sustentación \nresultante de una diferencia en:  \nA. la presión negativa del aire por debajo y el vacío por encima del perfil aerodinámico. \nB. el vacío por debajo de la superficie y una presión del aire mayor sobre la superficie del perfil \naerodinámico. \nC. una alta presión del aire por debajo de la superficie y una menor presión del aire encima de \nla superficie del perfil aerodinámico. \nExplicación \nLa mayor velocidad se encuentra en la parte superior del ala y la menor velocidad en la parte inferior. \nPorque hay una diferencia de la velocidad por encima y por debajo del ala, el resultado es una alta \npresión en la parte inferior del ala y una baja presión en la parte superior. Esta zona de baja presión \nproduce una fuerza ascendente conocida como efecto Magnus, el fenómeno físico por el que la \nrotación de un objeto afecta a su trayectoria a través de un fluido, incluido el aire."
+    "explanation": "Al cambiar el ángulo de ataque, el piloto puede controlar la sustentación, la velocidad del aire y la \nresistencia. \nLa respuesta (B) es incorrecta porque el ángulo de ataque no afecta al centro de gravedad. La \nrespuesta (C) es incorrecta porque el ángulo de ataque también determina la resistencia."
+  },
+  {
+    "id": "5198.1",
+    "section": "Aerodinámica básica",
+    "question": "5198.1.- El perfil aerodinámico de un avión está diseñado para producir la sustentación resultante de una diferencia en:",
+    "options": {
+      "A": "la presión negativa del aire por debajo y el vacío por encima del perfil aerodinámico.",
+      "B": "el vacío por debajo de la superficie y una presión del aire mayor sobre la superficie del perfil aerodinámico.",
+      "C": "una alta presión del aire por debajo de la superficie y una menor presión del aire encima de la superficie del perfil aerodinámico."
+    },
+    "answer": "C",
+    "explanation": "La mayor velocidad se encuentra en la parte superior del ala y la menor velocidad en la parte inferior. Porque hay una diferencia de la velocidad por encima y por debajo del ala, el resultado es una alta presión en la parte inferior del ala y una baja presión en la parte superior. Esta zona de baja presión produce una fuerza ascendente conocida como efecto Magnus, el fenómeno físico por el que la rotación de un objeto afecta a su trayectoria a través de un fluido, incluido el aire."
   },
   {
     "id": "5199",
@@ -461,10 +502,23 @@
     "question": "5210.- Si la velocidad del aire es incrementada durante un giro nivelado, ¿qué acción sería necesaria para mantener la altitud? El ángulo de ataque:",
     "options": {
       "A": "y el ángulo de giro deben incrementarse.",
-      "B": "deberá ser incrementado o reducido el ángulo de giro."
+      "B": "deberá ser incrementado o reducido el ángulo de giro.",
+      "C": "deberá ser disminuido o incrementado el ángulo de giro."
     },
     "answer": "C",
-    "explanation": ""
+    "explanation": "Para compensar la sustentación añadida que se producirá si la velocidad del aire aumenta durante un giro, el ángulo de ataque debe disminuirse, o el ángulo de giro debe ser incrementado, si se quiere mantener una altitud constante. \nLa respuesta (A) es incorrecta porque se puede disminuir el ángulo de ataque o aumentar el ángulo de inclinación para mantener la altitud al aumentar la velocidad del aire. La respuesta (B) es incorrecta porque para mantener una altitud constante en un giro a medida que aumenta la velocidad del aire, el ángulo de inclinación debe disminuir."
+  },
+  {
+    "id": "5210.1",
+    "section": "Aerodinámica básica",
+    "question": "5210.1.- Para mantener una tasa de giro estándar con la velocidad del aire incrementando, el ángulo de banqueo del avión tendrá que:",
+    "options": {
+      "A": "permanecer constante.",
+      "B": "incrementar.",
+      "C": "disminuir."
+    },
+    "answer": "B",
+    "explanation": "A medida que la velocidad del aire aumenta en un ángulo de banqueo constante la velocidad de giro disminuirá. Por ejemplo, para un ángulo de banqueo de 30° a 100 nudos su tasa de giro será 6.5 grados por segundo. Si usted mantiene el ángulo de banqueo en 30 grados e incrementa la velocidad a 150 nudos su tasa de giro disminuirá a 4.4 grados por segundo. Por lo tanto, para mantener una tasa de giro estándar de 3 o 1,5 grados por segundo (Aviones de alta velocidad), a medida que la velocidad del aire incrementa el ángulo de banqueo deberá incrementarse."
   },
   {
     "id": "5211",
@@ -494,6 +548,7 @@
     "id": "5213",
     "section": "Aerodinámica básica",
     "question": "5213.- (Refiérase a la Figura 3). ¿Si un avión planea con un ángulo de ataque de 10° ¿Cuánta altitud perderá en una milla?",
+    "image-id": "figure_3",
     "options": {
       "A": "240 Pies.",
       "B": "480 Pies.",
@@ -506,6 +561,7 @@
     "id": "5214",
     "section": "Aerodinámica básica",
     "question": "5214.- (Refiérase a la Figura 3).  ¿Cuánta altitud deberá perder este avión en 3 millas de planeo a un ángulo de ataque de 8°?",
+    "image-id": "figure_3",
     "options": {
       "A": "440 pies.",
       "B": "880 pies.",
@@ -518,6 +574,7 @@
     "id": "5215",
     "section": "Aerodinámica básica",
     "question": "5215.- (Refiérase a la Figura 3).  La relación de L/D para un ángulo de ataque de 2° es aproximadamente la misma que la relación L/D para un:",
+    "image-id": "figure_3",
     "options": {
       "A": "ángulo de ataque de 9.75°",
       "B": "ángulo de ataque de 10.5°",
@@ -579,27 +636,54 @@
     "options": {
       "A": "se incrementan y se mantiene con una mayor relación peso-sustentación para mantener el ascenso.",
       "B": "permanecen igual y mantendrá estable la relación peso-sustentación durante el ascenso.",
-      "C": "se incrementan momentáneamente y la sustentación vuelven a un estado estable durante el"
+      "C": "se incrementan momentáneamente y la sustentación vuelven a un estado estable durante el ascenso."
     },
     "answer": "C",
-    "explanation": "Al realizar la transición de un vuelo nivelado a un ascenso, las fuerzas que actúan sobre el avión sufren \nciertos caminos. El primer cambio, se produce cuando se aplica una contrapresión al mando del \nelevador. Este cambio inicial es el resultado del aumento del ángulo de ataque que se produce cuando \nse eleva la actitud de cabeceo del avión. Esto da a lugar a una actitud de ascenso. Cuando se establece \nla trayectoria de vuelo inclinada y la velocidad de ascenso, el ángulo de ataque y la sustentación \ncorrespondiente se estabilizan en el valor original.  \n \n5220.1- Para mantener un avión en vuelo nivelado, con velocidades del aire que varían de muy \nlentas a muy rápidas, un piloto debe coordinar el empuje y: \nA. ángulo de incidencia. \nB. peso bruto. \nC. ángulo de ataque.  \nExplicación \nEl vuelo recto y nivelado puede ser mantenido en un amplio rango de velocidades. El piloto debe \ncoordinar el ángulo de ataque y el empuje en todos los regímenes de velocidad para que la aeronave \npueda mantenerse en vuelo nivelado."
+    "explanation": "Al realizar la transición de un vuelo nivelado a un ascenso, las fuerzas que actúan sobre el avión sufren \nciertos caminos. El primer cambio, se produce cuando se aplica una contrapresión al mando del \nelevador. Este cambio inicial es el resultado del aumento del ángulo de ataque que se produce cuando \nse eleva la actitud de cabeceo del avión. Esto da a lugar a una actitud de ascenso. Cuando se establece \nla trayectoria de vuelo inclinada y la velocidad de ascenso, el ángulo de ataque y la sustentación \ncorrespondiente se estabilizan en el valor original."
+  },
+  {
+    "id": "5220.1",
+    "section": "Aerodinámica básica",
+    "question": "5220.1.- Para mantener un avión en vuelo nivelado, con velocidades del aire que varían de muy lentas a muy rápidas, un piloto debe coordinar el empuje y:",
+    "options": {
+      "A": "ángulo de incidencia.",
+      "B": "peso bruto.",
+      "C": "ángulo de ataque."
+    },
+    "answer": "C",
+    "explanation": "Al realizar la transición de un vuelo nivelado a un ascenso, las fuerzas que actúan sobre el avión sufren \nciertos caminos. El primer cambio, se produce cuando se aplica una contrapresión al mando del \nelevador. Este cambio inicial es el resultado del aumento del ángulo de ataque que se produce cuando \nse eleva la actitud de cabeceo del avión. Esto da a lugar a una actitud de ascenso. Cuando se establece \nla trayectoria de vuelo inclinada y la velocidad de ascenso, el ángulo de ataque y la sustentación \ncorrespondiente se estabilizan en el valor original."
   },
   {
     "id": "5221",
     "section": "Aerodinámica básica",
     "question": "5221.- (Refiérase a la Figura 4). ¿Cuál es la velocidad de pérdida de un avión con un factor de carga de 2 GS si la velocidad de pérdida sin aceleración es de 60 nudos?",
+    "image-id": "figure_4",
     "options": {
       "A": "66 nudos.",
       "B": "74 nudos.",
       "C": "84 nudos."
     },
     "answer": "C",
-    "explanation": ""
+    "explanation": "Para un factor de carga de 2, ir a la curva horizontalmente señalada “Factor de carga”. Desde ese punto de intersección, suba hasta la curva señalada como “Incremento de la velocidad de pérdida”. Desde allí, vaya a la izquierda y lea el incremento: 40%. La nueva velocidad de pérdida acelerada será del 140%, o 1.4 veces el valor original. 60 x 1.4= 84 Nudos."
+  },
+  {
+    "id": "5221.1",
+    "section": "Aerodinámica básica",
+    "question": "5221.- (Refiérase a la Figura 4). ¿Cuál es la velocidad de pérdida de un avión con un factor de carga de 2.5 GS, si la velocidad de pérdida sin aceleración es de 60 nudos?",
+    "image-id": "figure_4",
+    "options": {
+      "A": "62 nudos.",
+      "B": "84 nudos.",
+      "C": "96 nudos."
+    },
+    "answer": "C",
+    "explanation": "Para un factor de carga de 2.5 Gs, ir a la curva horizontalmente señalada “Factor de carga”. Desde ese punto de intersección, suba hasta la curva señalada como “Incremento de la velocidad de pérdida”. Desde allí, vaya a la izquierda y lea el incremento: 60%. La nueva velocidad de pérdida acelerada será del 160%, o 1.6 veces el valor original. 60 x 1.6= 96 Nudos."
   },
   {
     "id": "5222",
     "section": "Aerodinámica básica",
     "question": "5222.- (Refiérase a la Figura 4). ¿Qué aumento del factor de carga se producirá si el ángulo de banqueo aumentara de 60° a 80°?",
+    "image-id": "figure_4",
     "options": {
       "A": "3 Gs.",
       "B": "3.5 Gs.",
@@ -707,6 +791,7 @@
     "id": "5231",
     "section": "Aerodinámica básica",
     "question": "5231.- (Refiérase a la Figura 5). La línea horizontal discontinua que va del punto C al punto E representa el:",
+    "image-id": "figure_5",
     "options": {
       "A": "factor de carga último.",
       "B": "factor de carga limite positivo.",
@@ -719,6 +804,7 @@
     "id": "5232",
     "section": "Aerodinámica básica",
     "question": "5232.- (Refiérase a la Figura 5). La línea vertical que va del punto E al punto F es representada en el indicador de velocidad del aire por:",
+    "image-id": "figure_5",
     "options": {
       "A": "límite superior del arco amarillo.",
       "B": "límite superior del arco verde.",
@@ -857,12 +943,25 @@
       "C": "será el mismo, pero el radio de giro aumentará."
     },
     "answer": "A",
-    "explanation": "A un ángulo de inclinación determinado, una pérdida en la velocidad del aire hará que el radio de giro \nsea menor y el avión girara a mayor velocidad. Esto compensa la reducción de la fuerza centrífuga, \npermitiendo que el factor de carga permanezca siendo el mismo.  \n \n5978.1- Si la velocidad del aire es incrementada de 89 nudos a 98 nudos durante un giro \ncoordinado con una inclinación de 45°, el factor de carga: \nA. decrecerá y el radio de giro disminuirá. \nB. permanecen igual, pero el radio de giro se incrementará. \nC. aumentará, pero el radio de giro disminuirá. \nExplicación \nCuando se realiza un giro con una velocidad del aire alta con un ángulo de banqueo determinado, la \ninercia es mayor y la componente de sustentación requerida para el giro será más alta, causando que \nla tasa de giro se más lenta. Por lo tanto, a un ángulo de banqueo determinado, una velocidad del aire \nalta hará que el radio de giro incremente por lo que el avión girara a una velocidad más lenta. Esto \ncompensa la fuerza centrífuga añadida, permitiendo que el factor de carga siga siendo el mismo."
+    "explanation": "A un ángulo de inclinación determinado, una pérdida en la velocidad del aire hará que el radio de giro \nsea menor y el avión girara a mayor velocidad. Esto compensa la reducción de la fuerza centrífuga, \npermitiendo que el factor de carga permanezca siendo el mismo."
+  },
+  {
+    "id": "5978.1",
+    "section": "Aerodinámica básica",
+    "question": "5978.1.- Si la velocidad del aire es incrementada de 89 nudos a 98 nudos durante un giro coordinado con una inclinación de 45°, el factor de carga:",
+    "options": {
+      "A": "decrecerá y el radio de giro disminuirá.",
+      "B": "permanecen igual, pero el radio de giro se incrementará.",
+      "C": "aumentará, pero el radio de giro disminuirá."
+    },
+    "answer": "B",
+    "explanation": "Cuando se realiza un giro con una velocidad del aire alta con un ángulo de banqueo determinado, la inercia es mayor y la componente de sustentación requerida para el giro será más alta, causando que la tasa de giro se más lenta. Por lo tanto, a un ángulo de banqueo determinado, una velocidad del aire alta hará que el radio de giro incremente por lo que el avión girara a una velocidad más lenta. Esto compensa la fuerza centrífuga añadida, permitiendo que el factor de carga siga siendo el mismo."
   },
   {
     "id": "5979",
     "section": "Aerodinámica básica",
     "question": "5979.- (Refiérase a la Figura 5). ¿Qué representa la intersección de la línea discontinua con el punto C?",
+    "image-id": "figure_5",
     "options": {
       "A": "Va.",
       "B": "Factor límite de carga negativo.",
@@ -1417,7 +1516,19 @@
       "C": "número Mach"
     },
     "answer": "C",
-    "explanation": "El número Mach es la relación entre la velocidad verdadera y la velocidad del sonido. \n \n5177.2- ¿Cuál podría ser un resultado de exceder el número Mach crítico? \nA. Pérdida aerodinámica en la hélice. \nB. Reducción de la resistencia. \nC. Dificultades en el control de la aeronave. \nExplicación \nEl número Mach crítico es el límite entre el vuelo subsónico y transónico. Cuando se forman ondas de \nchoque en la aeronave, puede ocurrir una separación del flujo de aire seguida de un buffet y dificultades \nde control de la aeronave. Las ondas de choque, el buffet y la separación del flujo de aire tienen lugar \npor encima del número Mach crítico."
+    "explanation": "El número Mach es la relación entre la velocidad verdadera y la velocidad del sonido."
+  },
+  {
+    "id": "5177.2",
+    "section": "Instrumentos de vuelo",
+    "question": "5177.2.- ¿Cuál podría ser un resultado de exceder el número Mach crítico?",
+    "options": {
+      "A": "Pérdida aerodinámica en la hélice.",
+      "B": "Reducción de la resistencia.",
+      "C": "Dificultades en el control de la aeronave."
+    },
+    "answer": "C",
+    "explanation": "El número Mach crítico es el límite entre el vuelo subsónico y transónico. Cuando se forman ondas de choque en la aeronave, puede ocurrir una separación del flujo de aire seguida de un buffet y dificultades de control de la aeronave. Las ondas de choque, el buffet y la separación del flujo de aire tienen lugar por encima del número Mach crítico."
   },
   {
     "id": "5178",
@@ -1447,6 +1558,7 @@
     "id": "5233",
     "section": "Instrumentos de vuelo",
     "question": "5233.- (Refiérase a la Figura 5). La línea vertical desde el punto D al punto G está representada en el indicador de velocidad por el límite superior de velocidad del:",
+    "image-id": "figure_5",
     "options": {
       "A": "arco verde.",
       "B": "arco amarillo.",
@@ -2437,7 +2549,7 @@
       "C": "Puede realizar operaciones bajo reglas de vuelo visual."
     },
     "answer": "B",
-    "explanation": "A menos que el ATC lo autorice de otra manera, ninguna persona puede operar una aeronave dentro \ndel espacio aéreo de Clase A menos que la aeronave esté equipada con un transpondedor aprobado \ny un equipo de notificación de altitud."
+    "explanation": "A menos que el ATC lo autorice de otra manera, ninguna persona puede operar una aeronave dentro del espacio aéreo de Clase A menos que la aeronave esté equipada con un transpondedor aprobado y un equipo de notificación de altitud."
   },
   {
     "id": "5121",
@@ -2539,7 +2651,7 @@
     "id": "5145",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5145.- (Refiérase a la Figura 60). El signo \"1\" es una indicación:",
-    "image": "./figures/figure_60.png",
+    "image-id": "figure_60",
     "options": {
       "A": "de un área donde los aviones están prohibidos.",
       "B": "que la calle de rodaje no continúa.",
@@ -2633,6 +2745,7 @@
     "id": "5566",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5566.- (Refiérase a la Figura 52, punto 7). El piso del espaci o aéreo Clase E sobre la ciudad de Woodland es:",
+    "image-id": "figure_52",
     "options": {
       "A": "700 pies AGL sobre parte de la ciudad y sin piso sobre el resto.",
       "B": "1200 pies AGL sobre parte de la ciudad y sin piso sobre el resto.",
@@ -2645,6 +2758,7 @@
     "id": "5567",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5567.- (Refiérase a la Figura 52, punto 5.) El piso del espacio aéreo Clase E sobre el Aeropuerto Universitario (005) es:",
+    "image-id": "figure_52",
     "options": {
       "A": "la superficie."
     },
@@ -2655,6 +2769,7 @@
     "id": "5570",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5570.- (Refiérase a la Figura 53, punto 2.) El 1 ^ 6 indica:  Verificar en el libro se refiere a 16:",
+    "image-id": "figure_53",
     "options": {
       "A": "la parte superior de una antena a 1.600 pies AGL.",
       "B": "la cifra de elevación máxima para ese cuadrilátero.",
@@ -2690,6 +2805,7 @@
     "id": "5581",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5581.- (Refiérase a la Figura 52, punto 4). ¿A qué altura del suelo está la obstrucción dentro de las 10 NM más cercana al Aeropuerto Regional de Lincoln (LHM)?",
+    "image-id": "figure_52",
     "options": {
       "A": "1,245 PIES.",
       "B": "662 PIES.",
@@ -2714,6 +2830,7 @@
     "id": "5583",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5583.- (Refiérase a la Figura 52, punto 6). El aeropuerto de Van Vleck es:",
+    "image-id": "figure_52",
     "options": {
       "A": "un aeropuerto restringido al uso de pilotos privados y recreativos.",
       "B": "un campo de escenario militar restringido dentro del espacio aéreo restringido.",
@@ -2762,6 +2879,7 @@
     "id": "5657",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5657.- (Refiérase a la Figura 51.) El piloto generalmente llama al control de tierra después de aterrizar cuando la aeronave está completamente alejada de la pista. Aquí es cuando el avión:",
+    "image-id": "figure_51",
     "options": {
       "A": "pasa el símbolo rojo que se muestra en la ilustración D.",
       "B": "está en el lado de la línea discontinua de la Ilustración G.",
@@ -2774,6 +2892,7 @@
     "id": "5658",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5658.- (Refiérase a la Figura 51). Lo más probable es que se encuentre la Ilustración D:",
+    "image-id": "figure_51",
     "options": {
       "A": "al salir de todas las pistas antes de llamar al control de tierra.",
       "B": "en una intersección donde una calzada puede confundirse con una calle de rodaje.",
@@ -2786,6 +2905,7 @@
     "id": "5659.1",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5659.1.- (Refiérase a la Figura 51). ¿Mientras despeja una pista activa, lo más probable es que esté alejado del área crítica ILS cuando pase qué señal?",
+    "image-id": "figure_51",
     "options": {
       "A": "Ilustración D.",
       "B": "Ilustración G.",
@@ -2798,6 +2918,7 @@
     "id": "5659.2",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5659.2.- (Refiérase a la Figura 51). ¿Al rodar hasta una pista activa, es probable que esté alejado del área crítica ILS cuando no llegue a qué señal?",
+    "image-id": "figure_51",
     "options": {
       "A": "Ilustración H.",
       "B": "Ilustración D.",
@@ -2810,6 +2931,7 @@
     "id": "5660",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5660.- (Refiérase a la Figura 51). ¿Qué símbolo no se refiere directamente a la i ncursión en la pista con otras aeronaves?",
+    "image-id": "figure_51",
     "options": {
       "A": "Ilustración D.",
       "B": "Ilustración G.",
@@ -3297,13 +3419,26 @@
   {
     "id": "5964",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5964.- El marcador de “final de calle de rodaje”:",
+    "question": "5964.- El marcador de \"final de calle de rodaje\":",
     "options": {
       "A": "indica que la calle de rodaje no continúa.",
-      "B": "identifica el área donde están prohibidas las aeronaves."
+      "B": "identifica el área donde están prohibidas las aeronaves.",
+      "C": "proporciona una dirección de rodaje general a la calle de rodaje nombrada."
     },
     "answer": "A",
-    "explanation": ""
+    "explanation": "Los marcadores de final de calle de rodaje se utilizan para indicar que la calle de rodaje no continúa. \nLa respuesta (B) es incorrecta porque el movimiento periférico no se detecta fácilmente, especialmente en condiciones adversas; por lo tanto, esta no sería una técnica de exploración eficaz."
+  },
+  {
+    "id": "5970",
+    "section": "Procedimientos operacionales de aeródromos",
+    "question": "5970.- (Refiérase la Figura 58.) Ha solicitado instrucciones de rodaje para el despegue utilizando la Pista 16. El controlador emite las siguientes instrucciones de rodaje: \"N123, Taxi a la pista 16.\" ¿Dónde debe detenerse para cumplir con las instrucciones del controlador?",
+    "options": {
+      "A": "5 (cinco)",
+      "B": "6 (seis)",
+      "C": "9 (nueve)"
+    },
+    "answer": "A",
+    "explanation": "Cuando el ATC autoriza a una aeronave a \"rodar hacia\" una pista de despegue asignada, la ausencia \nde instrucciones de espera no autoriza a la aeronave a \"cruzar\" todas las pistas que cruzan la ruta de \nrodaje, excepto la pista de despegue asignada. Se debe obtener una autorización antes de cruzar cualquier pista. No incluye autorización para \"rodar en\" o \"cruzar\" la pista de despegue asignada en ningún punto. Debe rodar y mantenerse cerca de la pista 16, que es la posición 5. \nLa respuesta (B) es incorrecta porque \"rodar hacia\" no autoriza a la aeronave a \"rodar hacia\" la pista de despegue asignada.  \nLa respuesta (C) es incorrecta porque el avión debería rodar por la ruta más directa a la pista asignada a menos que se le indique lo contrario; la posición 9 no se encontraría para que el avión en la rampa oeste rodara hasta la pista 16."
   },
   {
     "id": "5972",
@@ -3369,6 +3504,7 @@
     "id": "5983",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5983.- (Refiérase a la Figura 57). Se le indica que debe rodar hasta la pista 10. Verá este letrero en una intersección de la calle de rodaje durante el rodaje. ¿De qué manera deberías proceder?",
+    "image-id": "figure_57",
     "options": {},
     "answer": "C",
     "explanation": ""
@@ -3377,6 +3513,7 @@
     "id": "5983.1",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5983.1.- (Refiérase a la Figura 51, A.) Esta señal de calle de rodaje se esperaría:",
+    "image-id": "figure_51",
     "options": {
       "A": "en la intersección del extremo de salida de la pista 04/22 y la calle de rodaje.",
       "B": "cerca de la intersección de las pistas 04 y 22.",
@@ -3389,6 +3526,7 @@
     "id": "5983.2",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5983.2.- (Refiérase a la Figura 61.) El control de tierra le ha dado instrucciones para rodar Alfa a Foxtrot a la pista activa. Según el letrero de la figura, ¿en qué dirección giraría en esta intersección para cumplir con el ATC?",
+    "image-id": "figure_61",
     "options": {
       "A": "No es necesario girar.",
       "B": "El giro se hará a la derecha.",
@@ -3401,13 +3539,26 @@
     "id": "5984",
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5984.- (Refiérase a la Figura 64). Verá este letrero cuando se mantenga cerca de la pista. Recibe autorización para realizar un rodaje en retroceso en la pista para una salida completa de la pista 8. ¿En qué dirección debe girar la primera vez que rueda hacia la pista para el despegue?",
+    "image-id": "figure_64",
     "options": {
       "A": "Izquierda.",
       "B": "Derecha.",
       "C": "Necesita más información."
     },
     "answer": "B",
-    "explanation": "El letrero del punto de espera de la pista contiene la designación de las pistas que se cruzan. Los \nnúmeros de pista están dispuestos para corresponder al umbral de pista respectivo. Por ejemplo, \"26-\n8\" indica que el umbral de la pista 26 está a la izquierda y el umbral de la pista 8 está a la derecha."
+    "explanation": "El letrero del punto de espera de la pista contiene la designación de las pistas que se cruzan. Los números de pista están dispuestos para corresponder al umbral de pista respectivo. Por ejemplo, \"26-8\" indica que el umbral de la pista 26 está a la izquierda y el umbral de la pista 8 está a la derecha."
+  },
+  {
+    "id": "5989.1",
+    "section": "Procedimientos operacionales de aeródromos",
+    "question": "5989.1.- La marca de \"barra de demarcación amarilla\" indica:",
+    "options": {
+      "A": "la pista con umbral desplazado que precede a la pista.",
+      "B": "una línea de espera desde una calle de rodaje hasta una pista.",
+      "C": "el comienzo de la pista disponible para aterrizar en el lado de aproximación."
+    },
+    "answer": "A",
+    "explanation": "Una barra de demarcación delimita una pista con un umbral desplazado de una pista explosiva, una parada o una calle de rodaje que precede a la pista. Una barra de demarcación tiene 3 pies (1 m) de ancho y es amarilla, ya que no está ubicada en la pista."
   },
   {
     "id": "5301",
@@ -3443,7 +3594,19 @@
       "C": "Diferencias de presión."
     },
     "answer": "C",
-    "explanation": "Las diferencias de temperatura crean diferencias de presión. Estas diferencias de presión impulsan un \ncomplejo sistema de vientos en un intento interminable de alcanzar el equilibrio. \n \n5310.1- La altitud por densidad es la distancia vertical so bre el nivel medio del mar en la \natmósfera estándar en la que: \nA. la altitud por presión se corrige para la temperatura estándar. \nB. una densidad atmosférica determinada. \nC. se consideran la temperatura, la presión, la altitud y la humedad."
+    "explanation": "Las diferencias de temperatura crean diferencias de presión. Estas diferencias de presión impulsan un \ncomplejo sistema de vientos en un intento interminable de alcanzar el equilibrio."
+  },
+  {
+    "id": "5310.1",
+    "section": "Meteorología",
+    "question": "5310.1.- La altitud por densidad es la distancia vertical sobre el nivel medio del mar en la atmósfera estándar en la que:",
+    "options": {
+      "A": "la altitud por presión se corrige para la temperatura estándar.",
+      "B": "una densidad atmosférica determinada.",
+      "C": "se consideran la temperatura, la presión, la altitud y la humedad."
+    },
+    "answer": "B",
+    "explanation": "La altitud por densidad es la distancia vertical sobre el nivel del mar en la atmósfera estándar en la que se encuentra una densidad determinada. La densidad del aire tiene efectos significativos en el rendimiento del avión."
   },
   {
     "id": "5311",
@@ -3827,7 +3990,19 @@
       "C": "nubes estratiformes y precipitaciones continuas."
     },
     "answer": "B",
-    "explanation": "Las características del aire inestable son las nubes cumuliformes, las precipitaciones en chubasco, la \nturbulencia y la buena visibilidad, excepto por turbulencias mecánicas. \nLa respuesta (A) es incorrecta porque la mala visibilidad y el aire suave son características del aire \nestable. La respuesta (C) es incorrecta porque las nubes estratiformes y las precipitaciones continuas \nson características del aire estable. \n \n5343.1-¿Cuáles son las características de una atmosfera inestable? \nA. Una masa de aire fresco y seco. \nB. Una masa de aire cálido y húmedo. \nC. Aire descendente en el hemisferio norte. \nExplicación \nLas características del aire inestable son las nubes negras, las precipitaciones lluviosas, la turbulencia \ny la buena visibilidad, excepto en los obstáculos que soplan."
+    "explanation": "Las características del aire inestable son las nubes cumuliformes, las precipitaciones en chubasco, la \nturbulencia y la buena visibilidad, excepto por turbulencias mecánicas. \nLa respuesta (A) es incorrecta porque la mala visibilidad y el aire suave son características del aire \nestable. La respuesta (C) es incorrecta porque las nubes estratiformes y las precipitaciones continuas \nson características del aire estable."
+  },
+  {
+    "id": "5343.1",
+    "section": "Meteorología",
+    "question": "5343.1.- ¿Cuáles son las características de una atmosfera inestable?",
+    "options": {
+      "A": "Una masa de aire fresco y seco.",
+      "B": "Una masa de aire cálido y húmedo.",
+      "C": "Aire descendente en el hemisferio norte."
+    },
+    "answer": "B",
+    "explanation": "Las características del aire inestable son las nubes negras, las precipitaciones lluviosas, la turbulencia y la buena visibilidad, excepto en los obstáculos que soplan."
   },
   {
     "id": "5344",
@@ -4177,7 +4352,43 @@
       "C": "40 millas."
     },
     "answer": "C",
-    "explanation": "El piloto debe evitar volar entre ecos muy intensos a menos que estén separados por al menos 40 \nmillas. \n \n5373.1- Las tormentas eléctricas identificadas como severas o que dan un eco de radar intenso, \n¿A qué distancia deben evitarse? \nA. 5 millas. \nB. Al menos 25 millas. \nC. Al menos 20 millas. \nExplicación \nEvite por lo menos a 20 millas cualquier tormenta eléctri ca identificada como severa o que dé un eco \nintenso en el radar. Esto es especialmente cierto bajo el yunque de un gran cumulonimbo."
+    "explanation": "El piloto debe evitar volar entre ecos muy intensos a menos que estén separados por al menos 40 millas."
+  },
+  {
+    "id": "5373.1",
+    "section": "Meteorología",
+    "question": "5373.1.- Las tormentas eléctricas identificadas como severas o que dan un eco de radar intenso, ¿A qué distancia deben evitarse?",
+    "options": {
+      "A": "5 millas.",
+      "B": "Al menos 25 millas.",
+      "C": "Al menos 20 millas."
+    },
+    "answer": "C",
+    "explanation": "Evite por lo menos a 20 millas cualquier tormenta eléctrica identificada como severa o que dé un eco intenso en el radar. Esto es especialmente cierto bajo el yunque de un gran cumulonimbo."
+  },
+  {
+    "id": "5373.2",
+    "section": "Meteorología",
+    "question": "5373.2.- Las mayores amenazas para una aeronave que opera en la proximidad de tormentas eléctricas son:",
+    "options": {
+      "A": "truenos y fuertes lluvias.",
+      "B": "granizos y las turbulencias.",
+      "C": "precipitación estática y baja visibilidad."
+    },
+    "answer": "B",
+    "explanation": "La turbulencia peligrosa está presente en todas las tormentas eléctricas; en una tormenta eléctrica severa, puede dañar un fuselaje. El granizo compite con la turbulencia como el mayor peligro de las tormentas eléctricas para las aeronaves."
+  },
+  {
+    "id": "5373.3",
+    "section": "Meteorología",
+    "question": "5373.3.- Usted está evitando una tormenta eléctrica que se encuentra en su trayectoria de vuelo. \nEstá a más de 20 millas de la célula; sin embargo, está bajo el yunque de la célula. ¿Es esto un peligro?",
+    "options": {
+      "A": "No, la distancia a la célula es segura.",
+      "B": "Sí, el granizo puede ser descargado desde el yunque.",
+      "C": "Sí, la distancia está aún en el área de disipación."
+    },
+    "answer": "B",
+    "explanation": "Evite por lo menos 20 millas cualquier tormenta eléctrica identificada como severa o que dé un eco intenso en el radar. Esto es especialmente cierto bajo el yunque de un gran cumulonimbo donde se puede descargar granizo."
   },
   {
     "id": "5374",
@@ -4872,6 +5083,18 @@
     "explanation": "KHOB informa un techo de 1000 pies (OVC010). Esto significa que la parte inferior de la capa nublada \ntiene 2.500 pies (1.500 MSL + 1000 pies AGL). La cima del cielo nublado se reporta a 7,000 pies MSL. \nPor lo tanto, la capa nublada tiene un espesor de 4.500 pies (7.000 - 2.500)."
   },
   {
+    "id": "5989.2",
+    "section": "Servicios meteorológicos",
+    "question": "5989.- ¿Cuál es la base de la capa nublada más baja en el siguiente informe piloto? KMOB UA / OV APE230010 / TM 1515 / FL085 / TP BE20 / SK BKN065 / WX FV03SM HZ FU / TQ 20 / TB LGT",
+    "options": {
+      "A": "No hay un límite máximo definido en este informe.",
+      "B": "Hay una capa reportada a 8.500 pies.",
+      "C": "Hay una capa de nubes fragmentada a 6.500 pies."
+    },
+    "answer": "C",
+    "explanation": "La parte cubierta del cielo del reporte indica \"SK BKN 065\", lo que significa que nubosidad del cielo está fragmentada a 6.500 pies. \nLa respuesta (A) es incorrecta porque el límite máximo se define en la sección \"SK\" del informe. \nLa respuesta (B) es incorrecta porque \"FL085\" detalla el nivel de vuelo al que se dio el informe, no la cobertura del cielo."
+  },
+  {
     "id": "5164",
     "section": "Performance",
     "question": "5164.- Un equipaje que pesa 90 libras se coloca en el compartimiento de equipaje de un avión de categoría normal que tiene un letrero que indica 100 libras de capacidad. Si este avión se somete a un factor de carga positivo de 3.5 Gs, la carga total del equipaje sería:",
@@ -4971,6 +5194,7 @@
     "id": "5452",
     "section": "Performance",
     "question": "5452.- (Refiérase a la Figura 8). DADO: Cantidad de combustible 65 gal Mejor potencia (vuelo nivelado) 55 por ciento Aproximadamente, ¿cuánto tiempo de vuelo estaría disponible con reserva de combustible para vuelo VFR diurno?",
+    "image-id": "figure_8",
     "options": {
       "A": "4 horas 17 minutos.",
       "B": "4 horas 30 minutos.",
@@ -4983,6 +5207,7 @@
     "id": "5453",
     "section": "Performance",
     "question": "5453.- (Refiérase a la Figura 8 ). ¿Aproximadamente cuánto combustible se consumiría al ascender al 75% de potencia durante 7 minutos?",
+    "image-id": "figure_8",
     "options": {
       "A": "1.82 galones.",
       "B": "1.97 galones.",
@@ -4995,6 +5220,7 @@
     "id": "5454",
     "section": "Performance",
     "question": "5454.- (Refiérase a la Figura 8) . Determine la cantidad de combustible consumido durante el despegue y ascenso al 70 por ciento de potencia durante 10 minutos.",
+    "image-id": "figure_8",
     "options": {
       "A": "2.66 galones.",
       "B": "2.88 galones.",
@@ -5007,6 +5233,7 @@
     "id": "5455",
     "section": "Performance",
     "question": "5455.- (Refiérase a la Figura 8). Con 38 galones de combustible a bordo y potencia de crucero (55 por ciento), ¿cuánto tiempo de vuelo estaría disponible con reserva remanente de combustible para vuelo VFR nocturno?",
+    "image-id": "figure_8",
     "options": {
       "A": "2 horas 34 minutos.",
       "B": "2 horas 49 minutos.",
@@ -5031,6 +5258,7 @@
     "id": "5457",
     "section": "Performance",
     "question": "5457.- (Refiérase a la Figura 9). Usando un ascenso normal, ¿cuánto combustible se consumiría desde el encendido del motor hasta una altitud de presión de 10,000 pies? Peso de la aeronave 3500 lb Altitud de presión del aeropuerto 4000 pies Temperatura 21°C",
+    "image-id": "figure_9",
     "options": {
       "A": "23 libras.",
       "B": "31 libras.",
@@ -5043,6 +5271,7 @@
     "id": "5458",
     "section": "Performance",
     "question": "5458.- (Refiérase a la Figura 10) . Usando una velocidad máxima de ascenso, ¿cuánto combustible se consumiría desde el encendido del motor hasta una altitud de presión de 6,000 pies? Peso de la aeronave 3200 lb Altitud de presión del aeropuerto 2000 pies Temperatura 27°C",
+    "image-id": "figure_10",
     "options": {
       "A": "10 libras.",
       "B": "14 libras.",
@@ -5055,6 +5284,7 @@
     "id": "5459",
     "section": "Performance",
     "question": "5459.- (Refiérase a la Figura 10) . Usando una velocidad máxima de ascenso, ¿cuánto combustible se consumiría desde el encendido del motor hasta una altitud de presión de 10,000 pies? Peso de la aeronave 3800 lb Altitud de presión del aeropuerto 4000 pies Temperatura 30°C",
+    "image-id": "figure_10",
     "options": {
       "A": "28 libras.",
       "B": "35 libras.",
@@ -5067,6 +5297,7 @@
     "id": "5460",
     "section": "Performance",
     "question": "5460.- (Refiérase a la Figura 11). Si la altitud de crucero es de 7500 pies, utilizando un 64 por ciento de potencia a 2500 RPM, ¿cuál sería el alcance con 48 galones de combustible utilizables?",
+    "image-id": "figure_11",
     "options": {
       "A": "635 millas.",
       "B": "645 millas.",
@@ -5079,6 +5310,7 @@
     "id": "5461",
     "section": "Performance",
     "question": "5461.- (Refiérase a la Figura 11). ¿Cuál sería la autonomía a una altitud de 7500 pies, usando el 52 por ciento de potencia? NOTA: (Con 48 galones de combustible, sin reserva).",
+    "image-id": "figure_11",
     "options": {
       "A": "6.10 horas.",
       "B": "7.7 horas.",
@@ -5091,6 +5323,7 @@
     "id": "5462",
     "section": "Performance",
     "question": "5462.- (Refiérase a la Figura 11) . ¿Cuál sería la velocidad verdadera aproximada y el consumo de combustible por hora a una altitud de 7500 pies, usando el 52 por ciento de potencia?",
+    "image-id": "figure_11",
     "options": {},
     "answer": "B",
     "explanation": ""
@@ -5099,6 +5332,7 @@
     "id": "5463",
     "section": "Performance",
     "question": "5463.- (Refiérase a la Figura 12). DADO: Altitud de presión 18.000 pies Temperatura -21 °C Potencia 2,400 RPM - 28'' MP Combustible utilizable con ajuste recomendado de mezcla pobre - 425 lb ¿Cuál es el tiempo de vuelo aproximado disponible en las condiciones dadas? (Tenga en cuenta la reserva de combustible para vuelo VFR diurno).",
+    "image-id": "figure_12",
     "options": {
       "A": "3 horas 46 minutos.",
       "B": "4 horas 1 minutos.",
@@ -5111,6 +5345,7 @@
     "id": "5464",
     "section": "Performance",
     "question": "5464.- (Refiérase a la Figura 12.) DADO: Altitud de presión 18.000 pies Temperatura -41° C Potencia 2500 RPM - 26'' MP Combustible utilizable con ajuste recomendado de mezcla pobre - 318 lb ¿Cuál es el tiempo de vuelo aproximado disponible en las condiciones dadas? (Tenga en cuenta la reserva de combustible para vuelo VFR nocturno).",
+    "image-id": "figure_12",
     "options": {
       "A": "2 horas 27 minutos.",
       "B": "3 horas 12 minutos.",
@@ -5123,6 +5358,7 @@
     "id": "5465",
     "section": "Performance",
     "question": "5465.- (Refiérase a la Figura 12.) DADO: Altitud de presión 18,000 pies Temperatura -1°C Potencia 2,200 RPM - 20'' MP Combustible utilizable con ajuste recomendado de mezcla pobre - 344 lb ¿Cuál es el tiempo de vuelo aproximado disponible en las condiciones dadas? (Tenga en cuenta la reserva de combustible para vuelo VFR diurno).",
+    "image-id": "figure_12",
     "options": {
       "A": "4 horas 50 minutos.",
       "B": "5 horas 20 minutos.",
@@ -5135,6 +5371,7 @@
     "id": "5482",
     "section": "Performance",
     "question": "5482.- (Refiérase a la Figura 13). DADO: Peso de la aeronave 3.400 lb Altitud de presión del aeropuerto 6000 pies Temperatura a 6.000 pies 10°C Usando una velocidad máxima de ascenso en las condiciones dadas, ¿cuánto combustible se consumiría desde el encendido del motor hasta una altitud de presión de 16,000 pies?",
+    "image-id": "figure_13",
     "options": {
       "A": "43 libras.",
       "B": "45 libras."
@@ -5146,6 +5383,7 @@
     "id": "5483",
     "section": "Performance",
     "question": "5483.- (Refiérase a la Figura 13). DADO: Peso de la aeronave 4000 lb Altitud de presión del aeropuerto 2000 pies Temperatura a 2000 pies 32 ° C Utilizando una velocidad máxima de ascenso en las condiciones dadas, ¿cuánto tiempo se necesitaría para ascender a una altitud de presión de 8.000 pies?",
+    "image-id": "figure_13",
     "options": {
       "A": "7 minutos.",
       "B": "8.4 minutos.",
@@ -5158,6 +5396,7 @@
     "id": "5484",
     "section": "Performance",
     "question": "5484.- (Refiérase a la Figura 14). DADO: Peso de la aeronave 3.700 lb Altitud de presión del aeropuerto 4000 pies Temperatura a 4000 pies 21°C Usando un ascenso normal en las condiciones dadas, ¿cuánto combustible se consumiría desde el encendido del motor hasta una altitud de presión de 12,000 pies?",
+    "image-id": "figure_14",
     "options": {
       "A": "30 libras.",
       "B": "37 libras.",
@@ -5170,6 +5409,7 @@
     "id": "5485",
     "section": "Performance",
     "question": "5485.- (Refiérase a la Figura 14). DADO: Peso de la aeronave 3.400 lb Altitud de presión del aeropuerto 4000 pies Temperatura a 4000 pies 14°C Usando un ascenso normal en las condiciones dadas, ¿cuánto tiempo se necesitaría para ascender a una altitud de presión de 8.000 pies?",
+    "image-id": "figure_14",
     "options": {
       "A": "4,8 minutos.",
       "B": "5 minutos.",
@@ -5182,6 +5422,7 @@
     "id": "5486",
     "section": "Performance",
     "question": "5486.- (Refiérase a la Figura 15). DADO: Altitud de presión del aeropuerto 4000 pies Temperatura del aeropuerto 12°C Altitud de presión de crucero 9.000 pies Temperatura de crucero -4°C ¿Cuál será la distancia necesaria para ascender a la altitud de cr ucero en las condiciones dadas?",
+    "image-id": "figure_15",
     "options": {
       "A": "6 millas.",
       "B": "8.5 millas.",
@@ -5194,6 +5435,7 @@
     "id": "5487",
     "section": "Performance",
     "question": "5487.- (Refiérase a la Figura 15). DADO: Altitud de presión del aeropuerto 2000 pies Temperatura del aeropuerto 20°C Altitud de presión de crucero 10,000 pies Temperatura de crucero 0°C ¿Cuál será el combustible, el tiempo y la distancia necesarios para ascender a la altitud de crucero en las condiciones dadas?",
+    "image-id": "figure_15",
     "options": {
       "A": "5 galones, 9 minutos, 13 NM.",
       "B": "6 galones, 11 minutos, 16 NM.",
@@ -5218,6 +5460,7 @@
     "id": "5537",
     "section": "Performance",
     "question": "5537.- (Refiérase a la Figura 3A.) ¿Cuál es la distancia de planeo aproximada si está volando a 5.500 pies?",
+    "image-id": "figure_3A",
     "options": {
       "A": "10NM",
       "B": "8NM",
@@ -5230,6 +5473,7 @@
     "id": "5538",
     "section": "Performance",
     "question": "5538.- (Refiérase a la Figura 3A). ¿Cuál es la distancia de planeo aproximada si está volando a 8,000 pies?",
+    "image-id": "figure_3A",
     "options": {
       "A": "12 NM."
     },
@@ -5264,6 +5508,7 @@
     "id": "5615",
     "section": "Performance",
     "question": "5615.- (Refiérase a la Figura 31). Se está utilizando la pista 30 para el aterrizaje. ¿Qué viento de superficie excedería la limitante de viento cruzado del avión de 0.2 VSO, si VSO es de 60 nudos?",
+    "image-id": "figure_31",
     "options": {
       "A": "260° a 20 nudos.",
       "B": "275° a 25 nudos."
@@ -5275,6 +5520,7 @@
     "id": "5616",
     "section": "Performance",
     "question": "5616.- (Refiérase a la Figura 31). Si el viento en la superficie informado por la torre es de 010 ° a 18 nudos, ¿cuál es la componente de viento cruzado para un aterrizaje por la pista 08?",
+    "image-id": "figure_31",
     "options": {
       "A": "7 nudos.",
       "B": "15 nudos.",
@@ -5287,6 +5533,7 @@
     "id": "5617",
     "section": "Performance",
     "question": "5617.- (Refiérase a la Figura 31) . El viento en la superficie es de 180° a 25 nudos. ¿Cuál es la componente de viento cruzado para un aterrizaje por la pista 13?",
+    "image-id": "figure_31",
     "options": {
       "A": "19 nudos.",
       "B": "21 nudos.",
@@ -5299,6 +5546,7 @@
     "id": "5618",
     "section": "Performance",
     "question": "5618.- (Refiérase a la Figura 31). ¿Cuál es el componente de viento de frente para un despegue por la pista 13 si el viento en la superficie es de 190° a 15 nudos?",
+    "image-id": "figure_31",
     "options": {
       "A": "7 nudos.",
       "B": "13 nudos.",
@@ -5311,6 +5559,7 @@
     "id": "5619",
     "section": "Performance",
     "question": "5619.- (Refiérase a la Figura 32). DADO: Temperatura 75 ° F Altitud de presión 6000 pies Peso 2,900 lb Viento de frente 20 nudos Para despegar con seguridad sobre un obstáculo de 50 pies en 1,000 pies, ¿qué tanto peso tendría que reducirse?",
+    "image-id": "figure_32",
     "options": {
       "A": "50 libras.",
       "B": "100 libras.",
@@ -5323,6 +5572,7 @@
     "id": "5620",
     "section": "Performance",
     "question": "5620.- (Refiérase a la Figura 32). DADO: Temperatura 50 ° F Altitud de presión 2,000 pies Peso 2,700 lb Viento en calma ¿Cuál es la distancia total de despegue sobre un obstáculo de 50 pies?",
+    "image-id": "figure_32",
     "options": {
       "A": "800 pies.",
       "B": "650 pies.",
@@ -5335,6 +5585,7 @@
     "id": "5621",
     "section": "Performance",
     "question": "5621.- (Refiérase a la Figura 32). DADO: Temperatura 100° F Altitud de presión 4000 pies Peso 3,200 lb Viento en calma ¿Qué distancia en tierra es requerida para despegar sobre un obstáculo de 50 pies?",
+    "image-id": "figure_32",
     "options": {
       "A": "1180 pies.",
       "B": "1350 pies.",
@@ -5347,6 +5598,7 @@
     "id": "5622",
     "section": "Performance",
     "question": "5622.- (Refiérase a la Figura 32). DADO: Temperatura 30 ° F Altitud de presión 6000 pies Peso 3,300 lb Viento de frente de 20 nudos ¿Cuál es la distancia total de despegue sobre un obstáculo de 50 pies?",
+    "image-id": "figure_32",
     "options": {
       "A": "1100 pies.",
       "B": "1300 pies.",
@@ -5359,6 +5611,7 @@
     "id": "5623",
     "section": "Performance",
     "question": "5623.- (Refiérase a la Figura 33). DADO: Peso 4.000 lb Altitud de presión 5,000 pies Temperatura 30°C ¿Cuál es el máximo régimen de ascenso para las condiciones dadas?",
+    "image-id": "figure_33",
     "options": {
       "A": "655 pies / min.",
       "B": "702 pies / min.",
@@ -5371,6 +5624,7 @@
     "id": "5624",
     "section": "Performance",
     "question": "5624.- (Refiérase a la Figura 33). DADO: Peso 3.700 lb Altitud de presión 22.000 pies Temperatura -10°C ¿Cuál es el máximo régimen de ascenso en las condiciones dadas?",
+    "image-id": "figure_33",
     "options": {
       "A": "305 pies / min.",
       "B": "320 pies / min.",
@@ -5383,6 +5637,7 @@
     "id": "5625",
     "section": "Performance",
     "question": "5625.- (Refiérase a la Figura 34). DADO: Altitud de presión 6000 pies Temperatura + 3°C Potencia 2,200 RPM - 22\" MP Combustible utilizable disponible 465 lb ¿Cuál es el tiempo máximo de vuelo disponible para las condiciones indicadas?",
+    "image-id": "figure_34",
     "options": {
       "A": "6 horas 27 minutos.",
       "B": "6 horas 39 minutos.",
@@ -5395,6 +5650,7 @@
     "id": "5626",
     "section": "Performance",
     "question": "5626.- (Refiérase a la Figura 34). DADO: Altitud de presión 6000 pies Temperatura -17°C Potencia 2,300 RPM - 23'' MP Combustible utilizable disponible 370 lb ¿Cuál es el tiempo máximo de vuelo disponible para las condiciones indicadas?",
+    "image-id": "figure_34",
     "options": {
       "A": "4 horas 20 minutos.",
       "B": "4 horas 30 minutos.",
@@ -5407,6 +5663,7 @@
     "id": "5627",
     "section": "Performance",
     "question": "5627.- (Refiérase a la Figura 34). DADO: Altitud de presión 6000 pies Temperatura + 13°C Potencia 2,500 RPM - 23'' MP Combustible utilizable disponible 460 lb ¿Cuál es el tiempo máximo de vuelo disponible en las condiciones indicadas?",
+    "image-id": "figure_34",
     "options": {
       "A": "4 horas 58 minutos.",
       "B": "5 horas 7 minutos.",
@@ -5419,6 +5676,7 @@
     "id": "5628",
     "section": "Performance",
     "question": "5628.- (Refiérase a la Figura 35). DADO: Temperatura 70°F Altitud de presión nivel del mar Peso 3,400 lb Viento de frente 16 nudos Determine la distancia requerida para el recorrido en tierra.",
+    "image-id": "figure_35",
     "options": {
       "A": "689 pies.",
       "B": "716 pies.",
@@ -5431,6 +5689,7 @@
     "id": "5629",
     "section": "Performance",
     "question": "5629.- (Refiérase a la Figura 35). DADO: Temperatura 85°F Altitud de presión 6,000 pies Peso 2,800 lb Viento de frente 14 nudos Determine la distancia requerida para el recorrido en tierra.",
+    "image-id": "figure_35",
     "options": {
       "A": "742 pies.",
       "B": "1,280 pies.",
@@ -5443,6 +5702,7 @@
     "id": "5630",
     "section": "Performance",
     "question": "5630.- (Refiérase a la Figura 35). DADO: Temperatura 50°F Altitud de presión nivel del mar Peso 3,000 lb Viento de frente 10 nudos",
+    "image-id": "figure_35",
     "options": {},
     "answer": "B",
     "explanation": ""
@@ -5451,6 +5711,7 @@
     "id": "5631",
     "section": "Performance",
     "question": "5631.- (Refiérase a la Figura 35). DADO: Temperatura 80°F Altitud de presión 4,000 pies Peso 2,800 lb Viento de frente 24 nudos ¿Cuál es la distancia total de aterrizaje sobre un obstáculo de 50 pies?",
+    "image-id": "figure_35",
     "options": {
       "A": "1,125 pies.",
       "B": "1,250 pies.",
@@ -5587,6 +5848,7 @@
     "id": "5650",
     "section": "Performance",
     "question": "5650.- (Refiérase a la Figura 38). DADO: Peso vacío (incluye aceite) 1,271 lb Momento de peso vacío (in-lb / 1,000) 102.04 Piloto y copiloto 400 lb Pasajero en el asiento trasero 140 lb Carga 100 lb Combustible 37 gal ¿Está el avión cargado dentro de los límites?",
+    "image-id": "figure_38",
     "options": {
       "A": "Sí, el peso y el CG están dentro de los límites.",
       "B": "No, el peso supera el máximo permitido."
@@ -5598,6 +5860,7 @@
     "id": "5651",
     "section": "Performance",
     "question": "5651.- (Refiérase a la Figura 38). DADO: Peso vacío (incluye aceite) 1,271 lb Momento de peso vacío (in-lb/1,000) 102.04 Piloto y copiloto 260 lb Pasajero en el asiento trasero 120 lb Carga 60 lb Combustible 37 gal En estas condiciones, se determina que el CG se encuentra:",
+    "image-id": "figure_38",
     "options": {
       "A": "dentro de la envolvente del CG.",
       "B": "en el límite delantero de la envolvente del CG.",
@@ -5610,6 +5873,7 @@
     "id": "5652",
     "section": "Performance",
     "question": "5652.- (Refiérase a la Figura 38). DADO: Peso vacío (incluye aceite) 1,271 lb Momento de peso vacío (in-lb / 1,000) 102.04 Piloto y copiloto 360 lb Carga 340 lb Combustible 37 gal ¿Se mantendrá el CG dentro de los límites después de que se hayan consumido 30 galones de combustible en vuelo?",
+    "image-id": "figure_38",
     "options": {
       "A": "Sí, el GC se mantendrá dentro de los límites.",
       "B": "No, el CG se ubicará detrás del límite trasero del CG.",
@@ -5972,6 +6236,7 @@
     "id": "5506",
     "section": "Navegación",
     "question": "5506.- (Refiérase a la Figura 17) . ¿Qué ilustración indica que la aeronave interceptará el radial 060 en un ángulo de 60° en dirección a la entrada, si se mantiene el rumbo actual?",
+    "image-id": "figure_17",
     "options": {
       "A": "6.",
       "B": "4.",
@@ -5984,6 +6249,7 @@
     "id": "5507",
     "section": "Navegación",
     "question": "5507.- (Refiérase a la Figura 17) . ¿Cual afirmación es cierta respecto a la ilustración 2, si se mantiene el rumbo actual? La aeronave:",
+    "image-id": "figure_17",
     "options": {
       "A": "cruza el radial 180 en un ángulo de 45° en alejamiento.",
       "B": "intercepta el radial 225 en un ángulo de 45°.",
@@ -5996,6 +6262,7 @@
     "id": "5508",
     "section": "Navegación",
     "question": "5508.- (Refiérase a la Figura 17) . ¿Qué ilustración indica que la aeronave interceptará el radial 060 en un ángulo de 75° en alejamiento, si se mantiene el rumbo actual?",
+    "image-id": "figure_17",
     "options": {
       "A": "4.",
       "B": "5.",
@@ -6008,6 +6275,7 @@
     "id": "5509",
     "section": "Navegación",
     "question": "5509.- (Refiérase a la Figura 17) . ¿Qué ilustración indica que la aeronave debe virar  150° a la izquierda para interceptar el radial 360 en un ángulo de 60° hacia adentro?",
+    "image-id": "figure_17",
     "options": {
       "A": "1.",
       "B": "2.",
@@ -6020,6 +6288,7 @@
     "id": "5510",
     "section": "Navegación",
     "question": "5510.- (Refiérase a la Figura 17). ¿Cuál afirmación es correcta con respecto a la ilustración 4, si se mantiene el rumbo actual? La aeronave:",
+    "image-id": "figure_17",
     "options": {
       "A": "cruza el radial 060 en un ángulo de 15º",
       "B": "intercepta el radial 240 en un ángulo de 30°.",
@@ -6094,57 +6363,22 @@
     "question": "5990.- A medida que la temperatura del aire aumenta, la altitud por densidad:",
     "options": {
       "A": "disminuye.",
-      "B": "incrementa."
+      "B": "incrementa.",
+      "C": "permanece igual."
     },
     "answer": "B",
-    "explanation": ""
+    "explanation": "La altitud por densidad es la altitud en condiciones de aire estándar, donde la densidad es la misma que la existente. Dicha densidad depende de la presión, temperatura y humedad del aire. Tanto una disminución de la presión como un aumento de la temperatura disminuyen la densidad del aire y aumentan la altitud por densidad."
   },
   {
-    "id": "5120.2",
-    "section": "Procedimientos operacionales de aeródromos",
-    "question": "5120.2.- ¿Cuál de las siguientes afirmaciones es cierta respecto a las operaciones de vuelo en el espacio aéreo de Clase A? altitud.",
+    "id": "5999.1",
+    "section": "Navegación",
+    "question": "5999.1.- ¿Qué procedimiento podría utilizar un piloto para navegar bajo VFR de un punto a otro cuando las referencias terrestres no son visibles?",
     "options": {
-      "A": "La aeronave debe estar equipada con equipo de medición de distancia (DME) aprobado.",
-      "B": "Se debe realizar las operaciones bajo las reglas de vuelo instrumental.",
-      "C": "La aeronave debe estar equipada con un transpondedor ATC."
-    },
-    "answer": "B",
-    "explanation": "A menos que el ATC lo autorice de otra manera, ninguna persona puede operar una aeronave dentro \ndel espacio aéreo de Clase A menos que la aeronave esté equipada con un transpondedor aprobado \ny un equipo de notificación de altitud."
-  },
-  {
-    "id": "5970",
-    "section": "Procedimientos operacionales de aeródromos",
-    "question": "5970.- (Refiérase la Figura 58.) Ha solicitado instrucciones de rodaje para el despegue utilizando la Pista 16. El controlador emite las siguientes instrucciones de rodaje: \"N123, Taxi a la pista 16.\" ¿Dónde debe detenerse para cumplir con las instrucciones del controlador?",
-    "options": {
-      "A": "5 (cinco)",
-      "B": "6 (seis)",
-      "C": "9 (nueve)"
+      "A": "Navegación a estima.",
+      "B": "Navegación aérea observada.",
+      "C": "La VFR no está permitida en estas circunstancias."
     },
     "answer": "A",
-    "explanation": "Cuando el ATC autoriza a una aeronave a \"rodar hacia\" una pista de despegue asignada, la ausencia \nde instrucciones de espera no autoriza a la aeronave a \"cruzar\" todas las pistas que cruzan la ruta de \nrodaje, excepto la pista de despegue asignada. Se debe obtener una autorización antes de cruzar \ncualquier pista. No incluye autorización para \"rodar en\" o \"cruzar\" la pista de despegue asignada en \nningún punto. Debe rodar y mantenerse cerca de la pista 16, que es la posición 5. \nLa respuesta (B) es incorrecta porque \"rodar hacia\" no autoriza a la aeronave a \"rodar hacia\" la pista \nde despegue asignada.  \nLa respuesta (C) es incorrecta porque el avión debería rodar por la ruta más directa a la pista asignada \na menos que se le indique lo contrario; la posición 9 no se encontraría para que el avión en la rampa \noeste rodara hasta la pista 16."
-  },
-  {
-    "id": "5989.1",
-    "section": "Procedimientos operacionales de aeródromos",
-    "question": "5989.1.- La marca de \"barra de demarcación amarilla\" indica:",
-    "options": {
-      "A": "la pista con umbral desplazado que precede a la pista.",
-      "B": "una línea de espera desde una calle de rodaje hasta una pista.",
-      "C": "el comienzo de la pista disponible para aterrizar en el lado de aproximación."
-    },
-    "answer": "A",
-    "explanation": "Una barra de demarcación delimita una pista con un umbral desplazado de una pista explosiva, una parada o una calle de rodaje que precede a la pista. Una barra de demarcación tiene 3 pies (1 m) de ancho y es amarilla, ya que no está ubicada en la pista."
-  },
-  {
-    "id": "5989.2",
-    "section": "Servicios meteorológicos",
-    "question": "5989.- ¿Cuál es la base de la capa nublada más baja en el siguiente informe piloto? KMOB UA / OV APE230010 / TM 1515 / FL085 / TP BE20 / SK BKN065 / WX FV03SM HZ FU / TQ 20 / TB LGT",
-    "options": {
-      "A": "No hay un límite máximo definido en este informe.",
-      "B": "Hay una capa reportada a 8.500 pies.",
-      "C": "Hay una capa de nubes fragmentada a 6.500 pies."
-    },
-    "answer": "C",
-    "explanation": "La parte cubierta del cielo del reporte indica \"SK BKN 065\", lo que significa que nubosidad del cielo está fragmentada a 6.500 pies. \nLa respuesta (A) es incorrecta porque el límite máximo se define en la sección \"SK\" del informe. \nLa respuesta (B) es incorrecta porque \"FL085\" detalla el nivel de vuelo al que se dio el informe, no la cobertura del cielo."
+    "explanation": "La navegación aérea bajo VFR es la navegación por referencia a puntos de referencia en tierra o puntos de control. La navegación a estima es la que se realiza únicamente promedio de cálculos basados en el tiempo, velocidad, distancia y rumbo."
   }
 ]
