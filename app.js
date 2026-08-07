@@ -3,7 +3,7 @@ let QUIZ_IMAGE_META = {};
 const STORAGE_PREFIX = 'srvsop_pc_avion_progress_v1';
 const userInput = document.getElementById('user-input');
 const sectionSelect = document.getElementById('section-select');
-const lengthSelect = document.getElementById('length-select');
+const lengthInput = document.getElementById('length-input');
 const idSearchInput = document.getElementById('id-search-input');
 const searchIdResult = document.getElementById('search-id-result');
 const sessionToggleBtn = document.getElementById('session-toggle-btn');
@@ -19,6 +19,7 @@ const startFromPreviewBtn = document.getElementById('start-from-preview-btn');
 const confirmBtn = document.getElementById('confirm-btn');
 const skipBtn = document.getElementById('skip-btn');
 const randomOrderCheckbox = document.getElementById('random-order-checkbox');
+const sessionTimeEl = document.getElementById('session-time');
 const appConfirmOverlay = document.getElementById('app-confirm-overlay');
 const appConfirmTitle = document.getElementById('app-confirm-title');
 const appConfirmText = document.getElementById('app-confirm-text');
@@ -50,17 +51,6 @@ function populateSections() {
         sections.map(s => `<option value="${s}">${s} (${QUIZ_DATA.filter(q => q.section === s).length})</option>`).join('');
 }
 
-function populateLengths() {
-    lengthSelect.innerHTML = '';
-    [5, 10, 15, 20, 30, 9999].forEach(n => {
-        const opt = document.createElement('option');
-        opt.value = n;
-        opt.textContent = n === 9999 ? 'Todas' : (n + ' preguntas');
-        lengthSelect.appendChild(opt);
-    });
-    lengthSelect.value = 10;
-}
-
 async function loadQuizData() {
     try {
         const [dataResponse, metaResponse] = await Promise.all([
@@ -76,7 +66,6 @@ async function loadQuizData() {
         }
 
         populateSections();
-        populateLengths();
         // load session settings (toggle states) after UI exists
         loadSessionSettings();
         refreshHomeStats();
@@ -185,8 +174,9 @@ function startQuestionById(inputId) {
         return false;
     }
 
-    session = { questions: [found], idx: 0, correct: 0, wrong: 0, missed: [] };
+    session = { questions: [found], idx: 0, correct: 0, wrong: 0, missed: [], startedAt: null, elapsedMs: 0 };
     showScreen('screen-quiz');
+    if (sessionTimeEl) sessionTimeEl.textContent = 'Tiempo: --:--';
     renderQuestion();
     return true;
 }
@@ -200,6 +190,38 @@ function toggleIdSearchControls() {
 }
 
 let pendingConfirmAction = null;
+let sessionTimerHandle = null;
+
+function formatDuration(ms) {
+    const totalSeconds = Math.max(0, Math.floor(ms / 1000));
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+
+    const mm = String(minutes).padStart(2, '0');
+    const ss = String(seconds).padStart(2, '0');
+    if (hours > 0) return `${String(hours).padStart(2, '0')}:${mm}:${ss}`;
+    return `${mm}:${ss}`;
+}
+
+function updateSessionTimer() {
+    if (!sessionTimeEl || !session || !session.startedAt) return;
+    const elapsedMs = Date.now() - session.startedAt;
+    session.elapsedMs = elapsedMs;
+    sessionTimeEl.textContent = `Tiempo: ${formatDuration(elapsedMs)}`;
+}
+
+function startSessionTimer() {
+    if (sessionTimerHandle) clearInterval(sessionTimerHandle);
+    updateSessionTimer();
+    sessionTimerHandle = setInterval(updateSessionTimer, 1000);
+}
+
+function stopSessionTimer() {
+    if (!sessionTimerHandle) return;
+    clearInterval(sessionTimerHandle);
+    sessionTimerHandle = null;
+}
 
 function openConfirmModal({ title, text, confirmText, onConfirm }) {
     appConfirmTitle.textContent = title;
@@ -215,7 +237,6 @@ function closeConfirmModal() {
 }
 
 // ---------- HOME SCREEN SETUP ----------
-populateLengths();
 loadQuizData();
 
 toggleSessionPanel(false);
@@ -232,6 +253,13 @@ appConfirmYes.addEventListener('click', () => {
     closeConfirmModal();
 });
 if (randomOrderCheckbox) randomOrderCheckbox.addEventListener('change', saveSessionSettings);
+if (lengthInput) {
+    lengthInput.addEventListener('input', () => {
+        // Keep only integer digits; empty means "all questions".
+        const cleaned = (lengthInput.value || '').replace(/\D+/g, '');
+        if (cleaned !== lengthInput.value) lengthInput.value = cleaned;
+    });
+}
 startFromPreviewBtn.addEventListener('click', () => {
     const inputId = (idSearchInput.value || '').trim();
     if (!inputId) {
@@ -269,7 +297,9 @@ function shuffle(arr) {
 function buildQuestionSet() {
     const sec = sectionSelect.value;
     const mode = document.getElementById('mode-select').value;
-    const len = parseInt(lengthSelect.value, 10);
+    const rawLen = (lengthInput && lengthInput.value ? String(lengthInput.value) : '').trim();
+    const requestedLen = rawLen ? parseInt(rawLen, 10) : null;
+    const hasCustomLength = Number.isFinite(requestedLen) && requestedLen > 0;
 
     let pool = QUIZ_DATA.filter(q => sec === '__all__' || q.section === sec);
 
@@ -282,7 +312,7 @@ function buildQuestionSet() {
     // Respect 'Orden aleatorio' toggle: shuffle only when enabled
     const randomOrderEnabled = (randomOrderCheckbox && randomOrderCheckbox.checked) || false;
     if (randomOrderEnabled) pool = shuffle(pool);
-    if (len !== 9999) pool = pool.slice(0, len);
+    if (hasCustomLength && requestedLen < pool.length) pool = pool.slice(0, requestedLen);
     return pool;
 }
 
@@ -322,8 +352,9 @@ document.getElementById('start-btn').addEventListener('click', () => {
         return;
     }
 
-    session = { questions: qs, idx: 0, correct: 0, wrong: 0, missed: [], selectedLetter: null };
+    session = { questions: qs, idx: 0, correct: 0, wrong: 0, missed: [], selectedLetter: null, startedAt: Date.now(), elapsedMs: 0 };
     showScreen('screen-quiz');
+    startSessionTimer();
     renderQuestion();
 });
 
@@ -486,11 +517,15 @@ document.getElementById('quit-btn').addEventListener('click', () => {
 });
 
 function resetQuizSessionState() {
+    stopSessionTimer();
     session = null;
+    if (sessionTimeEl) sessionTimeEl.textContent = 'Tiempo: 00:00';
     hideQuestionPreview();
 }
 
 function finishSession() {
+    stopSessionTimer();
+    if (session && session.startedAt) session.elapsedMs = Date.now() - session.startedAt;
     document.getElementById('progress-fill').style.width = '100%';
     const total = session.questions.length;
     const pct = Math.round(100 * session.correct / total);
@@ -513,6 +548,15 @@ function finishSession() {
       </div>`).join('');
     } else {
         missCard.style.display = 'none';
+    }
+
+    const resultTimeEl = document.getElementById('result-time');
+    if (resultTimeEl) {
+        if (session && session.startedAt) {
+            resultTimeEl.textContent = `Tiempo de sesión: ${formatDuration(session.elapsedMs || 0)}`;
+        } else {
+            resultTimeEl.textContent = '';
+        }
     }
 
     showScreen('screen-results');

@@ -270,6 +270,23 @@ select {
     margin-bottom: 10px;
 }
 
+.quiz-meta-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.quiz-meta-row .tag {
+    margin-bottom: 0;
+}
+
+.quiz-time {
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
 .qtext {
     font-size: 1.08rem;
     line-height: 1.5;
@@ -540,4 +557,16 @@ a.link {
 
 .toggle input:checked+.toggle-slider::after {
     transform: translateX(18px);
+}
+
+/* Numeric input: hide native browser spinners for a cleaner look */
+#length-input {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+#length-input::-webkit-outer-spin-button,
+#length-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }

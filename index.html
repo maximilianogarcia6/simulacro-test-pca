@@ -54,7 +54,9 @@
                     </select>
 
                     <label class="small muted" style="display:block; margin:10px 0 6px;">Cantidad de preguntas</label>
-                    <select id="length-select"></select>
+                    <input id="length-input" type="number" min="1" step="1" inputmode="numeric"
+                        style="width:100%; padding:12px; background:var(--card2); color:var(--text); border:1px solid var(--border); border-radius:10px; margin-bottom:10px;"
+                        placeholder="Ej: 85 (vacío = todas)">
 
                     <label class="small muted" style="display:block; margin:10px 0 6px;">Orden</label>
                     <div style="display:flex; align-items:center; gap:10px; margin-bottom:8px;">
@@ -108,7 +110,10 @@
                 <div class="progress-fill" id="progress-fill"></div>
             </div>
             <div class="card">
-                <div class="tag" id="quiz-tag">Materia · 1/10</div>
+                <div class="quiz-meta-row">
+                    <div class="tag" id="quiz-tag">Materia · 1/10</div>
+                    <div class="quiz-time" id="session-time">Tiempo: 00:00</div>
+                </div>
                 <div class="qtext" id="quiz-question"></div>
                 <div id="quiz-figure" class="quiz-figure"></div>
                 <div id="quiz-options"></div>
@@ -129,6 +134,7 @@
                 <div class="tag">Resultado de la sesión</div>
                 <div class="big-num" id="result-score">-</div>
                 <div class="muted" id="result-sub"></div>
+                <div class="muted" id="result-time" style="margin-top:8px;"></div>
             </div>
             <div class="card" id="miss-card" style="display:none;">
                 <div class="tag">Para repasar</div>
