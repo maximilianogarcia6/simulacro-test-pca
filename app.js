@@ -26,6 +26,26 @@ const appConfirmText = document.getElementById('app-confirm-text');
 const appConfirmCancel = document.getElementById('app-confirm-cancel');
 const appConfirmYes = document.getElementById('app-confirm-yes');
 
+function escapeHtml(str) {
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+}
+
+// Renderiza fórmulas LaTeX ($...$ inline, $$...$$ en bloque) dentro del elemento dado.
+function renderMath(el) {
+    if (window.renderMathInElement && el) {
+        window.renderMathInElement(el, {
+            delimiters: [
+                { left: '$$', right: '$$', display: true },
+                { left: '$', right: '$', display: false }
+            ],
+            throwOnError: false
+        });
+    }
+}
+
 function getUserStorageKey() {
     const safeName = (userInput.value || 'anon').trim().toLowerCase().replace(/[^a-z0-9]+/g, '_');
     return `${STORAGE_PREFIX}_${safeName || 'anon'}`;
@@ -427,6 +447,7 @@ function renderQuestion() {
     skipBtn.disabled = false;
     document.getElementById('quiz-feedback').innerHTML = '';
     document.getElementById('next-btn').style.display = 'none';
+    renderMath(document.getElementById('screen-quiz'));
 }
 
 function selectAnswer(letter) {
@@ -471,10 +492,12 @@ function confirmCurrentAnswer() {
     });
 
     const fb = document.getElementById('quiz-feedback');
+    const explHtml = escapeHtml(q.explanation).replace(/\n/g, '<br>');
     fb.innerHTML = `<div class="feedback ${isCorrect ? 'good' : 'bad'}">
       <div class="lead">${isCorrect ? '✅ ¡Correcto!' : '❌ Incorrecto — la respuesta era ' + q.answer}</div>
-      <div class="expl">${q.explanation}</div>
+      <div class="expl">${explHtml}</div>
     </div>`;
+    renderMath(fb);
 
     confirmBtn.disabled = true;
     skipBtn.disabled = true;
@@ -546,6 +569,7 @@ function finishSession() {
         <div class="q">${q.id} — ${q.question}</div>
         <div class="a">Correcta: ${q.answer}. ${q.options[q.answer]}</div>
       </div>`).join('');
+        renderMath(missList);
     } else {
         missCard.style.display = 'none';
     }

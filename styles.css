@@ -416,6 +416,17 @@ select {
 
 .feedback .expl {
     color: var(--muted);
+    white-space: pre-wrap;
+    tab-size: 4;
+}
+
+.katex-display {
+    text-align: left;
+    margin: 0;
+}
+
+.katex-display>.katex {
+    text-align: left;
 }
 
 .footer-nav {
