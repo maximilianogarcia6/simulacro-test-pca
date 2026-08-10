@@ -21,7 +21,7 @@
       "C": "factor de carga y este no tiene relación con la velocidad de pérdida."
     },
     "answer": "A",
-    "explanation": "El factor de carga es la relación entre la carga aerodinámica impuesta a las alas de un avión y el peso \nbruto del avión. Un factor de carga incrementa la velocidad de pérdida y disminuye la velocidad de \npérdida."
+    "explanation": "El factor de carga es la relación entre la carga aerodinámica impuesta a las alas de un avión y el peso \nbruto del avión. Un incremento del factor de carga incrementa la velocidad de pérdida y una disminución del factor de carga disminuye la velocidad de pérdida."
   },
   {
     "id": "5152",
@@ -38,7 +38,7 @@
   {
     "id": "5152.1",
     "section": "Aerodinámica básica",
-    "question": "5152.1- Mientras se ejecuta un giro nivelado a 60 grados, el avión tiene un factor de carga de 2,0. ¿Qué significa esto?",
+    "question": "5152.1- Mientras se ejecuta un viraje nivelado a 60 grados, el avión tiene un factor de carga de 2,0. ¿Qué significa esto?",
     "options": {
       "A": "La carga total sobre la estructura del avión es dos veces su peso.",
       "B": "El factor de carga está por encima de la carga limite.",
@@ -50,26 +50,26 @@
   {
     "id": "5153",
     "section": "Aerodinámica básica",
-    "question": "5153.- Para cualquier ángulo de inclinación, en cualquier avión, el factor de carga impuesto en un giro coordinado con altitud constante:",
+    "question": "5153.- Para cualquier ángulo de inclinación, en cualquier avión, el factor de carga impuesto en un viraje coordinado con altitud constante:",
     "options": {
       "A": "es constante y la velocidad de pérdida incrementará.",
-      "B": "varía con la tasa de giro.",
+      "B": "varía con el regimen de viraje.",
       "C": "es constante y la velocidad de pérdida disminuirá."
     },
     "answer": "A",
-    "explanation": "En un avión a cualquier velocidad, si se mantiene una altitud constante durante el giro, el factor de \ncarga para cualquier grado de inclinación es la misma, que es la resultante de la gravedad y la fuerza \ncentrífuga. La carga soportada por las alas incrementa con el ángulo de giro. Las velocidades de \npérdida incrementan en proporción a la raíz cuadrada del factor de carga.  \nLa respuesta (B) es incorrecta porque la velocidad de giro no afecta al factor de carga. La respuesta \n(C) es incorrecta porque la velocidad de pérdida aumentará con el aumento de la inclinación."
+    "explanation": "En un avión a cualquier velocidad, si se mantiene una altitud constante durante el viraje, el factor de \ncarga para cualquier grado de inclinación es la misma, que es la resultante de la gravedad y la fuerza \ncentrífuga. La carga soportada por las alas incrementa con el ángulo de banqueo. Las velocidades de \npérdida incrementan en proporción a la raíz cuadrada del factor de carga.  \nLa respuesta (B) es incorrecta porque la velocidad de viraje no afecta al factor de carga. La respuesta \n(C) es incorrecta porque la velocidad de pérdida aumentará con el aumento de la inclinación."
   },
   {
     "id": "5154",
     "section": "Aerodinámica básica",
-    "question": "5154.- La carga del ala del avión durante un giro coordinado nivelado con vientos suaves depende de:",
+    "question": "5154.- La carga del ala del avión durante un viraje coordinado nivelado con vientos suaves depende de:",
     "options": {
       "A": "la tasa de giro.",
       "B": "el ángulo de banqueo.",
       "C": "la velocidad real del aire."
     },
     "answer": "B",
-    "explanation": "Para cualquier ángulo de banqueo, la tasa inclinación varia con la velocidad del aire. Si el ángulo de \nbanqueo se mantiene constante y la velocidad del aire es incrementada, la tasa de giro disminuirá. \nDebido a esto; no hay un cambio en la fuerza centrífuga para ningún ángulo de banqueo dado. Por lo \ntanto, el factor de carga seguirá siendo el mismo. El factor de carga varia cambiando el ángulo de \nbanqueo y se incrementa rápidamente cuando el ángulo de inclinación alcanza los 50°. \nLa respuesta (A) es incorrecta porque la tasa de giro y la velocidad aerodinámica real no influyen en la \ncarga alar en un giro coordinado. La respuesta (C) es incorrecta porque la tasa de giro y la velocidad \naerodinámica real no influyen en la carga alar en un giro coordinado."
+    "explanation": "Para cualquier ángulo de banqueo, la tasa de viraje varia con la velocidad del aire. Si el ángulo de \nbanqueo se mantiene constante y la velocidad del aire es incrementada, la tasa de viraje disminuirá. \nDebido a esto; no hay un cambio en la fuerza centrífuga para ningún ángulo de banqueo dado. Por lo \ntanto, el factor de carga seguirá siendo el mismo. El factor de carga varia cambiando el ángulo de \nbanqueo y se incrementa rápidamente cuando este alcanza los 50°. \nLa respuesta (A) es incorrecta porque la tasa de viraje y la velocidad aerodinámica real no influyen en la \ncarga alar en un viraje coordinado. La respuesta (C) es incorrecta porque la tasa de viraje y la velocidad \naerodinámica real no influyen en la carga alar en un viraje coordinado."
   },
   {
     "id": "5155",
@@ -99,14 +99,14 @@
   {
     "id": "5157",
     "section": "Aerodinámica básica",
-    "question": "5157.- Mientras se mantiene un ángulo de banqueo y altitud constante en un giro coordinado, un aumento de la velocidad del aire:",
+    "question": "5157.- Mientras se mantiene un ángulo de banqueo y altitud constante en un viraje coordinado, un aumento de la velocidad del aire:",
     "options": {
       "A": "incrementa la tasa de giro resultante y disminuye el factor de carga.",
       "B": "disminuye la tasa de giro resultante y no cambia el factor de carga.",
       "C": "incrementa la tasa de giro resultante y no cambia el factor de carga."
     },
     "answer": "B",
-    "explanation": "Para cualquier ángulo de banqueo, la velocidad de giro varia con la velocidad del aire. En otras \npalabras, si el ángulo de banqueo se mantiene constante y la velocidad del aire es incrementada, la \ntasa de giro disminuirá, o si la velocidad del aire disminuye, la tasa de giro incrementará. Debido a \nesto, no hay un cambio en la fuerza centrífuga para cualquier inclinación dada. Por lo tanto, el factor \nde carga permanece igual. \nLa respuesta (A) es incorrecta porque el factor de carga permanece igual para un ángulo de banqueo \nconstante. La respuesta (C) es incorrecta porque la tasa de giro en un ángulo de banqueo constante \ndisminuirá con el incremento en la velocidad del aire, y el factor de carga permanecerá igual."
+    "explanation": "Para cualquier ángulo de banqueo, la velocidad de viraje varia con la velocidad del aire. En otras \npalabras, si el ángulo de banqueo se mantiene constante y la velocidad del aire es incrementada, la \ntasa de viraje disminuirá, o si la velocidad del aire disminuye, la tasa de viraje incrementará. Debido a \nesto, no hay un cambio en la fuerza centrífuga para cualquier inclinación dada. Por lo tanto, el factor \nde carga permanece igual. \nLa respuesta (A) es incorrecta porque el factor de carga permanece igual para un ángulo de banqueo \nconstante. La respuesta (C) es incorrecta porque la tasa de viraje en un ángulo de banqueo constante \ndisminuirá con el incremento en la velocidad del aire, y el factor de carga permanecerá igual."
   },
   {
     "id": "5158",
@@ -233,11 +233,11 @@
   {
     "id": "5167",
     "section": "Aerodinámica básica",
-    "question": "5167.- ¿Qué afirmación es verdadera en relación con el cambio del ángulo de ataque? resistencia. resistencia.",
+    "question": "5167.- ¿Qué afirmación es verdadera en relación con el cambio del ángulo de ataque?",
     "options": {
-      "A": "Una disminución en el ángulo de ataque incrementará la presión debajo del ala, y disminuirá la",
+      "A": "Una disminución en el ángulo de ataque incrementará la presión debajo del ala, y disminuirá la resistencia",
       "B": "Un aumento en el ángulo de ataque incrementará la resistencia.",
-      "C": "Un aumento en el ángulo de ataque disminuirá la presión debajo del ala, e incrementará la"
+      "C": "Un aumento en el ángulo de ataque disminuirá la presión debajo del ala, e incrementará la resistencia"
     },
     "answer": "B",
     "explanation": "El aire que golpea la parte inferior del ala es desviado hacia abajo, produciendo una reacción opuesta \nque empuja (Eleva) el ala hacia arriba. Para aumentar la sustentación, el ala se debe inclinar hacia \narriba, incrementando el ángulo de ataque y desviando el aire hacia abajo. Cuanto más grande sea el \nángulo de ataque, más se inclinará la fuerza de sustentación hacia la parte trasera de la aeronave, \naumentando la resistencia."
@@ -250,7 +250,7 @@
     "options": {
       "A": "la pérdida sin potencia se produce a velocidades superiores con el tren de aterrizaje y los flaps abajo.",
       "B": "en un giro a 60° el avión entrara en pérdida a una velocidad inferior con el tren de aterrizaje arriba.",
-      "C": "las pérdidas con potencia ocurren con la potencia encendida a velocidades de aire más bajas en giros con bajo ángulo de banqueo."
+      "C": "las pérdidas con potencia ocurren a velocidades de aire más bajas en virajes con bajo ángulo de banqueo."
     },
     "answer": "C",
     "explanation": "La entrada en pérdida ocurre a bajas velocidades del aire debido al aumento del flujo de aire sobre el\nala y dado que la sustentación se produce por la componente vertical de empuje, lo que reduce la\nsustentación que se necesita producir, por la velocidad. Las entradas en pérdida ocurren a una\nvelocidad del aire más baja y en una inclinación menos pronunciada.\nLa respuesta (A) es incorrecta porque la velocidad de pérdida es menor con la entrada en pérdida sin\npotencia, con el tren de aterrizaje y flaps abajo. La respuesta (B) es incorrecta porque la posición del\ntren de aterrizaje por sí solo no afecta a la velocidad de pérdida en una inclinación de 60°."
@@ -271,7 +271,7 @@
   {
     "id": "5181",
     "section": "Aerodinámica básica",
-    "question": "5181.- ¿Cuál es la verdad sobre el uso de flaps durante los giros nivelados?",
+    "question": "5181.- ¿Cuál afirmación es verdadera sobre el uso de flaps durante los giros nivelados?",
     "options": {
       "A": "El descenso de los flaps incrementa la velocidad de pérdida.",
       "B": "El elevamiento de los flaps incrementa la velocidad de pérdida.",
@@ -302,16 +302,16 @@
       "C": "incrementar el banqueo y disminuir la velocidad."
     },
     "answer": "C",
-    "explanation": "La componente horizontal de la sustentación será igual a la fuerza centrífuga de un viraje en vuelo \nestable. Para incrementar la tasa de giro, el ángulo de banqueo debe ser incrementado y la velocidad \ndel aire debe ser disminuida. \nLa respuesta (A) es incorrecta porque, aunque a un ángulo de banqueo dado, una disminución en la \nvelocidad del aire incrementará la tasa de giro y disminuirá el radio, esto será tan efectivo como \naumentar la inclinación y disminuir la velocidad. La respuesta (B) es incorrecta porque el piloto debe \ndisminuir la velocidad para incrementar el radio de giro."
+    "explanation": "La componente horizontal de la sustentación será igual a la fuerza centrífuga de un viraje en vuelo \nestable. Para incrementar la tasa de viraje, el ángulo de banqueo debe ser incrementado y la velocidad \ndel aire debe ser disminuida. \nLa respuesta (A) es incorrecta porque, aunque a un ángulo de banqueo dado, una disminución en la \nvelocidad del aire incrementará la tasa de giro y disminuirá el radio, esto será tan efectivo como \naumentar la inclinación y disminuir la velocidad. La respuesta (B) es incorrecta porque el piloto debe \ndisminuir la velocidad para incrementar el radio de giro."
   },
   {
     "id": "5193",
     "section": "Aerodinámica básica",
-    "question": "5193.- ¿Cuál es la opción correcta con respecto a la tasa y radio de giro para un avión que vuela en giro coordinado a una altitud constante?",
+    "question": "5193.- ¿Cuál es la opción correcta con respecto a la tasa y radio de viraje para un avión que vuela en viraje coordinado a una altitud constante?",
     "options": {
-      "A": "Para un especifico ángulo de banqueo y velocidad de aire, la tasa y radio de giro no variaran.",
-      "B": "Para mantener una tasa de giro estable, el ángulo de giro debe ser incrementado.",
-      "C": "Cuanto más rápida es la velocidad del aire, más rápido será la tasa y más largo el radio de giro independientemente del ángulo de giro."
+      "A": "Para un especifico ángulo de banqueo y velocidad de aire, la tasa y radio de viraje no variaran.",
+      "B": "Para mantener una tasa de giro estable, el ángulo de banqueo debe ser incrementado.",
+      "C": "Cuanto más rápida es la velocidad del aire, más rápido será la tasa y más largo el radio de viraje independientemente del ángulo de banqueo."
     },
     "answer": "A",
     "explanation": "Para un ángulo de banqueo especifico y una velocidad dada, el radio y la tasa de giro permanecerán\nconstantes si la altitud se mantiene constante. La tasa de giro varia con la velocidad del aire o el ángulo\nde banqueo. Si el ángulo de giro se mantiene constante y la velocidad del aire incrementa, la tasa de\ngiro disminuirá, y el radio de giro incrementará. Para mantener constante la tasa de giro cuando la\nvelocidad del aire es incrementada, el ángulo de giro deberá ser incrementado."
@@ -453,7 +453,7 @@
     "section": "Aerodinámica básica",
     "question": "5204.- El ángulo de ataque en el cual un ala entrará en pérdida, permanecerá constante independientemente de:",
     "options": {
-      "A": "el peso, la presión dinámica, ángulo de banqueo o la altitud de paso.",
+      "A": "el peso, la presión dinámica, ángulo de banqueo o la actitud de cabeceo.",
       "B": "la presión dinámica, pero variará con el peso, ángulo de banqueo y la altitud de paso.",
       "C": "el peso y la altitud de paso, pero variará con la presión dinámica y el ángulo de banqueo."
     },
@@ -549,17 +549,17 @@
     "section": "Aerodinámica básica",
     "question": "5212.- Un avión entrará en pérdida en el mismo:",
     "options": {
-      "A": "valor de ángulo de ataque independientemente de la altitud con relación al horizonte.",
-      "B": "velocidad del aire independientemente de la altitud con relación al horizonte.",
-      "C": "ángulo de ataque y altitud con relación al horizonte."
+      "A": "valor de ángulo de ataque independientemente de la actitud con relación al horizonte.",
+      "B": "velocidad del aire independientemente de la actitud con relación al horizonte.",
+      "C": "ángulo de ataque y actitud con relación al horizonte."
     },
     "answer": "A",
-    "explanation": "La definición de una pérdida es cuando el avión excede el ángulo de ataque crítico. Esto sucede porque\nel flujo de aire suave sobre la superficie del ala del avión se interrumpe y la sustentación se degenera\nrápidamente. Esto puede ocurrir a cualquier velocidad del aire, en cualquier altitud, y con cualquier\najuste de potencia."
+    "explanation": "La definición de una pérdida es cuando el avión excede el ángulo de ataque crítico. Esto sucede porque\nel flujo de aire suave sobre la superficie del ala del avión se interrumpe y la sustentación se degenera\nrápidamente. Esto puede ocurrir a cualquier velocidad del aire, en cualquier actitud, y con cualquier\najuste de potencia."
   },
   {
     "id": "5213",
     "section": "Aerodinámica básica",
-    "question": "5213.- (Refiérase a la Figura 3). ¿Si un avión planea con un ángulo de ataque de 10° ¿Cuánta altitud perderá en una milla?",
+    "question": "5213.- (Refiérase a la Figura 3). ¿Si un avión planea con un ángulo de ataque de 10° ¿Cuánta altitud perderá en una milla terrestre?",
     "image-id": "figure_3",
     "options": {
       "A": "240 Pies.",
@@ -598,7 +598,7 @@
   {
     "id": "5216",
     "section": "Aerodinámica básica",
-    "question": "5216.- Si el ángulo de ataque es mantenido en efecto suelo cuando este está fuera del efecto suelo, la sustentación:",
+    "question": "5216.- Si el mismo ángulo de ataque es mantenido en efecto suelo que cuando este está fuera del efecto suelo, la sustentación:",
     "options": {
       "A": "incrementa, e induce que la resistencia parásita disminuya.",
       "B": "decrece, y la resistencia parásita incrementa.",
@@ -610,7 +610,7 @@
   {
     "id": "5217",
     "section": "Aerodinámica básica",
-    "question": "5217.- ¿Qué rendimiento es característico del vuelo con la máxima relación de sustentación/arrastre en avión de hélice?",
+    "question": "5217.- ¿Qué rendimiento es característico del vuelo con la máxima relación de sustentación/resistencia en avión de hélice?",
     "options": {
       "A": "Ganancia de altitud en una distancia determinada.",
       "B": "Alcance y planeo de máxima distancia.",
@@ -622,11 +622,11 @@
   {
     "id": "5218",
     "section": "Aerodinámica básica",
-    "question": "5218.- ¿Cuál es la verdad respecto a las fuerzas que actúan sobre un avión en un descenso en estado estable? La suma de todas:",
+    "question": "5218.- ¿Cuál afirmacion es verdadera respecto a las fuerzas que actúan sobre un avión en un descenso en estado estable? La suma de todas:",
     "options": {
       "A": "las fuerzas ascendentes son menores que la suma de todas las fuerzas descendentes.",
       "B": "las fuerzas hacia atrás son más grandes que la suma de todas las fuerzas hacia delante.",
-      "C": "las fuerzas ascendentes son iguales que la suma de todas las fuerzas descendentes."
+      "C": "La suma de las fuerzas hacia adelante es igual a la suma de las fuerzas hacia atrás."
     },
     "answer": "C",
     "explanation": "En vuelo estable, la suma de las fuerzas opuestas es igual a cero. La suma de todas las fuerzas \nascendentes es igual a todas las fuerzas descendentes. La suma de todas las fuerzas hacia delante \nes igual a la suma de todas las fuerzas hacia atrás."
@@ -634,7 +634,7 @@
   {
     "id": "5219",
     "section": "Aerodinámica básica",
-    "question": "5219.- ¿Cuál es la verdad con respecto a la fuerza de sustentación en vuelo estable no acelerado?",
+    "question": "5219.- ¿Cuál afirmacion es verdadera con respecto a la fuerza de sustentación en vuelo estable no acelerado?",
     "options": {
       "A": "A menor velocidad del aire, el ángulo de ataque debe ser menor para generar la suficiente sustentación para mantener la altitud.",
       "B": "Hay una correspondiente velocidad indicada requerida para cada ángulo, para así generar la suficiente sustentación y mantener la altitud.",
@@ -646,7 +646,7 @@
   {
     "id": "5220",
     "section": "Aerodinámica básica",
-    "question": "5220.- Cuando hay una transición de un vuelo recto y nivelado a un ascenso con velocidad constante, el ángulo de ataque y sustentación: ascenso.",
+    "question": "5220.- Cuando hay una transición de un vuelo recto y nivelado a un ascenso con velocidad constante, el ángulo de ataque y sustentación:",
     "options": {
       "A": "se incrementan y se mantiene con una mayor relación peso-sustentación para mantener el ascenso.",
       "B": "permanecen igual y mantendrá estable la relación peso-sustentación durante el ascenso.",
@@ -759,7 +759,7 @@
     "section": "Aerodinámica básica",
     "question": "5227.- La inestabilidad dinámica en un avión puede ser identificada mediante:",
     "options": {
-      "A": "las oscilaciones en un banco, las cuales se vuelven progresivamente más pronunciadas.",
+      "A": "las oscilaciones en el banqueo, las cuales se vuelven progresivamente más pronunciadas.",
       "B": "las oscilaciones de cabeceo, las cuales se vuelven progresivamente más pronunciadas.",
       "C": "las oscilaciones en los tres ejes se vuelven progresivamente más pronunciadas."
     },
@@ -869,8 +869,8 @@
     "section": "Aerodinámica básica",
     "question": "5750.- Escoja la afirmación correcta sobre la estela turbulenta:",
     "options": {
-      "A": "la generación de vórtices comienza con la iniciación del giro en el despegue.",
-      "B": "el peligro principal es la pérdida de control por el giro inducido",
+      "A": "la generación de vórtices comienza con la iniciación de la carrera de despegue.",
+      "B": "el peligro principal es la pérdida de control por el alabeo inducido",
       "C": "la mayor fuerza del vórtice es producida cuando el avión generador es grande y rápido."
     },
     "answer": "B",
@@ -930,7 +930,7 @@
     "question": "5974.- Un avión con ala con flechada con una estabilidad estática débil y un diedro aumentado provoca un aumento de:",
     "options": {
       "A": "la tendencia al momento de picada.",
-      "B": "tendencia a un tonel holandés.",
+      "B": "tendencia al balanceo holandés.",
       "C": "estabilidad longitudinal."
     },
     "answer": "B",
@@ -951,26 +951,26 @@
   {
     "id": "5978",
     "section": "Aerodinámica básica",
-    "question": "5978.- Si la velocidad del aire se disminuye de 98 nudos a 85 nudos durante un giro coordinado y nivelado de 45 grados, el factor de carga:",
+    "question": "5978.- Si la velocidad del aire se disminuye de 98 nudos a 85 nudos durante un viraje coordinado y nivelado de 45 grados, el factor de carga:",
     "options": {
-      "A": "será el mismo, pero el radio del giro disminuirá.",
-      "B": "disminuirá y la tasa de giro decrecerá.",
-      "C": "será el mismo, pero el radio de giro aumentará."
+      "A": "será el mismo, pero el radio del viraje disminuirá.",
+      "B": "disminuirá y la tasa de viraje decrecerá.",
+      "C": "será el mismo, pero el radio de viraje aumentará."
     },
     "answer": "A",
-    "explanation": "A un ángulo de inclinación determinado, una pérdida en la velocidad del aire hará que el radio de giro \nsea menor y el avión girara a mayor velocidad. Esto compensa la reducción de la fuerza centrífuga, \npermitiendo que el factor de carga permanezca siendo el mismo."
+    "explanation": "A un ángulo de inclinación determinado, una pérdida en la velocidad del aire hará que el radio de viraje \nsea menor y el avión virará a mayor velocidad. Esto compensa la reducción de la fuerza centrífuga, \npermitiendo que el factor de carga permanezca siendo el mismo."
   },
   {
     "id": "5978.1",
     "section": "Aerodinámica básica",
-    "question": "5978.1.- Si la velocidad del aire es incrementada de 89 nudos a 98 nudos durante un giro coordinado con una inclinación de 45°, el factor de carga:",
+    "question": "5978.1.- Si la velocidad del aire es incrementada de 89 nudos a 98 nudos durante un viraje coordinado con una inclinación de 45°, el factor de carga:",
     "options": {
-      "A": "decrecerá y el radio de giro disminuirá.",
-      "B": "permanecen igual, pero el radio de giro se incrementará.",
-      "C": "aumentará, pero el radio de giro disminuirá."
+      "A": "decrecerá y el radio de viraje disminuirá.",
+      "B": "permanecen igual, pero el radio de viraje se incrementará.",
+      "C": "aumentará, pero el radio de viraje disminuirá."
     },
     "answer": "B",
-    "explanation": "Cuando se realiza un giro con una velocidad del aire alta con un ángulo de banqueo determinado, la inercia es mayor y la componente de sustentación requerida para el giro será más alta, causando que la tasa de giro se más lenta. Por lo tanto, a un ángulo de banqueo determinado, una velocidad del aire alta hará que el radio de giro incremente por lo que el avión girara a una velocidad más lenta. Esto compensa la fuerza centrífuga añadida, permitiendo que el factor de carga siga siendo el mismo."
+    "explanation": "Cuando se realiza un viraje con una velocidad del aire alta con un ángulo de banqueo determinado, la inercia es mayor y la componente de sustentación requerida para el giro será más alta, causando que la tasa de giro se más lenta. Por lo tanto, a un ángulo de banqueo determinado, una velocidad del aire alta hará que el radio de viraje incremente por lo que el avión virará a una velocidad más lenta. Esto compensa la fuerza centrífuga añadida, permitiendo que el factor de carga siga siendo el mismo."
   },
   {
     "id": "5979",
@@ -5111,11 +5111,11 @@
   {
     "id": "5434",
     "section": "Servicios meteorológicos",
-    "question": "5434.- ¿Qué fenómeno meteorológico está implícito dentro de un área delimitada por pequeñas líneas onduladas en una carta de pronóstico meteorológico significativo de nivel superior? hielo.",
+    "question": "5434.- ¿Qué fenómeno meteorológico está implícito dentro de un área delimitada por pequeñas líneas onduladas en una carta de pronóstico meteorológico significativo de nivel superior?",
     "options": {
       "A": "Nubes uniformes, formación de hielo, turbulencia de leve a moderada.",
       "B": "Nubes cumulonimbus, engelamiento y turbulencia de moderada o mayor.",
-      "C": "Nubes lenticulares estacionarias o cumuliformes, turbulencia de moderada a severa y formación de"
+      "C": "Nubes lenticulares estacionarias o cumuliformes, turbulencia de moderada a severa y formación de hielo."
     },
     "answer": "B",
     "explanation": "Las pequeñas líneas onduladas encierran áreas donde se espera el desarrollo de Cumulonimbus. Las \nnubes cumulonimbus implican engelamiento y turbulencia de moderada a mayor."
@@ -5198,7 +5198,7 @@
     "question": "5443.- El valor mínimo de cortantes de viento crítico para una posible turbulencia moderada o severa es:",
     "options": {
       "A": "4 nudos por cada 1,000 pies.",
-      "B": "6 mudos por cada 1,000 pies.",
+      "B": "6 nudos por cada 1,000 pies.",
       "C": "8 nudos por cada 1,000 pies."
     },
     "answer": "B",
@@ -5207,14 +5207,14 @@
   {
     "id": "5444",
     "section": "Servicios meteorológicos",
-    "question": "5444.- Un piloto que reporta turbulenci as que provocan momentáneamente cambios leves y erráticos en la altitud y / o actitud debe reportarlo como:",
+    "question": "5444.- Un piloto que reporta turbulencias que provocan momentáneamente cambios leves y erráticos en la altitud y/o actitud debe reportarlo como:",
     "options": {
       "A": "corte ligero.",
       "B": "turbulencia ligera.",
       "C": "turbulencia moderada."
     },
     "answer": "B",
-    "explanation": "La turbulencia que provoca momentáneamente cambios leves y erráticos en la altitud y / o actitud \n(cabeceo, balanceo, guiñada) se informa como turbulencia leve / ligera. \nLa respuesta (A) es incorrecta porque el corte ligero es un golpe leve, rápido y algo rítmico.  \nLa respuesta (C) es incorrecta porque una turbulen cia moderada provoca cambios en la altitud y / o \nactitud y variaciones en la velocidad indicada."
+    "explanation": "La turbulencia que provoca momentáneamente cambios leves y erráticos en la altitud y/o actitud \n(cabeceo, balanceo, guiñada) se informa como turbulencia leve / ligera. \nLa respuesta (A) es incorrecta porque el corte ligero es un golpe leve, rápido y algo rítmico.  \nLa respuesta (C) es incorrecta porque una turbulen cia moderada provoca cambios en la altitud y / o \nactitud y variaciones en la velocidad indicada."
   },
   {
     "id": "5445",
@@ -5231,14 +5231,14 @@
   {
     "id": "5446",
     "section": "Servicios meteorológicos",
-    "question": "5446.- La turbulencia que se encuentre por encima de los 15,000 pies AGL no asociada con nubosidad cuculiforme, incluidas las tormentas eléctricas, debe informarse como:",
+    "question": "5446.- La turbulencia que se encuentre por encima de los 15,000 pies AGL no asociada con nubosidad cumuliforme, incluidas las tormentas eléctricas, debe informarse como:",
     "options": {
       "A": "turbulencia severa.",
       "B": "turbulencia de aire claro.",
       "C": "turbulencia convectiva."
     },
     "answer": "B",
-    "explanation": "Las turbulencias de alto nivel (normalmente por encima de los 15.000 pies AGL) no asociadas con la \nnubosidad cauliforme, incluidas las tormentas eléctricas, deben notificarse como CAT (turbulencia de \naire claro) precedidas por la intensidad adecuada, o golpe ligero o moderado. \nLa respuesta (A) es incorrecta porque la turbulencia severa no depende de la altitud.  \nLa respuesta (C) es incorrecta porque la turbulencia convectiva se refiere a la acción de elevación \nrelacionada con la turbulencia con cúmulos."
+    "explanation": "Las turbulencias de alto nivel (normalmente por encima de los 15.000 pies AGL) no asociadas con la \nnubosidad cumuliforme, incluidas las tormentas eléctricas, deben notificarse como CAT (turbulencia de \naire claro) precedidas por la intensidad adecuada, o golpe ligero o moderado. \nLa respuesta (A) es incorrecta porque la turbulencia severa no depende de la altitud.  \nLa respuesta (C) es incorrecta porque la turbulencia convectiva se refiere a la acción de elevación \nrelacionada con la turbulencia con cúmulos."
   },
   {
     "id": "5560",
@@ -5250,7 +5250,7 @@
       "C": "ayudas a la navegación baja frecuencia seleccionadas y / o VOR."
     },
     "answer": "A",
-    "explanation": "Los ARTCC emiten una alerta de pronóstico de tiempo severo (AWW), SIGMET, SIGMET convectivo\no alerta CWA una vez en todas las f recuencias, excepto de emergencia, cuando cualquier parte del\nárea descrita está dentro de las 150 millas del espacio aéreo bajo su jurisdicción. Estas transmisiones\ncontienen un SIGMET o CWA (identificación) y una breve descripción de la actividad meteorológica y\nel área general afectada."
+    "explanation": "Los ARTCC emiten una alerta de pronóstico de tiempo severo (AWW), SIGMET, SIGMET convectivo\no alerta CWA una vez en todas las frecuencias, excepto de emergencia, cuando cualquier parte del\nárea descrita está dentro de las 150 millas del espacio aéreo bajo su jurisdicción. Estas transmisiones\ncontienen un SIGMET o CWA (identificación) y una breve descripción de la actividad meteorológica y\nel área general afectada."
   },
   {
     "id": "5988",
@@ -5286,7 +5286,7 @@
       "C": "350 libras y no excedería la limitante."
     },
     "answer": "B",
-    "explanation": ": \nCada compartimento de carga debe diseñarse para su peso máximo de contenido rotulado en relación \ncon los factores de carga críticos. Las aeronaves de categoría normal con un peso bruto de menos de \n4,000 libras están diseñadas para un factor de carga de maniobra de 3.8 veces el peso de la aeronave \no 3.8 Gs. Por tanto, un factor de carga de 3. 5 Gs no sería excesivo. El factor de carga es la relación \nentre una carga dada y su peso. Por lo tanto: \n90.0 lbs de peso x 3.5 Gs = 315.0 lbs de carga."
+    "explanation": "Cada compartimento de carga debe diseñarse para su peso máximo de contenido rotulado en relación \ncon los factores de carga críticos. Las aeronaves de categoría normal con un peso bruto de menos de \n4,000 libras están diseñadas para un factor de carga de maniobra de 3.8 veces el peso de la aeronave \no 3.8 Gs. Por tanto, un factor de carga de 3. 5 Gs no sería excesivo. El factor de carga es la relación \nentre una carga dada y su peso. Por lo tanto: \n90.0 lbs de peso x 3.5 Gs = 315.0 lbs de carga."
   },
   {
     "id": "5208",
@@ -5298,7 +5298,7 @@
       "C": "deberá aumentarse para compensar el aire más fino."
     },
     "answer": "A",
-    "explanation": ": \nUn avión en altitud aterrizará a la misma velocidad indicada que a nivel del mar, pero debido a la menor \ndensidad del aire, tendrá una mayor velocidad verdadera. Si la velocidad verdadera es mayor, la \nvelocidad respecto a tierra será mayor."
+    "explanation": "Un avión en altitud aterrizará a la misma velocidad indicada que a nivel del mar, pero debido a la menor \ndensidad del aire, tendrá una mayor velocidad verdadera. Si la velocidad verdadera es mayor, la \nvelocidad respecto a tierra será mayor."
   },
   {
     "id": "5234",
@@ -5310,7 +5310,7 @@
       "C": "altitud verdadera."
     },
     "answer": "A",
-    "explanation": ": \nLa presión y la altitud de densidad son los factores utilizados en las tablas de rendimiento de la \naeronave para el despegue y el ascenso. \nLa respuesta (B) es incorrecta porque la altitud de la cabina es la altitud a la que se encuentra una \ncabina presurizada. La respuesta (C) es incorrecta porque la altitud verdadera es la altura sobre el \nnivel del mar. Las cartas aeronáuticas muestran las elevaciones de los obstáculos en altitud real."
+    "explanation": "La presión y la altitud de densidad son los factores utilizados en las tablas de rendimiento de la \naeronave para el despegue y el ascenso. \nLa respuesta (B) es incorrecta porque la altitud de la cabina es la altitud a la que se encuentra una \ncabina presurizada. La respuesta (C) es incorrecta porque la altitud verdadera es la altura sobre el \nnivel del mar. Las cartas aeronáuticas muestran las elevaciones de los obstáculos en altitud real."
   },
   {
     "id": "5300",
@@ -5322,7 +5322,7 @@
       "C": "A medida que aumenta la temperatura, el empuje disminuye."
     },
     "answer": "C",
-    "explanation": ": \nUn aumento de altitud hace que el flujo de aire del motor disminuya de una manera casi idéntica a la \nrelación de densidad de altitud. Esto provoca una disminución significativa del empuje en altitud frente \nal empuje a nivel del mar a medida que aumenta la altitud. Un aumento en la temperatura del aire de \nentrada proporcionará una menor energía del gas de combustión y provocará una menor velocidad del \nchorro"
+    "explanation": "Un aumento de altitud hace que el flujo de aire del motor disminuya de una manera casi idéntica a la \nrelación de densidad de altitud. Esto provoca una disminución significativa del empuje en altitud frente \nal empuje a nivel del mar a medida que aumenta la altitud. Un aumento en la temperatura del aire de \nentrada proporcionará una menor energía del gas de combustión y provocará una menor velocidad del \nchorro"
   },
   {
     "id": "5302",
@@ -5334,7 +5334,7 @@
       "C": "+5° C."
     },
     "answer": "A",
-    "explanation": ": \nLa temperatura estándar al nivel del mar es de 15° C. La gradiente estándar de temperatura es de 2° \nC / 1,000 pies. \n10 x 2 = -20° C disminución de temperatura a 10,000 pies \n+ 15° - 20° = -5° C temperatura estándar a 10,000 pies."
+    "explanation": "La temperatura estándar al nivel del mar es de 15° C. La gradiente estándar de temperatura es de 2° \nC / 1,000 pies. \n10 x 2 = -20° C disminución de temperatura a 10,000 pies \n+ 15° - 20° = -5° C temperatura estándar a 10,000 pies."
   },
   {
     "id": "5303",
@@ -5346,7 +5346,7 @@
       "C": "-25°C."
     },
     "answer": "C",
-    "explanation": ": \nLa temperatura estándar al nivel del mar es de 15° C. La gradiente estándar de temperatura es de 2° \nC / 1,000 pies. \n20 x -2 = -40° C disminución de temperatura a 20,000 pies \n15°C - 40°C = -25°C temperatura estándar a 20,000 pies"
+    "explanation": "La temperatura estándar al nivel del mar es de 15° C. La gradiente estándar de temperatura es de 2° \nC / 1,000 pies. \n20 x -2 = -40° C disminución de temperatura a 20,000 pies \n15°C - 40°C = -25°C temperatura estándar a 20,000 pies"
   },
   {
     "id": "5305",
@@ -5358,7 +5358,7 @@
       "C": "15°C y 29.92 Mb."
     },
     "answer": "A",
-    "explanation": ":"
+    "explanation": "La temperatura estándar a nivel del mar es de 15°C y la presión estándar a nivel del mar es de 29,92 pulgadas de mercurio (Hg)."
   },
   {
     "id": "5451",
@@ -5371,7 +5371,7 @@
       "C": "3 horas 43 minutos."
     },
     "answer": "B",
-    "explanation": ": \n1. Ingrese a la tabla en el punto donde la línea de potencia máxima continua del 55% se cruza con la \ncurva de crucero (pobre). \n2. Desde ese punto, diríjase a la izquierda y lea el flujo de combustible: 11.4 GPH \n3. Calcule el tiempo de vuelo: \n    47 ÷ 11.4 = 4.12 horas \n4. Calcule el tiempo de vuelo disponible con una reserva de 45 minutos (0.75 horas): \n    4.12 – 0.75 = 3.37 = 3 horas, 22 minutos."
+    "explanation": "1. Ingrese a la tabla en el punto donde la línea de potencia máxima continua del 55% se cruza con la \ncurva de crucero (pobre). \n2. Desde ese punto, diríjase a la izquierda y lea el flujo de combustible: 11.4 GPH \n3. Calcule el tiempo de vuelo: \n    47 ÷ 11.4 = 4.12 horas \n4. Calcule el tiempo de vuelo disponible con una reserva de 45 minutos (0.75 horas): \n    4.12 – 0.75 = 3.37 = 3 horas, 22 minutos."
   },
   {
     "id": "5452",
@@ -5384,7 +5384,7 @@
       "C": "5 horas 4 minutos."
     },
     "answer": "B",
-    "explanation": ": \n1. Ingrese la tabla en el punto donde la línea de potencia máxima continua del 55% se cruza con la \ncurva de mejor potencia para vuelo nivelado. \n2. Desde ese punto, diríjase a la izquierda y lea el flujo de combustible: 13.0 GPH \n3. Calcule el tiempo de vuelo: \n    65 gal ÷ 13.0 = 5.0 horas \n4. Calcule el tiempo de vuelo disponible con una reserva de 30 minutos (0.5 horas): \n    5.0 – 0.5 = 4.5 = 4 horas, 30 minutos."
+    "explanation": "1. Ingrese la tabla en el punto donde la línea de potencia máxima continua del 55% se cruza con la \ncurva de mejor potencia para vuelo nivelado. \n2. Desde ese punto, diríjase a la izquierda y lea el flujo de combustible: 13.0 GPH \n3. Calcule el tiempo de vuelo: \n    65 gal ÷ 13.0 = 5.0 horas \n4. Calcule el tiempo de vuelo disponible con una reserva de 30 minutos (0.5 horas): \n    5.0 – 0.5 = 4.5 = 4 horas, 30 minutos."
   },
   {
     "id": "5453",
@@ -5397,7 +5397,7 @@
       "C": "2.15 galones."
     },
     "answer": "C",
-    "explanation": ": \n1.  Ingrese a la carta en el punto donde la línea de potencia máxima continua del 75% se cruza con la \ncurva de despegue y ascenso. \n2. Desde ese punto, proceda a la izquierda y lea el flujo de combustible 18.4 GPH. \n3. Calcular el consumo de combustible: \n    (18.4 x 7) ÷ 60 = 2.1 galones."
+    "explanation": "1.  Ingrese a la carta en el punto donde la línea de potencia máxima continua del 75% se cruza con la \ncurva de despegue y ascenso. \n2. Desde ese punto, proceda a la izquierda y lea el flujo de combustible 18.4 GPH. \n3. Calcular el consumo de combustible: \n    (18.4 x 7) ÷ 60 = 2.1 galones."
   },
   {
     "id": "5454",
@@ -5410,7 +5410,7 @@
       "C": "3.2 galones."
     },
     "answer": "B",
-    "explanation": ": \n1. Interpolar una línea vertical para un 70% de potencia entre las líneas de 65% y 75% de potencia. \n2.  Desde el punto de intersección de la línea del 70% con la curva de despegue y ascenso, dibuje una \nlínea hacia la izquierda y lea el flujo de combustible, 17.3 GPH. \n3. Calcule el combustible consumido: \n    (17.3 x 10) ÷ 60 = 288 galones."
+    "explanation": "1. Interpolar una línea vertical para un 70% de potencia entre las líneas de 65% y 75% de potencia. \n2.  Desde el punto de intersección de la línea del 70% con la curva de despegue y ascenso, dibuje una \nlínea hacia la izquierda y lea el flujo de combustible, 17.3 GPH. \n3. Calcule el combustible consumido: \n    (17.3 x 10) ÷ 60 = 288 galones."
   },
   {
     "id": "5455",
@@ -5423,7 +5423,7 @@
       "C": "3 horas 18 minutos."
     },
     "answer": "A",
-    "explanation": ": \n1.  Ingrese la tabla en el punto donde la línea de potencia máxima continua del 55% se cruza con la \ncurva de crucero (pobre). \n2. Desde ese punto, proceda a la izquierda y lea el flujo de combustible 11.4 GPH. \n3. Calcule el tiempo de vuelo: \n    38 gal ÷ 11.4 GPH = 3,33 horas \n4. Calcule el tiempo de vuelo disponible con una reserva de 45 minutos (0.75 horas):"
+    "explanation": "1.  Ingrese la tabla en el punto donde la línea de potencia máxima continua del 55% se cruza con la \ncurva de crucero (pobre). \n2. Desde ese punto, proceda a la izquierda y lea el flujo de combustible 11.4 GPH. \n3. Calcule el tiempo de vuelo: \n    38 gal ÷ 11.4 GPH = 3,33 horas \n4. Calcule el tiempo de vuelo disponible con una reserva de 45 minutos (0.75 horas):"
   },
   {
     "id": "5456",
@@ -5436,7 +5436,7 @@
       "C": "58 libras."
     },
     "answer": "C",
-    "explanation": ": \n1.  Localice la sección correspondiente a 3,800 libras de peso. Ubique la altitud de presión de 4,000  \npies y lea en la columna de combustible utilizado el valor de 12 libras.  \n2.  Ubique la altitud de presión de 12,000 pies y lea en la columna de combustible utilizado el valor de \n51 libras. \n3. Calcule el combustible necesario para el ascenso: \n    51-12 = 39 libras \n4.  Aplique la Nota #2 antes de agregar el combustible según la Nota #1. (Una temperatura de 26°C es \n+ 19°C, en relación con la atmósfera estándar a 4,000 pies). \n      39 x 1.19 = 46.4 libras \n5. Aplicar la Nota #1: \n    46.4 libras + 12.0 libras de encendido y rodaje = 58.4 libras en total."
+    "explanation": "1.  Localice la sección correspondiente a 3,800 libras de peso. Ubique la altitud de presión de 4,000  \npies y lea en la columna de combustible utilizado el valor de 12 libras.  \n2.  Ubique la altitud de presión de 12,000 pies y lea en la columna de combustible utilizado el valor de \n51 libras. \n3. Calcule el combustible necesario para el ascenso: \n    51-12 = 39 libras \n4.  Aplique la Nota #2 antes de agregar el combustible según la Nota #1. (Una temperatura de 26°C es \n+ 19°C, en relación con la atmósfera estándar a 4,000 pies). \n      39 x 1.19 = 46.4 libras \n5. Aplicar la Nota #1: \n    46.4 libras + 12.0 libras de encendido y rodaje = 58.4 libras en total."
   },
   {
     "id": "5457",
@@ -5449,7 +5449,7 @@
       "C": "35 libras."
     },
     "answer": "C",
-    "explanation": ": \n1.  Localice la sección correspondiente a de 3500 libras de peso. Ubique la altitud de presión de 4,000 \npies y lea en la columna de combustible utilizado el valor de 11 libras. \n2.  Ubique la altitud de presión de 10,000 pies y lea en la columna de combustible utilizado el valor de \n31 libras. \n3.  Calcule el combustible necesario para el ascenso: \n     31-11 = 20 libras"
+    "explanation": "1.  Localice la sección correspondiente a de 3500 libras de peso. Ubique la altitud de presión de 4,000 \npies y lea en la columna de combustible utilizado el valor de 11 libras. \n2.  Ubique la altitud de presión de 10,000 pies y lea en la columna de combustible utilizado el valor de \n31 libras. \n3.  Calcule el combustible necesario para el ascenso: \n     31-11 = 20 libras"
   },
   {
     "id": "5458",
@@ -5610,7 +5610,7 @@
   {
     "id": "5486",
     "section": "Performance",
-    "question": "5486.- (Refiérase a la Figura 15). DADO: Altitud de presión del aeropuerto 4000 pies Temperatura del aeropuerto 12°C Altitud de presión de crucero 9.000 pies Temperatura de crucero -4°C ¿Cuál será la distancia necesaria para ascender a la altitud de cr ucero en las condiciones dadas?",
+    "question": "5486.- (Refiérase a la Figura 15). DADO: Altitud de presión del aeropuerto 4000 pies Temperatura del aeropuerto 12°C Altitud de presión de crucero 9.000 pies Temperatura de crucero -4°C ¿Cuál será la distancia necesaria para ascender a la altitud de crucero en las condiciones dadas?",
     "image-id": "figure_15",
     "options": {
       "A": "6 millas.",
@@ -5686,7 +5686,7 @@
   {
     "id": "5614.1",
     "section": "Performance",
-    "question": "5614.1.- Al iniciar un sobrepaso, el piloto debe tener en cuenta que:",
+    "question": "5614.1.- Al iniciar un sobrepaso (go-around), el piloto debe tener en cuenta que:",
     "options": {
       "A": "las comunicaciones por radio son clave para alertar a otras aeronaves en el circuito de que se está realizando una maniobra de sobrepaso.",
       "B": "el avión está compensado para una condición potencia reducida y la aplicación de potencia de despegue hará que la nariz suba rápidamente.",
@@ -6027,14 +6027,14 @@
   {
     "id": "5648",
     "section": "Performance",
-    "question": "5648.- Un avión se carga con un peso bruto de 4 ,800 libras, con tres piezas de equipaje en el compartimiento de equipaje trasero. El CG se encuentra a 98 pulgadas después del datum, lo que indica que está 1 pulgada por fuera del límite trasero. Si el equipaje que pesa 90 libras se mueve desde el compartimiento de equipaje trasero (145 pulgadas después  del datum) al compartimiento delantero (45 pulgadas después del datum), ¿cuál es el nuevo CG?",
+    "question": "5648.- Un avión se carga con un peso bruto de 4,800 libras, con tres piezas de equipaje en el compartimiento de equipaje trasero. El CG se encuentra a 98 pulgadas después del datum, lo que indica que está 1 pulgada por fuera del límite trasero. Si el equipaje que pesa 90 libras se mueve desde el compartimiento de equipaje trasero (145 pulgadas después  del datum) al compartimiento delantero (45 pulgadas después del datum), ¿cuál es el nuevo CG?",
     "options": {
       "A": "96.13 pulgadas después del datum.",
       "B": "95.50 pulgadas después del datum.",
       "C": "99.87 pulgadas después del datum."
     },
     "answer": "A",
-    "explanation": "1. Cambio en CG = Peso desplazado x Distancia desplazada ÷ Peso total"
+    "explanation": "1. Cambio en CG = Peso desplazado x Distancia desplazada ÷ Peso total \n90 x (145 - 45) ÷ 4,800 = 1.875 pulgadas \n2. Dado que el peso se desplazó hacia adelante, el CG también se mueve hacia adelante. El cambio de 1.875 pulgadas se resta del CG original. \nNuevo CG = 98.0 – 1.875 = 96.13 pulgadas."
   },
   {
     "id": "5649",
@@ -6121,7 +6121,7 @@
       "C": "ajustar el cabeceo para mantener VY."
     },
     "answer": "A",
-    "explanation": "En el caso de una falla del motor en el ascenso inicial, la primera responsabilidad del piloto es mantener \nel control de la aeronave. En una actitud de ascenso sin potencia, el avión está en un ángulo de ataque \nde pérdida o cerca a éste. Al mismo tiempo, es posible que el piloto aún mantenga el timón de dirección"
+    "explanation": "En el caso de una falla del motor en el ascenso inicial, la primera responsabilidad del piloto es mantener \nel control de la aeronave. En una actitud de ascenso sin potencia, el avión está en un ángulo de ataque \nde pérdida o cerca a éste. Al mismo tiempo, es posible que el piloto aún mantenga el timón de dirección deflectado a la derecha. El piloto debe bajar inmediatamente la nariz para evitar una pérdida mientras deflecta el timón de dirección para asegurar un vuelo coordinado. No se debe intentar volver a la pista desde la que se despegó. El piloto debería establecer un planeo controlado hacia un área de aterrizaje adecuada, preferiblemente dentro del rumbo de vuelo de la aeronave."
   },
   {
     "id": "5664",
@@ -6145,7 +6145,7 @@
       "C": "el ala a favor del viento debe bajarse lo suficiente para eliminar la tendencia del avión a derrapar."
     },
     "answer": "B",
-    "explanation": "La dirección del desplazamiento y el eje longitudinal deben estar paralelos a la pista o se producirá un \nderrape, con posibles daños a la aeronave. \nLa respuesta (A) es incorrecta porque la dirección de desplazamiento del avión debe ser paralela a la \npista. La respuesta (C) es incorrecta porque el ala a favor del viento debe bajarse para eliminar el \nderrape."
+    "explanation": "La dirección del desplazamiento y el eje longitudinal deben estar paralelos a la pista o se producirá un \nderrape, con posibles daños a la aeronave. \nLa respuesta (A) es incorrecta porque la dirección de desplazamiento del avión debe ser paralela a la \npista. La respuesta (C) es incorrecta porque el ala del lado del viento debe bajarse para eliminar el \nderrape."
   },
   {
     "id": "5997",
