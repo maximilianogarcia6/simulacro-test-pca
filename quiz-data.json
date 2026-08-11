@@ -1,17 +1,5 @@
 [
   {
-    "id": "1",
-    "section": "Aerodinámica básica",
-    "question": "1. Prueba",
-    "options": {
-      "A": "A",
-      "B": "B",
-      "C": "C"
-    },
-    "answer": "B",
-    "explanation": "$$\\frac{L}{D}=\\frac{11}{1}=\\frac{\\text{distancia horizontal}}{\\text{distancia vertical}}$$"
-  },
-  {
     "id": "5017",
     "section": "Aerodinámica básica",
     "question": "5017.- ¿Si un avión es calificado de categoría utilitaria, significaría que este avión podría ser operado en cuál de las siguientes maniobras?",
