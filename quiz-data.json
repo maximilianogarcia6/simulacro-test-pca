@@ -190,7 +190,7 @@
       "C": "permanecerá igual pero el radio de giro se incrementará."
     },
     "answer": "C",
-    "explanation": "A un ángulo de banqueo determinado, una mayor velocidad del aire hará que el radio de giro sea mayor y el avión girara a una velocidad más lenta. Esto compensa la fuerza centrífuga añadida, permitiendo que el factor de carga permanezca constante."
+    "explanation": "A un ángulo de banqueo determinado, una mayor velocidad del aire hará que el radio de viraje sea mayor y el avión virará a una velocidad más lenta. Esto compensa la fuerza centrífuga añadida, permitiendo que el factor de carga permanezca constante."
   },
   {
     "id": "5163.1",
@@ -314,7 +314,7 @@
       "C": "Cuanto más rápida es la velocidad del aire, más rápido será la tasa y más largo el radio de viraje independientemente del ángulo de banqueo."
     },
     "answer": "A",
-    "explanation": "Para un ángulo de banqueo especifico y una velocidad dada, el radio y la tasa de giro permanecerán constantes si la altitud se mantiene constante. La tasa de giro varia con la velocidad del aire o el ángulo de banqueo. Si el ángulo de giro se mantiene constante y la velocidad del aire incrementa, la tasa de giro disminuirá, y el radio de giro incrementará. Para mantener constante la tasa de giro cuando la velocidad del aire es incrementada, el ángulo de giro deberá ser incrementado."
+    "explanation": "Para un ángulo de banqueo especifico y una velocidad dada, el radio y la tasa de viraje permanecerán constantes si la altitud se mantiene constante. La tasa de viraje varia con la velocidad del aire o el ángulo de banqueo. Si el ángulo de banqueo se mantiene constante y la velocidad del aire incrementa, la tasa de viraje disminuirá, y el radio de viraje incrementará. Para mantener constante la tasa de viraje cuando la velocidad del aire es incrementada, el ángulo de banqueo deberá ser incrementado."
   },
   {
     "id": "5194",
@@ -326,7 +326,7 @@
       "C": "deflexión del timón y la ligera oposición del alerón durante el giro."
     },
     "answer": "A",
-    "explanation": "La sustentación durante un giro es dividida en dos componentes, una vertical y otra horizontal. La componente vertical de sustentación debe ser igual a el peso para mantener la altitud. Dado que la componente vertical de sustentación decrece a medida que aumenta el ángulo de banqueo, el ángulo de ataque debe ser incrementado progresivamente para producir la suficiente sustentación vertical para soportar el peso del avión. El incremento de presión en el elevador proporciona el aumento en el ángulo de ataque.\nLa respuesta (B) es incorrecta porque describe un giro de derrape. La respuesta (C) es incorrecta porque puede ser necesaria una ligera presión opuesta de los alerones para compensar la tendencia al sobre banqueo, no para mantener la altitud."
+    "explanation": "La sustentación durante un viraje es dividida en dos componentes, una vertical y otra horizontal. La componente vertical de sustentación debe ser igual a el peso para mantener la altitud. Dado que la componente vertical de sustentación decrece a medida que aumenta el ángulo de banqueo, el ángulo de ataque debe ser incrementado progresivamente para producir la suficiente sustentación vertical para soportar el peso del avión. El incremento de presión en el elevador proporciona el aumento en el ángulo de ataque.\nLa respuesta (B) es incorrecta porque describe un viraje de derrape. La respuesta (C) es incorrecta porque puede ser necesaria una ligera presión opuesta de los alerones para compensar la tendencia al sobre banqueo, no para mantener la altitud."
   },
   {
     "id": "5195",
@@ -338,7 +338,7 @@
       "C": "la componente horizontal de sustentación."
     },
     "answer": "B",
-    "explanation": "La sustentación durante un giro es dividida en dos componentes, una vertical y otra horizontal. La componente vertical de sustentación debe ser igual al peso para mantener la altitud. Dado que la componente vertical de la sustentación disminuye a medida que el ángulo de banqueo incrementa, el ángulo de ataque debe ser incrementado progresivamente para producir la suficiente sustentación vertical. El aumento de la presión en el elevador trasero proporciona un aumento del ángulo de ataque.\nLa respuesta (A) es incorrecta porque la frase “La resultante de la componente de resistencia” no tiene sentido. La respuesta (C) es incorrecta porque a medida que la componente horizontal disminuye, la componente vertical de sustentación incrementa, por lo tanto, el ángulo de ataque debe disminuir."
+    "explanation": "La sustentación durante un viraje es dividida en dos componentes, una vertical y otra horizontal. La componente vertical de sustentación debe ser igual al peso para mantener la altitud. Dado que la componente vertical de la sustentación disminuye a medida que el ángulo de banqueo incrementa, el ángulo de ataque debe ser incrementado progresivamente para producir la suficiente sustentación vertical. El aumento de la presión en el elevador trasero proporciona un aumento del ángulo de ataque.\nLa respuesta (A) es incorrecta porque la frase “La resultante de la componente de resistencia” no tiene sentido. La respuesta (C) es incorrecta porque a medida que la componente horizontal disminuye, la componente vertical de sustentación incrementa, por lo tanto, el ángulo de ataque debe disminuir."
   },
   {
     "id": "5196",
@@ -350,12 +350,12 @@
       "C": "el ángulo de ataque, peso y la densidad del aire."
     },
     "answer": "A",
-    "explanation": "La velocidad de pérdida es afectada por:\n1. El peso. Al aumentar el peso, la velocidad de pérdida también aumenta.\n2. El ángulo de inclinación (Factor de carga). A medida que el ángulo de inclinación incrementa, también lo hace la velocidad de pérdida.\n3. La potencia. Un aumento en la potencia reducirá la velocidad de pérdida. Un cambio en la altitud por la densidad (densidad del aire) el ángulo de ataque no tiene ningún efecto sobre la velocidad de pérdida indicada ya que, para un avión determinado, el ángulo de ataque critico o de pérdida permanece constante."
+    "explanation": "La velocidad de pérdida es afectada por:\n1. El peso: al aumentar el peso, la velocidad de pérdida también aumenta.\n2. El ángulo de banqueo (Factor de carga): a medida que el ángulo de banqueo incrementa, también lo hace la velocidad de pérdida.\n3. La potencia: un aumento en la potencia reducirá la velocidad de pérdida. \n\nUn cambio en la altitud de densidad (densidad del aire) el ángulo de ataque no tiene ningún efecto sobre la velocidad de pérdida indicada ya que, para un avión determinado, el ángulo de ataque critico o de pérdida permanece constante."
   },
   {
     "id": "5197",
     "section": "Aerodinámica básica",
-    "question": "5197.- Un ala rectangular, en comparación con otras formas de ala, tiene la tendencia de entrar primero en pérdida primero en:",
+    "question": "5197.- Un ala rectangular, en comparación con otras formas de ala, tiene la tendencia de entrar primero en pérdida en:",
     "options": {
       "A": "la punta del ala, con la pérdida progresiva hacia la raíz del ala.",
       "B": "la raíz del ala, con la pérdida progresiva hacia la punta del ala.",
@@ -458,7 +458,7 @@
       "C": "el peso y la altitud de paso, pero variará con la presión dinámica y el ángulo de banqueo."
     },
     "answer": "A",
-    "explanation": "Cuando el ángulo de ataque se vuelve tan grande que el aire no puede fluir sobre la superficie superior del ala, es imposible que el aire siga el contorno del ala. Este es el ángulo de ataque crítico o de pérdida. Para cualquier avión, el ángulo de ataque crítico o de pérdida permanecerá constante independientemente del peso, presión dinámica, ángulo de banqueo, o altitud de paso. Estos factores afectan la velocidad en la que ocurre la pérdida, pero no al ángulo.\nLa respuesta (B) es incorrecta porque la velocidad de pérdida varía con el peso y el ángulo de inclinación. La respuesta (C) es incorrecta porque la velocidad de pérdida varía con el peso y el ángulo de inclinación."
+    "explanation": "Cuando el ángulo de ataque se vuelve tan grande que el aire no puede fluir sobre la superficie superior del ala, es imposible que el aire siga el contorno del ala. Este es el ángulo de ataque crítico o de pérdida. Para cualquier avión, el ángulo de ataque crítico o de pérdida permanecerá constante independientemente del peso, presión dinámica, ángulo de banqueo, o actitud de cabeceo. Estos factores afectan la velocidad en la que ocurre la pérdida, pero no al ángulo.\nLa respuesta (B) es incorrecta porque la velocidad de pérdida varía con el peso y el ángulo de inclinación. La respuesta (C) es incorrecta porque la velocidad de pérdida varía con el peso y el ángulo de inclinación."
   },
   {
     "id": "5205",
@@ -470,7 +470,7 @@
       "C": "se entrará en barrena antes de que se desarrolle completamente la pérdida."
     },
     "answer": "B",
-    "explanation": "La recuperación de una pérdida en cualquier avión se vuelve progresivamente más difícil si el centro de gravedad es movido hacia atrás. Esto es particularmente importante en la recuperación en la maniobra de barrena, ya que hay un punto en la carga hacia atrás de cualquier avión en el que se desarrolla un giro “plano”.\nLa respuesta (A) es incorrecta porque la rotación es alrededor del centro de gravedad en una barrena.\nLa respuesta (C) es incorrecta porque un avión debe primero entrar en pérdida para poder realizar una barrena."
+    "explanation": "La recuperación de una pérdida en cualquier avión se vuelve progresivamente más difícil si el centro de gravedad es movido hacia atrás. Esto es particularmente importante en la recuperación en la maniobra de barrena, ya que hay un punto en la carga hacia atrás de cualquier avión en el que se desarrolla una barrena “plana”.\nLa respuesta (A) es incorrecta porque la rotación es alrededor del centro de gravedad en una barrena.\nLa respuesta (C) es incorrecta porque un avión debe primero entrar en pérdida para poder realizar una barrena."
   },
   {
     "id": "5206",
@@ -530,7 +530,7 @@
       "C": "disminuir."
     },
     "answer": "B",
-    "explanation": "A medida que la velocidad del aire aumenta en un ángulo de banqueo constante la velocidad de giro disminuirá. Por ejemplo, para un ángulo de banqueo de 30° a 100 nudos su tasa de giro será 6.5 grados por segundo. Si usted mantiene el ángulo de banqueo en 30 grados e incrementa la velocidad a 150 nudos su tasa de giro disminuirá a 4.4 grados por segundo. Por lo tanto, para mantener una tasa de giro estándar de 3 o 1,5 grados por segundo (Aviones de alta velocidad), a medida que la velocidad del aire incrementa el ángulo de banqueo deberá incrementarse."
+    "explanation": "A medida que la velocidad del aire aumenta en un ángulo de banqueo constante el regimen de viraje disminuirá. Por ejemplo, para un ángulo de banqueo de 30° a 100 nudos su regimen de viraje será 6.5 grados por segundo. Si usted mantiene el ángulo de banqueo en 30 grados e incrementa la velocidad a 150 nudos su regimen de viraje disminuirá a 4.4 grados por segundo. Por lo tanto, para mantener un regimen de viraje estándar de 3 o 1,5 grados por segundo (Aviones de alta velocidad), a medida que la velocidad del aire incrementa el ángulo de banqueo deberá incrementarse."
   },
   {
     "id": "5211",
@@ -580,7 +580,7 @@
       "C": "1,320 pies."
     },
     "answer": "C",
-    "explanation": "Para encontrar la relación de planeo (L/D) a un ángulo de ataque de 8°, muévase hacia arriba desde la escala de ángulo de ataque hasta la curva L/D. A continuación, muévase horizontalmente hacia la derecha para encontrar el valor situado en la escala L/D. Esto da una relación de planeo de 12:1. La pregunta solo se refiere a la tasa de planeo, por lo que esta es la única escala necesaria. Con esta descenderá 1 pie de altitud por cada 12 pies recorridos horizontalmente. \n\n$$\\frac{L}{D}=\\frac{11}{1}=\\frac{\\text{distancia horizontal}}{\\text{distancia vertical}}$$\n$$\\frac{11}{1}=\\frac{\\text{5,280 feet (1 SM)}}{X}$$\n$${X}=\\text{1,320 feet}$$"
+    "explanation": "Para encontrar la relación de planeo (L/D) a un ángulo de ataque de 8°, muévase hacia arriba desde la escala de ángulo de ataque hasta la curva L/D. A continuación, muévase horizontalmente hacia la derecha para encontrar el valor situado en la escala L/D. Esto da una relación de planeo de 12:1. La pregunta solo se refiere a la tasa de planeo, por lo que esta es la única escala necesaria. Con esta descenderá 1 pie de altitud por cada 12 pies recorridos horizontalmente. \n\n$$\\frac{L}{D}=\\frac{12}{1}=\\frac{\\text{distancia horizontal}}{\\text{distancia vertical}}$$\n$$\\frac{11}{1}=\\frac{\\text{5,280 feet (3 SM)}}{X}$$\n$${X}=\\text{1,320 feet}$$"
   },
   {
     "id": "5215",
@@ -665,7 +665,7 @@
       "C": "ángulo de ataque."
     },
     "answer": "C",
-    "explanation": "Al realizar la transición de un vuelo nivelado a un ascenso, las fuerzas que actúan sobre el avión sufren ciertos caminos. El primer cambio, se produce cuando se aplica una contrapresión al mando del elevador. Este cambio inicial es el resultado del aumento del ángulo de ataque que se produce cuando se eleva la actitud de cabeceo del avión. Esto da a lugar a una actitud de ascenso. Cuando se establece la trayectoria de vuelo inclinada y la velocidad de ascenso, el ángulo de ataque y la sustentación correspondiente se estabilizan en el valor original."
+    "explanation": "Al realizar la transición de un vuelo nivelado a un ascenso, las fuerzas que actúan sobre el avión sufren ciertos cambios. El primer cambio, se produce cuando se aplica una contrapresión al mando del elevador. Este cambio inicial es el resultado del aumento del ángulo de ataque que se produce cuando se eleva la actitud de cabeceo del avión. Esto da a lugar a una actitud de ascenso. Cuando se establece la trayectoria de vuelo inclinada y la velocidad de ascenso, el ángulo de ataque y la sustentación correspondiente se estabilizan en el valor original."
   },
   {
     "id": "5221",
@@ -723,7 +723,7 @@
     "section": "Aerodinámica básica",
     "question": "5224.- Para producir la misma sustentación cuando se está bajo el efecto suelo que cuando se encuentra fuera de él, el avión requiere:",
     "options": {
-      "A": "un bajo ángulo de ataque.",
+      "A": "un menor ángulo de ataque.",
       "B": "el mismo ángulo de ataque.",
       "C": "un mayor ángulo de ataque."
     },
@@ -776,7 +776,7 @@
       "C": "alerones."
     },
     "answer": "B",
-    "explanation": "La estabilidad longitudinal o cabeceo es el movimiento alrededor del eje lateral. El cabeceo es controlado por medio del elevador.\nLa respuesta (A) es incorrecta porque el timón afecta a la estabilidad direccional. La respuesta (C) es incorrecta porque los alerones afectan a la estabilidad lateral."
+    "explanation": "La estabilidad longitudinal o de cabeceo es el movimiento alrededor del eje lateral. El cabeceo es controlado por medio del elevador.\nLa respuesta (A) es incorrecta porque el timón afecta a la estabilidad direccional. La respuesta (C) es incorrecta porque los alerones afectan a la estabilidad lateral."
   },
   {
     "id": "5229",
@@ -826,7 +826,7 @@
       "C": "línea radial azul."
     },
     "answer": "A",
-    "explanation": "V (NE) (velocidad de nunca exceder), La línea vertical que va del punto E al F, está marcada en los indicadores de la velocidad del aire con una línea radial roja, el límite superior del arco amarillo."
+    "explanation": "$V_{NE}$ (velocidad de nunca exceder), La línea vertical que va del punto E al F, está marcada en los indicadores de la velocidad del aire con una línea radial roja, el límite superior del arco amarillo."
   },
   {
     "id": "5238",
@@ -983,7 +983,7 @@
       "C": "Facto límite de carga positivo."
     },
     "answer": "A",
-    "explanation": "El punto C representa la intersección del factor de carga limite positivo y la línea de máxima capacidad de sustentación positiva. La velocidad del aire en este punto es la velocidad mínima a la que se puede desarrollar aerodinámicamente la carga limite. Cualquier velocidad del aire superior a esta provee una capacidad de sustentación positiva suficiente para dañar la aeronave. Por el contrario, cualquier velocidad del aire inferior que esta no proporciona una capacidad de sustentación suficiente para causar daños de cargas de vuelo excesivas. Este punto es comúnmente denominado “velocidad de maniobra” o VA."
+    "explanation": "El punto C representa la intersección del factor de carga limite positivo y la línea de máxima capacidad de sustentación positiva. La velocidad del aire en este punto es la velocidad mínima a la que se puede desarrollar aerodinámicamente la carga limite. Cualquier velocidad del aire superior a esta provee una capacidad de sustentación positiva suficiente para dañar la aeronave. Por el contrario, cualquier velocidad del aire inferior que esta no proporciona una capacidad de sustentación suficiente para causar daños de cargas de vuelo excesivas. Este punto es comúnmente denominado “velocidad de maniobra” o $V_{A}$."
   },
   {
     "id": "5169",
