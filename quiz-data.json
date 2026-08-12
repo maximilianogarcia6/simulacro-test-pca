@@ -1432,62 +1432,62 @@
   {
     "id": "5015.1",
     "section": "Instrumentos de vuelo",
-    "question": "5015.1.-Se define VF como:",
+    "question": "5015.1.-Se define $V_{F}$ como:",
     "options": {
       "A": "velocidad de diseño de los flaps.",
       "B": "velocidad de operación de los flaps.",
       "C": "velocidad máxima con flaps extendidos."
     },
     "answer": "A",
-    "explanation": "VF es la velocidad de diseño de los flaps.\nLa respuesta (B) es incorrecta porque el rango de operación de los flaps está indicado por el arco blanco en el indicador de velocidad. La respuesta (C) es incorrecta porque VFE es la velocidad máxima con flaps extendidos."
+    "explanation": "$V_{F}$ es la velocidad de diseño de los flaps.\nLa respuesta (B) es incorrecta porque el rango de operación de los flaps está indicado por el arco blanco en el indicador de velocidad. La respuesta (C) es incorrecta porque $V_{FE}$ es la velocidad máxima con flaps extendidos."
   },
   {
     "id": "5015.2",
     "section": "Instrumentos de vuelo",
-    "question": "5015.2.- Se define VNO como:",
+    "question": "5015.2.- Se define $V_{NO}$ como:",
     "options": {
       "A": "velocidad máxima de crucero estructural.",
       "B": "velocidad de operación normal.",
       "C": "velocidad máxima de operación."
     },
     "answer": "A",
-    "explanation": "VNO significa velocidad máxima de crucero estructural."
+    "explanation": "$V_{NO}$ significa velocidad máxima de crucero estructural."
   },
   {
     "id": "5016.1",
     "section": "Instrumentos de vuelo",
-    "question": "5016.1.-Se define VLE como:",
+    "question": "5016.1.-Se define $V_{LE}$ como:",
     "options": {
       "A": "velocidad máxima con el tren de aterrizaje extendido.",
       "B": "velocidad máxima para la operación del tren de aterrizaje.",
       "C": "velocidad máxima con los flaps de borde de ataque extendidos."
     },
     "answer": "A",
-    "explanation": "VLE es la velocidad máxima con el tren de aterrizaje extendido.\nLa respuesta (B) es incorrecta porque V LO es la velocidad máxima para la operación del tren de aterrizaje. La respuesta (C) es incorrecta porque la velocidad máxima con los flaps de borde de ataque extendidos no está definida."
+    "explanation": "$V_{LE}$ es la velocidad máxima con el tren de aterrizaje extendido.\nLa respuesta (B) es incorrecta porque $V_{LO}$ es la velocidad máxima para la operación del tren de aterrizaje. La respuesta (C) es incorrecta porque la velocidad máxima con los flaps de borde de ataque extendidos no está definida."
   },
   {
     "id": "5016.2",
     "section": "Instrumentos de vuelo",
-    "question": "5016.2.- Se define VNE como:",
+    "question": "5016.2.- Se define $V_{NE}$ como:",
     "options": {
       "A": "velocidad máxima para extender la rueda de nariz.",
       "B": "velocidad de nunca exceder.",
       "C": "velocidad máxima con el tren de aterrizaje extendido."
     },
     "answer": "B",
-    "explanation": "VNE es la velocidad de nunca exceder.\nLa respuesta (A) es incorrecta porque esta velocidad no está definida. La respuesta (C) es incorrecta porque es VLE."
+    "explanation": "$V_{NE}$ es la velocidad de nunca exceder.\nLa respuesta (A) es incorrecta porque esta velocidad no está definida. La respuesta (C) es incorrecta porque es $V_{LE}$."
   },
   {
     "id": "5016.3",
     "section": "Instrumentos de vuelo",
-    "question": "5016.3.-Se define VY como:",
+    "question": "5016.3.-Se define $V_{Y}$ como:",
     "options": {
       "A": "velocidad para el mejor régimen de descenso.",
       "B": "velocidad de mejor ángulo de ascenso.",
       "C": "velocidad de mejor régimen de ascenso."
     },
     "answer": "C",
-    "explanation": "VY es la velocidad de mejor régimen de ascenso.\nLa respuesta (A) es incorrecta porque no está definida. La respuesta (B) es incorrecta porque es VX."
+    "explanation": "$V_{Y}$ es la velocidad de mejor régimen de ascenso.\nLa respuesta (A) es incorrecta porque no está definida. La respuesta (B) es incorrecta porque es $V_{X}$."
   },
   {
     "id": "5016.4",
@@ -1704,7 +1704,7 @@
       "C": "Iniciar un ascenso o descenso suave a la velocidad de maniobra."
     },
     "answer": "B",
-    "explanation": "En un área donde se ha reportado o se ha pronosticado una turbulencia de aire claro (CAT) significativa, se sugiere que el piloto ajuste la velocidad para volar a la velocidad recomendada para aire turbulento al encontrar la primera onda, ya que la intensidad de dicha turbulencia puede aumentar rápidamente. \n\nLa respuesta (A) es incorrecta porque la acción apropiada es ajustar la velocidad para la velocidad de maniobra (VA). \nLa respuesta (C) es incorrecta porque la acción apropiada es ajustar la velocidad para la velocidad de maniobra ($V_{A}$)."
+    "explanation": "En un área donde se ha reportado o se ha pronosticado una turbulencia de aire claro (CAT) significativa, se sugiere que el piloto ajuste la velocidad para volar a la velocidad recomendada para aire turbulento al encontrar la primera onda, ya que la intensidad de dicha turbulencia puede aumentar rápidamente. \n\nLa respuesta (A) es incorrecta porque la acción apropiada es ajustar la velocidad para la velocidad de maniobra ($V_{A}$). \nLa respuesta (C) es incorrecta porque la acción apropiada es ajustar la velocidad para la velocidad de maniobra ($V_{A}$)."
   },
   {
     "id": "5670",
@@ -1740,7 +1740,7 @@
       "C": "Ajustar la potencia y compensar para obtener una velocidad igual o inferior a la velocidad de maniobra, mantener las alas niveladas y aceptar cambios de velocidad y altitud."
     },
     "answer": "C",
-    "explanation": "En turbulencia severa, ajuste la potencia y la compensación para obtener una velocidad igual o inferior a la velocidad de maniobra; esto ayuda a evitar exceder el factor máximo de carga de la aeronave. Intente mantener una actitud constante y acepte lo s cambios de velocidad y altitud causado s por las ráfagas. Las respuestsa (A) y (B) son incorrectas porque no es posible mantener una velocidad constante en turbulencia severa."
+    "explanation": "En turbulencia severa, ajuste la potencia y la compensación para obtener una velocidad igual o inferior a la velocidad de maniobra; esto ayuda a evitar exceder el factor máximo de carga de la aeronave. Intente mantener una actitud constante y acepte los cambios de velocidad y altitud causados por las ráfagas. Las respuestsa (A) y (B) son incorrectas porque no es posible mantener una velocidad constante en turbulencia severa."
   },
   {
     "id": "5999.2",
@@ -1844,7 +1844,7 @@
     "question": "A5025.- ¿Qué tiempo de vuelo puede registrar el piloto en la función de copiloto?",
     "options": {
       "A": "Todo el tiempo de vuelo actuando como copiloto en aeronaves certificadas para más de un piloto.",
-      "B": "Todo el tiempo de vuelo mientras esté desempeñándose como tal en una aeronave que, de acuerdo a su certificado tipo o requisitos operacionales, requiera más de un piloto.",
+      "B": "Todo el tiempo de vuelo mientras esté desempeñándose como tal en una aeronave que, de acuerdo a su certificado de tipo o requisitos operacionales, requiera más de un piloto.",
       "C": "Solo el tiempo de vuelo durante el cual el copiloto es el único manipulador de los controles."
     },
     "answer": "B",
@@ -2052,7 +2052,7 @@
       "C": "en cualquier porción del espacio aéreo nacional."
     },
     "answer": "A",
-    "explanation": "Cualquier dispositivo electrónico portátil que el operador de la aeronave haya determinado que podría causar interferencia con los sistemas de navegación o comunicaci ón no puede usarse en ninguna aeronave operada bajo IFR. (LAR 91.025)."
+    "explanation": "Cualquier dispositivo electrónico portátil que el operador de la aeronave haya determinado que podría causar interferencia con los sistemas de navegación o comunicación no puede usarse en ninguna aeronave operada bajo IFR. (LAR 91.025)."
   },
   {
     "id": "5064",
@@ -2064,12 +2064,12 @@
       "C": "La tripulación de vuelo y los pasajeros deben recibir oxígeno suplementario."
     },
     "answer": "C",
-    "explanation": "(b) Provisión de oxígeno: \n(1) No deberán iniciarse vuelos cuando se tenga que volar en altitudes de presión de cabina por encima de 10 000 pies, a menos que se lleve una provisión suficiente de oxígeno respirable para suministrarlo: \n\t(i) a todos los miembros de la tripulación y por lo menos al 10% de los pasajeros durante todo período de tiem po que exceda de 30 minutos, en que la altitud de presión de cabina en los compartimientos que ocupan se mantenga entre 10 000 pies y 13 000 pies; y \n\t(ii) a todos los miembros de la tripulación y a todos los pasajeros durante todo período de tiempo en que la altitud de presión de cabina sea superior a los 13 000 pies. \n(2) No deberán iniciarse vuelos de aviones presurizados o helicópteros con cabina a presión a menos que lleven suficiente cantidad almacenada de oxígeno respirable para todos los miembros de la tripulación y pasajeros y apropiada a las circunstancias del vuelo que se realice, en caso de pérdida de la presión y durante todo el período de tiempo en que la altitud de presión de cabina en cualquier compartimiento que ocupen sea superior a 10 000 pies. Además, cuando se opere una aeronave a altitudes de vuelo por encima de 25 000 pies, o a altitudes de vuelo menores de 25 000 pies y no pueda descender de manera segura en cuatro (4) minutos a una altitud de vuelo igual a 13 000 pies, la provisión de oxígeno no deberá ser inferior a 10 minutos para los ocupantes del compartimiento de pasajeros.\n\n(c) Uso de oxígeno:\n(1) Todos los miembros de la tripulación que cumplan funciones esenciales para la operación segura de la aeronave en vuelo, deberán utilizar continuamente oxígeno respirable siempre que prevalezcan las circunstancias por las cuales se haya considerado necesario su suministro, según los Párrafos (b) (1) o (b) (2).\n(2) Todos los miembros de la tripulación de vuelo de aeronaves presurizadas que vuelen a una altitud de vuelo mayor a 25 000 pies, deberán tener a su disposición, en el puesto en que prestan servicio de vuelo, una máscara del tipo de colocación rápida, en condiciones de suministrar oxígeno a voluntad.\n\nLa respuesta (A) es incorrecta porque la tripulación de vuelo debe usar oxígeno por encima de los 13.000 pies MSL. La respuesta (B) es incorrecta porque los requisitos de oxígeno se aplican a todas las aeronaves. (LAR 91.590, Apéndice D LAR 61)."
+    "explanation": "(b) Provisión de oxígeno: \n(1) No deberán iniciarse vuelos cuando se tenga que volar en altitudes de presión de cabina por encima de 10 000 pies, a menos que se lleve una provisión suficiente de oxígeno respirable para suministrarlo: \n\t(i) a todos los miembros de la tripulación y por lo menos al 10% de los pasajeros durante todo período de tiempo que exceda de 30 minutos, en que la altitud de presión de cabina en los compartimientos que ocupan se mantenga entre 10 000 pies y 13 000 pies; y \n\t(ii) a todos los miembros de la tripulación y a todos los pasajeros durante todo período de tiempo en que la altitud de presión de cabina sea superior a los 13 000 pies. \n(2) No deberán iniciarse vuelos de aviones presurizados o helicópteros con cabina a presión a menos que lleven suficiente cantidad almacenada de oxígeno respirable para todos los miembros de la tripulación y pasajeros y apropiada a las circunstancias del vuelo que se realice, en caso de pérdida de la presión y durante todo el período de tiempo en que la altitud de presión de cabina en cualquier compartimiento que ocupen sea superior a 10 000 pies. Además, cuando se opere una aeronave a altitudes de vuelo por encima de 25 000 pies, o a altitudes de vuelo menores de 25 000 pies y no pueda descender de manera segura en cuatro (4) minutos a una altitud de vuelo igual a 13 000 pies, la provisión de oxígeno no deberá ser inferior a 10 minutos para los ocupantes del compartimiento de pasajeros.\n\n(c) Uso de oxígeno:\n(1) Todos los miembros de la tripulación que cumplan funciones esenciales para la operación segura de la aeronave en vuelo, deberán utilizar continuamente oxígeno respirable siempre que prevalezcan las circunstancias por las cuales se haya considerado necesario su suministro, según los Párrafos (b) (1) o (b) (2).\n(2) Todos los miembros de la tripulación de vuelo de aeronaves presurizadas que vuelen a una altitud de vuelo mayor a 25 000 pies, deberán tener a su disposición, en el puesto en que prestan servicio de vuelo, una máscara del tipo de colocación rápida, en condiciones de suministrar oxígeno a voluntad.\n\nLa respuesta (A) es incorrecta porque la tripulación de vuelo debe usar oxígeno por encima de los 13.000 pies MSL. La respuesta (B) es incorrecta porque los requisitos de oxígeno se aplican a todas las aeronaves. (LAR 91.590, Apéndice D LAR 61)."
   },
   {
     "id": "5065",
     "section": "Reglamentación",
-    "question": "5065.- ¿Cuál es el equipo necesar io para las aeronaves propulsadas durante los vuelos nocturnos VFR?",
+    "question": "5065.- ¿Cuál es el equipo necesario para las aeronaves propulsadas durante los vuelos nocturnos VFR?",
     "options": {
       "A": "Sistema de luces anticolisión.",
       "B": "Indicador de dirección giroscópico.",
@@ -2100,7 +2100,7 @@
       "C": "a más de 50 millas terrestres de la costa."
     },
     "answer": "B",
-    "explanation": "Se requiere equipo de flotación individual aprobado y disponible para cada ocupante en cada aeronave si se vuela sobre el agua más allá de la distancia de planeo desde la costa. 'Orilla' se define como el área de la tierra adyacente al agua que está por encima del nivel del agua, excluidas las área s terrestres que están intermitentemente bajo el agua. (LAR 91.820)"
+    "explanation": "Se requiere equipo de flotación individual aprobado y disponible para cada ocupante en cada aeronave si se vuela sobre el agua más allá de la distancia de planeo desde la costa. 'Orilla' se define como el área de la tierra adyacente al agua que está por encima del nivel del agua, excluidas las áreas terrestres que están intermitentemente bajo el agua. (LAR 91.820)"
   },
   {
     "id": "5068.2",
@@ -2121,7 +2121,7 @@
     "options": {
       "A": "Un avión de categoría 'primaria' está limitado a un radio operativo específico desde su base de operaciones.",
       "B": "Ninguna persona puede operar un avión de categoría 'primaria' que transporte pasajeros o propiedad por remuneración o arrendamiento.",
-      "C": "Un piloto de un av ión de categoría 'primaria' debe tener una licencia de piloto comercial cuando transporta pasajeros por remuneración o arrendamiento."
+      "C": "Un piloto de un avión de categoría 'primaria' debe tener una licencia de piloto comercial cuando transporta pasajeros por remuneración o arrendamiento."
     },
     "answer": "B",
     "explanation": "Una aeronave de categoría restringida no transportará personas o propiedades por remuneración o arrendamiento. (LAR 91.455)"
@@ -2304,7 +2304,7 @@
       "C": "LAR 21, 43 y 91."
     },
     "answer": "C",
-    "explanation": "Se emite un certificado de aeronavegabilidad estándar para el tipo de aeronave certificada en las categorías normal, utilitaria, acrobática, regional, transporte y globos libres tripulados. El certificado de aeronavegabilidad tendrá vigencia indefinida si la aeronave s e mantiene de acuerdo con las normas LAR 21, 43 y 91, y la aeronave está inscrita en el Registro Aeronáutico Nacional. (LAR 21, 43 y 91)"
+    "explanation": "Se emite un certificado de aeronavegabilidad estándar para el tipo de aeronave certificada en las categorías normal, utilitaria, acrobática, regional, transporte y globos libres tripulados. El certificado de aeronavegabilidad tendrá vigencia indefinida si la aeronave se mantiene de acuerdo con las normas LAR 21, 43 y 91, y la aeronave está inscrita en el Registro Aeronáutico Nacional. (LAR 21, 43 y 91)"
   },
   {
     "id": "5097",
@@ -2316,7 +2316,7 @@
       "C": "Por remuneración o arrendamiento."
     },
     "answer": "B",
-    "explanation": "Ninguna persona puede llevar a otra persona (es decir, pasajeros) que no sean miembros de la tripulación en una aeronave que haya sido mantenida, reconstruida o alterada de una manera que pueda haber cambiado apreciablemente sus características de vuelo o afectado sustancialmente su operación en vuelo, hasta que un piloto con la calificación adecuada con al menos una licencia de piloto privado vuel e la aeronave, realiza una verificación operativa del mantenimiento realizado o alteración realizada y registra el vuelo en los libros de la aeronave. Existe un procedimiento titulado “Prueba en vuelo de aeronavegabilidad” (MIA, Volumen I, Parte III, Capítulo 10) en el cual se señala: “ Las pruebas en vuelo de aeronavegabilidad deben realizarse solamente con la tripulación mínima establecida en el certificado de tipo de la aeronave, el inspector de aeronavegabilidad, el inspector de operaciones, si es necesario; y el personal de mantenimiento (si fuera necesario). No se debe incluir carga, a menos que forme parte de una prueba funcional específica” Por lo tanto, tampoco se incluye pasajeros a bordo."
+    "explanation": "Ninguna persona puede llevar a otra persona (es decir, pasajeros) que no sean miembros de la tripulación en una aeronave que haya sido mantenida, reconstruida o alterada de una manera que pueda haber cambiado apreciablemente sus características de vuelo o afectado sustancialmente su operación en vuelo, hasta que un piloto con la calificación adecuada con al menos una licencia de piloto privado vuele la aeronave, realiza una verificación operativa del mantenimiento realizado o alteración realizada y registra el vuelo en los libros de la aeronave. Existe un procedimiento titulado “Prueba en vuelo de aeronavegabilidad” (MIA, Volumen I, Parte III, Capítulo 10) en el cual se señala: “ Las pruebas en vuelo de aeronavegabilidad deben realizarse solamente con la tripulación mínima establecida en el certificado de tipo de la aeronave, el inspector de aeronavegabilidad, el inspector de operaciones, si es necesario; y el personal de mantenimiento (si fuera necesario). No se debe incluir carga, a menos que forme parte de una prueba funcional específica” Por lo tanto, tampoco se incluye pasajeros a bordo."
   },
   {
     "id": "5099",
@@ -2436,7 +2436,7 @@
       "C": "el otro asiento de control está ocupado por un piloto de seguridad, que posee al menos un certificado de piloto privado y está debidamente calificado."
     },
     "answer": "C",
-    "explanation": "Ninguna persona puede operar una aeronave civil en vuelo por instrumentos simulado a menos que el otro asiento de control esté ocupado por un piloto de seguridad que posea al menos un certificado de piloto privado con habilitaciones de categoría y clase apropiadas p ara la aeronave que está volando. [LAR 91.195(a)(2)]."
+    "explanation": "Ninguna persona puede operar una aeronave civil en vuelo por instrumentos simulado a menos que el otro asiento de control esté ocupado por un piloto de seguridad que posea al menos un certificado de piloto privado con habilitaciones de categoría y clase apropiadas para la aeronave que está volando. [LAR 91.195(a)(2)]."
   },
   {
     "id": "5112",
@@ -2573,7 +2573,7 @@
   {
     "id": "5090",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5090.- Para operar un avión bajo “SPECIAL VFR (SVFR)” dent ro del espacio aéreo Clase D durante la noche, ¿cuál se requiere?",
+    "question": "5090.- Para operar un avión bajo “SPECIAL VFR (SVFR)” dentro del espacio aéreo Clase D durante la noche, ¿cuál se requiere?",
     "options": {
       "A": "El piloto debe tener una habilitación de instrumentos, pero el avión no necesita estar equipado para vuelo por instrumentos, siempre que el clima se mantenga en o por encima de los mínimos SVFR.",
       "B": "Un área SVFR nocturna. El espacio aéreo Clase D debe estar específicamente designado.",
@@ -2616,7 +2616,7 @@
       "C": "Ingresar y volar un patrón de tráfico a 800 pies AGL."
     },
     "answer": "A",
-    "explanation": "Al acercarse para aterrizar en un aeropuerto sin una torre de control operativa en un área de espacio aéreo de Clase G, cada piloto de un avión debe hacer todos los giros de ese avión a la izquierda a menos que el aeropuerto muestre señales luminosas aprobada s o marcas visuales que indiquen que se deben realizar giros para a la derecha, en cuyo caso el piloto debe hacer todos los giros a la derecha."
+    "explanation": "Al acercarse para aterrizar en un aeropuerto sin una torre de control operativa en un área de espacio aéreo de Clase G, cada piloto de un avión debe hacer todos los giros de ese avión a la izquierda a menos que el aeropuerto muestre señales luminosas aprobadas o marcas visuales que indiquen que se deben realizar giros para a la derecha, en cuyo caso el piloto debe hacer todos los giros a la derecha."
   },
   {
     "id": "5117",
@@ -2635,7 +2635,7 @@
     "section": "Procedimientos operacionales de aeródromos",
     "question": "5118.- Al acercarse a aterrizar en un aeropuerto con una instalación ATC, en espacio aéreo Clase D, el piloto debe establecer comunicaciones antes de:",
     "options": {
-      "A": "10 NH, hasta 3000 pies AGL inclusive.",
+      "A": "10 NM, hasta 3000 pies AGL inclusive.",
       "B": "30 SM, y estar equipado con transpondedor.",
       "C": "4 NM, hasta 2500 pies AGL inclusive."
     },
@@ -2705,7 +2705,7 @@
   {
     "id": "5133",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5133.- Al planificar un vuelo nocturno, un piloto debe verificar: destino.",
+    "question": "5133.- Al planificar un vuelo nocturno, un piloto debe verificar:",
     "options": {
       "A": "disponibilidad y estado de los sistemas de iluminación de los aeropuertos de ruta y de destino",
       "B": "luces rojas de rumbo en ruta.",
@@ -2821,12 +2821,12 @@
       "C": "los conos de los ojos se han adaptado a la oscuridad en aproximadamente 5 minutos."
     },
     "answer": "B",
-    "explanation": "Al entrar en una habitación oscura, es difícil ver algo hasta que los ojos se adapt en a la oscuridad. Después de aproximadamente 5 a 10 minutos, los conos se ajustan a la luz tenue y los ojos se vuelven 100 veces más sensibles a la luz de lo que eran antes de entrar en la habitación oscura. Se necesita mucho más tiempo, unos 30 minutos, para que las varillas se adapten a la oscuridad; pero cuando se ajustan, son unas 100.000 veces más sensibles a la luz que en el área iluminada."
+    "explanation": "Al entrar en una habitación oscura, es difícil ver algo hasta que los ojos se adapten a la oscuridad. Después de aproximadamente 5 a 10 minutos, los conos se ajustan a la luz tenue y los ojos se vuelven 100 veces más sensibles a la luz de lo que eran antes de entrar en la habitación oscura. Se necesita mucho más tiempo, unos 30 minutos, para que las varillas se adapten a la oscuridad; pero cuando se ajustan, son unas 100.000 veces más sensibles a la luz que en el área iluminada."
   },
   {
     "id": "5491.2",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5491.2.- Al planificar un vuelo, el piloto debe verificar la disponibilidad y el estado de:",
+    "question": "5491.2.- Al planificar un vuelo nocturno, el piloto debe verificar la disponibilidad y el estado de:",
     "options": {
       "A": "todos los VOR que se utilizarán en ruta.",
       "B": "balizas luminosas aeropuerto.",
@@ -2845,7 +2845,7 @@
       "C": "planificar la aproximación de emergencia y el aterrizaje en una parte no iluminada de un área."
     },
     "answer": "C",
-    "explanation": "Si el motor falla por la noche, una de las consideraciones principales incluye planific ar una aproximación de emergencia y aterrizar en una parte no iluminada del área."
+    "explanation": "Si el motor falla por la noche, una de las consideraciones principales incluye planificar una aproximación de emergencia y aterrizar en una parte no iluminada del área."
   },
   {
     "id": "5494",
@@ -2866,7 +2866,7 @@
     "options": {
       "A": "Los aeropuertos con torres de control bajo espacio aéreo de Clase A, B y C se muestran en azul, el espacio aéreo de Clase D y E en magenta.",
       "B": "Los aeropuertos con torres de control bajo espacio aéreo de Clase C, D y E se muestran en magenta.",
-      "C": "Los aeropuertos con torres de control baj o espacio aéreo de Clase B, C, D y E se muestran en azul."
+      "C": "Los aeropuertos con torres de control bajo espacio aéreo de Clase B, C, D y E se muestran en azul."
     },
     "answer": "C",
     "explanation": "Los aeropuertos que tienen torres de control (espacio aéreo de clase B, C, D o E) se muestran en azul. Todos los demás se muestran en magenta."
@@ -2887,7 +2887,7 @@
   {
     "id": "5566",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5566.- (Refiérase a la Figura 52, punto 7). El piso del espaci o aéreo Clase E sobre la ciudad de Woodland es:",
+    "question": "5566.- (Refiérase a la Figura 52, punto 7). El piso del espacio aéreo Clase E sobre la ciudad de Woodland es:",
     "image-id": "figure_52",
     "options": {
       "A": "700 pies AGL sobre parte de la ciudad y sin piso sobre el resto.",
@@ -2938,7 +2938,7 @@
   {
     "id": "5575.1",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5575.1.- ¿Qué debe hacer o tener en cuenta u n piloto al realizar la transición de un área de alerta?",
+    "question": "5575.1.- ¿Qué debe hacer o tener en cuenta un piloto al realizar la transición de un área de alerta?",
     "options": {
       "A": "Todos los pilotos deben comunicarse con la agencia de control para asegurar la separación de las aeronaves.",
       "B": "Las aeronaves no participantes pueden transitar por el área siempre y cuando operen de acuerdo con su autorización.",
@@ -3033,7 +3033,7 @@
       "C": "está más allá del lado de la línea continua de la Ilustración G."
     },
     "answer": "C",
-    "explanation": "Después del aterrizaje, el piloto generalmente llama al control de tierra cuando la aeronave está completamente alejada de la pista. Esto es cuando la aeronave está en el lado de línea continua de la Ilustración G. Las líneas continuas siempre indican el lado en el que la aeronave debe sostenerse.\nLa respuesta (A) es incorrecta porque la Ilustración D prohíbe la entrada de aeronaves a un área.\nLa respuesta (B) es incorrecta porque todavía está en la pista si se encuentra en el lado de la línea discontinua de la Ilustración G."
+    "explanation": "Después del aterrizaje, el piloto generalmente llama al control de tierra cuando la aeronave está completamente fuera de la pista. Esto es cuando la aeronave está en el lado de línea continua de la Ilustración G. Las líneas continuas siempre indican el lado en el que la aeronave debe parar.\nLa respuesta (A) es incorrecta porque la Ilustración D prohíbe la entrada de aeronaves a un área.\nLa respuesta (B) es incorrecta porque todavía está en la pista si se encuentra en el lado de la línea discontinua de la Ilustración G."
   },
   {
     "id": "5658",
@@ -3077,7 +3077,7 @@
   {
     "id": "5660",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5660.- (Refiérase a la Figura 51). ¿Qué símbolo no se refiere directamente a la i ncursión en la pista con otras aeronaves?",
+    "question": "5660.- (Refiérase a la Figura 51). ¿Qué símbolo no se refiere directamente a la incursión en la pista con otras aeronaves?",
     "image-id": "figure_51",
     "options": {
       "A": "Ilustración D.",
@@ -3102,7 +3102,7 @@
   {
     "id": "5749",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5749.- Cuando se encuentre cer ca de un VOR que se esté utilizando para la navegación en vuelos VFR, es importante:",
+    "question": "5749.- Cuando se encuentre cerca de un VOR que se esté utilizando para la navegación en vuelos VFR, es importante:",
     "options": {
       "A": "hacer giros de 90 ° a la izquierda y a la derecha para buscar otro tráfico.",
       "B": "ejercer una vigilancia sostenida para evitar aeronaves que puedan estar convergiendo en el VOR desde otras direcciones.",
@@ -3154,7 +3154,7 @@
     "options": {
       "A": "Insuficiencia de oxígeno.",
       "B": "Exceso de monóxido de carbono.",
-      "C": "Insuficiente monóxido de carbono."
+      "C": "Insuficiente monóxido de carbono. (dioxido en realidad)"
     },
     "answer": "C",
     "explanation": "A medida que la hiperventilación 'expulsa' el exceso de dióxido de carbono del cuerpo, un piloto puede experimentar síntomas de aturdimiento, asfixia, somnolencia, hormigueo en las extremidades y frialdad y reaccionar ante ellos con una hiperventilación aún mayor.\nLa respuesta (A) es incorrecta porque la insuficiencia de oxígeno es un síntoma de hipoxia.\nLa respuesta (B) es incorrecta porque el exceso de monóxido de carbono provocar á intoxicación por monóxido de carbono."
@@ -3330,7 +3330,7 @@
   {
     "id": "5944",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5944.- Ejemplos de trampas de comportamien to clásicas en las que pueden caer los pilotos experimentados son:",
+    "question": "5944.- Ejemplos de trampas de comportamiento clásicas en las que pueden caer los pilotos experimentados son:",
     "options": {
       "A": "asumir responsabilidades adicionales y hacer valer la autoridad de PIC.",
       "B": "promover la conciencia situacional y luego los cambios necesarios en el comportamiento.",
@@ -3498,7 +3498,7 @@
   {
     "id": "5958",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5958.- Durante un vuelo IFR, un piloto emerge de una nube y se encuentra a 300 pi es de un helicóptero. ¿Cuál de las siguientes alternativas ilustra mejor la reacción 'MACHO'?",
+    "question": "5958.- Durante un vuelo IFR, un piloto emerge de una nube y se encuentra a 300 pies de un helicóptero. ¿Cuál de las siguientes alternativas ilustra mejor la reacción 'MACHO'?",
     "options": {
       "A": "No está demasiado preocupado; todo va a estar bien.",
       "B": "Vuela un poco más cerca, solo para mostrarle.",
@@ -3522,7 +3522,7 @@
   {
     "id": "5960",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5960.- Un piloto y amigos volarán a un partido de fútbol fuera de la ciudad. Cuando llegan los pasajeros, el piloto determina que estarán por encima del peso bruto máximo para el despegue con la carga de combustible existente. ¿Cuál de l as siguientes alternativas ilustra mejor la reacción de la RESIGNACIÓN?",
+    "question": "5960.- Un piloto y amigos volarán a un partido de fútbol fuera de la ciudad. Cuando llegan los pasajeros, el piloto determina que estarán por encima del peso bruto máximo para el despegue con la carga de combustible existente. ¿Cuál de las siguientes alternativas ilustra mejor la reacción de la RESIGNACIÓN?",
     "options": {
       "A": "Bueno, nadie le dijo sobre el peso extra.",
       "B": "El peso y el equilibrio es una formalidad impuesta a los pilotos por la AAC",
@@ -3546,7 +3546,7 @@
   {
     "id": "5962",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5962.- ¿Cuál de los siguientes es el primer paso del modelo Decide para la gesti ón eficaz de riesgos y la toma de decisiones aeronáuticas?",
+    "question": "5962.- ¿Cuál de los siguientes es el primer paso del modelo Decide para la gestión eficaz de riesgos y la toma de decisiones aeronáuticas?",
     "options": {
       "A": "Detectar.",
       "B": "Identificar.",
@@ -3614,7 +3614,7 @@
       "C": "Indica la designación y la dirección de la calle de rodaje que sale de una intersección."
     },
     "answer": "C",
-    "explanation": "El letrero direccional de la calle de rodaje identifica las designaciones de la (s) calle (s) de rodaje que se cruzan y que salen de la intersección en las que normalmente se esperaría que un piloto vi rara o esperara antes.\nLa respuesta (A) es incorrecta porque este es el propósito de la señal de ubicación de la pista.\nLa respuesta (B) es incorrecta porque este es el propósito de la señal de destino."
+    "explanation": "El letrero direccional de la calle de rodaje identifica las designaciones de la(s) calle(s) de rodaje que se cruzan y que salen de la intersección en las que normalmente se esperaría que un piloto virará o esperará antes.\nLa respuesta (A) es incorrecta porque este es el propósito de la señal de ubicación de la pista.\nLa respuesta (B) es incorrecta porque este es el propósito de la señal de destino."
   },
   {
     "id": "5976",
@@ -3676,7 +3676,7 @@
       "C": "en una calle de rodaje que cruza la pista 04/22."
     },
     "answer": "C",
-    "explanation": "Esta pregunta probablemente inclui rá un gráfico en pantalla de un letrero de ubicación de calle de rodaje con un letrero de dirección o un letrero de posición de espera en la pista. Este tipo de señal se utiliza en una intersección de pistas de rodaje."
+    "explanation": "Esta pregunta probablemente incluirá un gráfico en pantalla de un letrero de ubicación de calle de rodaje con un letrero de dirección o un letrero de posición de espera en la pista. Este tipo de señal se utiliza en una intersección de pistas de rodaje."
   },
   {
     "id": "5983.2",
@@ -3810,7 +3810,7 @@
       "C": "cercanas y la fuerza del gradiente de presión es mayor y las velocidades del viento son más fuertes."
     },
     "answer": "C",
-    "explanation": "Cuanto más estrecha sea la separación de las isobaras, más fuerte será la fuerza del gradiente de presión. Cuanto más fuerte es la fuerza del gradiente de presión, más fuerte es el viento. Por lo tanto, las isobaras muy espaciadas significan vientos fuertes y ligeros."
+    "explanation": "Cuanto más estrecha sea la separación de las isobaras, más fuerte será la fuerza del gradiente de presión. Cuanto más fuerte es la fuerza del gradiente de presión, más fuerte es el viento. Por lo tanto, isobaras muy próximas entre sí indican vientos fuertes; isobaras muy separadas entre sí indican vientos más débiles."
   },
   {
     "id": "5315",
@@ -3834,7 +3834,7 @@
       "C": "no se puede determinar las condicione meteorológicas sin conocer los cambios de presión."
     },
     "answer": "A",
-    "explanation": "Cuando se vuela en el hemisferio norte, experimentar un viento cruzado continuo a la izquierda indica que se está entrando en un sistema bajo presión. El viento sopla en sentido contrario a las agujas del reloj, lo que explica un viento cruzado a la izquierda. En general, un sistema de bajas pre siones se asocia con el mal tiempo.\nLa respuesta (B) es incorrecta porque si se ha volado desde una zona de condiciones meteorológicas desfavorables, lo que significa que se tendría un viento cruzado a la derecha. La respuesta (C) es incorrecta porque el viento puede proporcionar una indicación de los cambios de presión y del tiempo."
+    "explanation": "Cuando se vuela en el hemisferio norte, experimentar un viento cruzado continuo a la izquierda indica que se está entrando en un sistema de baja presión. El viento sopla en sentido contrario a las agujas del reloj, lo que explica un viento cruzado a la izquierda. En general, un sistema de bajas presiones se asocia con el mal tiempo.\nLa respuesta (B) es incorrecta porque si se ha volado desde una zona de condiciones meteorológicas desfavorables, lo que significa que se tendría un viento cruzado a la derecha. La respuesta (C) es incorrecta porque el viento puede proporcionar una indicación de los cambios de presión y del tiempo."
   },
   {
     "id": "5317",
@@ -3846,7 +3846,7 @@
       "C": "Una zona de alta presión o cresta es una zona de aire descendente."
     },
     "answer": "C",
-    "explanation": "El aire que sale de una presión alta o cresta reduce la cantidad de aire. Las crestas, por tanto, son zonas de aire descendente.\nLa respuesta (A) es incorrecta porque el aire de alta presión desciende. La respuesta (B) es incorrecta porque el aire de baja presión asciende."
+    "explanation": "El aire que se desplaza desde una alta presión o una cresta reduce la cantidad de aire. Las crestas, por tanto, las altas presiones y las crestas son áreas de aire descendente.\nLa respuesta (A) es incorrecta porque el aire de alta presión desciende. La respuesta (B) es incorrecta porque el aire de baja presión asciende."
   },
   {
     "id": "5318",
@@ -4038,7 +4038,7 @@
       "C": "Disminución del vapor de agua."
     },
     "answer": "A",
-    "explanation": "Un cambio en el gradiente térmico vertical de la temperatura ambiente de una masa de aire determinará su estabilidad. El calentamiento o enfriamiento de la superficie en la parte superior puede hacer que el aire sea más inestable.\nLa respuesta (B) es incorrecta porque el enfriamiento desde abajo aumenta la estabilidad. La respuesta (C) es incorrecta porque una disminución del vapor de agua reduce el punto de rocío del aire, pero no afecta a la estabilidad."
+    "explanation": "Un cambio en el gradiente térmico vertical de la temperatura ambiente de una masa de aire determinará su estabilidad. El calentamiento desde la superficie o el enfriamiento desde la parte superior puede hacer que el aire sea más inestable.\nLa respuesta (B) es incorrecta porque el enfriamiento desde abajo aumenta la estabilidad. La respuesta (C) es incorrecta porque una disminución del vapor de agua reduce el punto de rocío del aire, pero no afecta a la estabilidad."
   },
   {
     "id": "5334",
@@ -4050,7 +4050,7 @@
       "C": "El gradiente adiabático seco."
     },
     "answer": "B",
-    "explanation": "Un cambio en el gradiente térmico vertical de la temperatura ambiente de una masa de aire determinará su estabilidad. El calentamiento o enfriamiento de la superficie en el aire puede hacer que el aire sea más inestable. Por otro lado, el enfriamiento o el calentamiento de la superficie en el aire suele inclinar la balanza hacia una mayor estabilidad. \n\nLa respuesta (A) es incorrecta porque la presión atmosférica afecta a la temperatura y a los movimientos del aire, pero no determina la estabilidad de la atmósfera. \nLa respuesta (C) es incorrecta porque el gradiente térmico vertical de adiabática seca es una tasa constante."
+    "explanation": "Un cambio en el gradiente térmico vertical de la temperatura ambiente de una masa de aire determinará su estabilidad. El calentamiento desde la superficie o el enfriamiento desde la parte superior puede hacer que el aire sea más inestable. Por otro lado, el enfriamiento desde abajo o el calentamiento desde arriba suele inclinar la balanza hacia una mayor estabilidad. \n\nLa respuesta (A) es incorrecta porque la presión atmosférica afecta a la temperatura y a los movimientos del aire, pero no determina la estabilidad de la atmósfera. \nLa respuesta (C) es incorrecta porque el gradiente térmico vertical de adiabática seca es una tasa constante."
   },
   {
     "id": "5335",
@@ -4074,7 +4074,7 @@
       "C": "Disminución del vapor de agua."
     },
     "answer": "B",
-    "explanation": "Un cambio en el gradiente térmico vertical de la temperatura ambiente de una masa de aire determinará su estabilidad. El enfriamiento o calentamiento de la superficie en el aire suele inclinar la balanza hacia una mayor estabilidad.\nLa respuesta (A) es incorrecta porque el calentamiento desde abajo disminuye la estabilidad. La respuesta (C) es incorrecta porque una disminución del vapor de agua reduce el punto de rocío del aire, pero no afecta a la estabilidad."
+    "explanation": "Un cambio en el gradiente térmico vertical de la temperatura ambiente de una masa de aire determinará su estabilidad. El enfriamiento desde abajo (la superficie) o calentamiento desde arriba suele aportar una mayor estabilidad.\nLa respuesta (A) es incorrecta porque el calentamiento desde abajo disminuye la estabilidad. La respuesta (C) es incorrecta porque una disminución del vapor de agua reduce el punto de rocío del aire, pero no afecta a la estabilidad."
   },
   {
     "id": "5337",
@@ -4103,14 +4103,14 @@
   {
     "id": "5339",
     "section": "Meteorología",
-    "question": "5339.- La presencia de nubes lenticulares altocúmulos es un buen indicio de:",
+    "question": "5339.- La presencia de nubes altocúmulos lenticulares es un buen indicio de:",
     "options": {
       "A": "formación de hielo lenticular en aire tranquilo.",
       "B": "turbulencia muy fuerte.",
       "C": "condiciones de fuerte helada."
     },
     "answer": "B",
-    "explanation": "Las nubes lenticulares en pie sugieren una onda de montaña; espere turbulencias a muchos kilómetros a sotavento de las montañas."
+    "explanation": "Las nubes lenticulares estacionarias y/o las nubes rotoras sugieren una onda de montaña; espere turbulencias a muchos kilómetros a sotavento de las montañas."
   },
   {
     "id": "5340",
@@ -4146,7 +4146,7 @@
       "C": "Disminución rápida de la temperatura con la altitud."
     },
     "answer": "A",
-    "explanation": "Las características del aire estable son las nubes estratiformes y la niebla, las precipit aciones continuas, el aire suave y la visibilidad de regular a mala en la bruma y el humo.\nLa respuesta (B) es incorrecta porque los cúmulos son característicos del aire inestable. La respuesta (C) es incorrecta porque un rápido descenso de la temperatura con la altitud indica un alto gradiente térmico vertical y es característico del aire inestable."
+    "explanation": "Las características del aire estable son las nubes estratiformes y la niebla, las precipitaciones continuas, el aire suave y la visibilidad de regular a mala en la bruma y el humo.\nLa respuesta (B) es incorrecta porque los cúmulos son característicos del aire inestable. La respuesta (C) es incorrecta porque un rápido descenso de la temperatura con la altitud indica un alto gradiente térmico vertical y es característico del aire inestable."
   },
   {
     "id": "5343",
@@ -4182,7 +4182,7 @@
       "C": "Calima, el polvo, la bruma, etc. Se concentran en los niveles inferiores con la consiguiente mala visibilidad."
     },
     "answer": "C",
-    "explanation": "Las características típicas de una masa de aire estable son:\n- Nubes estratiformes y niebla-Precipitaciones continuas-Aire suave-Visibilidad de regular a mala por bruma y calima."
+    "explanation": "Las características típicas de una masa de aire estable son:\n- Nubes estratiformes y niebla\n-Precipitaciones continuas\n-Aire suave\n-Visibilidad de regular a mala por bruma y calima."
   },
   {
     "id": "5345",
@@ -4194,7 +4194,7 @@
       "C": "Visibilidad restringida."
     },
     "answer": "C",
-    "explanation": "Las características típicas de una masa de aire estable son: -Nubes estratiformes y niebla-Precipitaciones continuas-Aire suave-Visibilidad de regular o mala en la niebla"
+    "explanation": "Las características típicas de una masa de aire estable son: \n-Nubes estratiformes y niebla\n-Precipitaciones continuas\n-Aire suave\n-Visibilidad de regular o mala en la niebla"
   },
   {
     "id": "5346",
@@ -4206,7 +4206,7 @@
       "C": "Precipitaciones continuas."
     },
     "answer": "C",
-    "explanation": "Las características típicas de una masa de aire estable son:\n- Nubes estratiformes y niebla-Precipitaciones continuas-Aire suave-Visibilidad de regular a mala en la niebla y la calima."
+    "explanation": "Las características típicas de una masa de aire estable son:\n- Nubes estratiformes y niebla\n-Precipitaciones continuas\n-Aire suave\n-Visibilidad de regular a mala en la niebla y la calima."
   },
   {
     "id": "5347",
@@ -4302,7 +4302,7 @@
       "C": "las fuertes corrientes convectivas."
     },
     "answer": "A",
-    "explanation": "Puede estar relativamente seguro de que hay una zona de cizalladura en la inversión si se sabe que el viento a 2,000 a 4,000 pies con una velocidad de 25 nudos o más. Deje un margen de velocidad aérea por encima de la velocidad nor mal de ascenso o aproximación para aliviar el peligro de una pérdida, en caso de turbulencia o cambio repentino en la velocidad del viento.\nLa respuesta (B) es incorrecta porque los vientos fuertes de superficie no representan un peligro tan grande como la cizalladura del viento. La respuesta (C) es incorrecta porque una inversión de temperatura no genera fuertes corrientes convectivas."
+    "explanation": "Puede estar relativamente seguro de que hay una zona de cizalladura en la inversión si se sabe que el viento a 2,000 a 4,000 pies con una velocidad de 25 nudos o más. Deje un margen de velocidad aérea por encima de la velocidad normal de ascenso o aproximación para aliviar el peligro de una pérdida, en caso de turbulencia o cambio repentino en la velocidad del viento.\nLa respuesta (B) es incorrecta porque los vientos fuertes de superficie no representan un peligro tan grande como la cizalladura del viento. La respuesta (C) es incorrecta porque una inversión de temperatura no genera fuertes corrientes convectivas."
   },
   {
     "id": "5355",
@@ -4362,7 +4362,7 @@
       "C": "no hay cambios en la velocidad del aire, pero la velocidad con respecto al suelo disminuirá."
     },
     "answer": "A",
-    "explanation": "La peor situación en la salida ocurre cuando la aeronave se encuentra con un viento de cola que aumenta rápidamente, un viento de frente que disminuye y/o una corriente descendente. El despegue bajo estas circunstancias llevaría a u na condición de rendimiento disminuido. Un viento de cola creciente o un viento de frente decreciente, cuando se encuentra, causará una disminución de la velocidad aérea indicada. La aeronave inicialmente se inclinará hacia abajo debido a la disminución de la sustentación en proporción a la pérdida de velocidad del aire. Después de encontrar la cizalladura, si el viento permanece constante, la velocidad de avance de la aeronave aumentará gradualmente y la velocidad aérea indicada volverá a su valor original.\nLa respuesta (B) es incorrecta porque una disminución repentina del viento en contra provocará una pérdida de velocidad aerodinámica. La respuesta (C) es incorrecta porque hay una pérdida inicial de velocidad del aire, seguida de un aumento de la velocidad en tierra."
+    "explanation": "La peor situación en un despegue ocurre cuando la aeronave se encuentra con un viento de cola que aumenta rápidamente, un viento de frente que disminuye y/o una corriente descendente. El despegue bajo estas circunstancias llevaría a una condición de rendimiento disminuido. Un viento de cola creciente o un viento de frente decreciente, cuando se encuentra, causará una disminución de la velocidad aérea indicada. La aeronave inicialmente se inclinará hacia abajo debido a la disminución de la sustentación en proporción a la pérdida de velocidad del aire. Después de encontrar la cizalladura, si el viento permanece constante, la velocidad de avance de la aeronave aumentará gradualmente y la velocidad aérea indicada volverá a su valor original.\nLa respuesta (B) es incorrecta porque una disminución repentina del viento en contra provocará una pérdida de velocidad aerodinámica. La respuesta (C) es incorrecta porque hay una pérdida inicial de velocidad del aire, seguida de un aumento de la velocidad en tierra."
   },
   {
     "id": "5360",
@@ -4763,7 +4763,7 @@
   {
     "id": "5450",
     "section": "Meteorología",
-    "question": "5450.- Una de las características más peligrosas de las o ndas de montaña son las zonas turbulentas en y:",
+    "question": "5450.- Una de las características más peligrosas de las ondas de montaña son las zonas turbulentas en y:",
     "options": {
       "A": "por debajo de las nubes del rotor.",
       "B": "por encima de las nubes del rotor.",
