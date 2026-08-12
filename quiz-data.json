@@ -4847,7 +4847,7 @@
   {
     "id": "5403",
     "section": "Servicios meteorológicos",
-    "question": "5403.- ¿Qué se entiende por observación meteorológica METAR especial para KBOI? ESPECI KBOI 091854Z 32005KT 1 1/2SM RA BR OVC007 17/16 A2990 RMK RAB12",
+    "question": "5403.- ¿Qué se entiende por observación meteorológica METAR especial para KBOI? SPECI KBOI 091854Z 32005KT 1 1/2SM RA BR OVC007 17/16 A2990 RMK RAB12",
     "options": {
       "A": "La lluvia y la niebla oscurecen dos décimas partes del cielo; la lluvia comenzó a las 1912Z.",
       "B": "Lluvia y neblina que obstruyen la visibilidad; la lluvia comenzó a las 1812Z.",
@@ -4955,7 +4955,7 @@
   {
     "id": "5413",
     "section": "Servicios meteorológicos",
-    "question": "5413.- ¿Cuántas veces al día se emiten l os pronósticos de aeródromo terminal (TAF) y qué período de tiempo cubren?",
+    "question": "5413.- ¿Cuántas veces al día se emiten los pronósticos de aeródromo terminal (TAF) y qué período de tiempo cubren?",
     "options": {
       "A": "Cuatro veces al día y suelen tener una validez de 24 horas.",
       "B": "Seis veces al día y generalmente son válidas por un período de 24 horas, incluyendo un pronóstico certero de 4 horas.",
@@ -4967,7 +4967,7 @@
   {
     "id": "5414",
     "section": "Servicios meteorológicos",
-    "question": "5414.- Para determinar mejor el pronóstico general de las condiciones meteorológicas que cubren la información de vuelo en una región, el piloto debe referirse a:",
+    "question": "5414.- Para determinar mejor el pronóstico general de las condiciones meteorológicas que cubren una región de información de vuelo (FIR), el piloto debe referirse a:",
     "options": {
       "A": "gráficos de pronósticos para la aviación (GFA).",
       "B": "mapas de representación meteorológica.",
@@ -5007,7 +5007,7 @@
     "options": {
       "A": "Consisten en una observación cada hora de tornados, actividad significativa de tormentas y gran actividad de granizo.",
       "B": "Contienen tanto una observación como un pronóstico de toda la actividad de tormentas eléctricas y granizo. El pronóstico es válido solo por 1 hora.",
-      "C": "Consisten tant o en una observación y pronóstico, o solo en un pronóstico de tornados, actividad significativa de tormentas eléctricas o granizo mayor o igual a 3/4 de pulgada de diámetro."
+      "C": "Consisten tanto en una observación y pronóstico, o solo en un pronóstico de tornados, actividad significativa de tormentas eléctricas o granizo mayor o igual a 3/4 de pulgada de diámetro."
     },
     "answer": "C",
     "explanation": "Los SIGMET convectivos se emiten en los Estados Unidos limítrofes para cualquiera de los siguientes:\n1. Tormentas eléctricas severas debido a vientos en la superficie mayores o iguales a 50 nudos o granizo en la superficie mayor o igual a 3/4 de pulgada de diámetro o tornados;\n2. Tormentas eléctricas integradas;\n3. Línea de tormentas eléctricas; o\n4. Tormentas eléctricas mayores o iguales al nivel VIP cuatro, que afecten al 40% o más de un área de al menos 3,000 millas cuadradas.\nLa respuesta (A) es incorrecta porque los SIGMET son pronósticos no programados.\nLa respuesta (B) es incorrecta porque los SIGMET se emiten solo para tormentas eléctricas severas y granizo de 3/4 de pulgada o más y pueden ser válidos hasta por 2 horas."
@@ -5089,9 +5089,9 @@
     "section": "Servicios meteorológicos",
     "question": "5429.- La carta de análisis de superficie muestra:",
     "options": {
-      "A": "u bicaciones frontales y movimiento esperado, centros de presión, cobertura de nubes y obstrucciones a la visión en el momento de la transmisión de la carta.",
-      "B": "posiciones frontales reales, patrones de presión, temperatura, punto de rocío, viento, clima y obstrucciones a la visión en el momento válido de la carta.",
-      "C": "distribución real de la presión, sistemas frontales, alturas y cobertura de las nubes, temperatura, punto de rocío y viento en el momento que se muestra en la carta."
+      "A": "Ubicaciones frontales y movimiento esperado, centros de presión, cobertura de nubes y obstrucciones a la visión en el momento de la transmisión de la carta.",
+      "B": "Posiciones frontales reales, patrones de presión, temperatura, punto de rocío, viento, clima y obstrucciones a la visión en el momento válido de la carta.",
+      "C": "Distribución real de la presión, sistemas frontales, alturas y cobertura de las nubes, temperatura, punto de rocío y viento en el momento que se muestra en la carta."
     },
     "answer": "B",
     "explanation": "La carta de análisis de superficie muestra las posiciones del sistema frontal, los patrones de presión y la temperatura, el punto de rocío, el viento, el clima y las obstrucciones a la visión en estaciones individuales en la carta de superficie válido para el tiempo indicado.\nLa respuesta (A) es incorrecta porque la carta de análisis de superficie informa el clima en el momento de la observación.\nLa respuesta (C) es incorrecta porque las cartas de análisis de superficie no indican la altura de las nubes."
@@ -5154,7 +5154,7 @@
       "C": "índice positivo."
     },
     "answer": "A",
-    "explanation": "El índice elevado se calcula como si una parcela de aire cerca de la superficie se elevara a 500 milibares. A medida que el aire se 'eleva', se enfría por expansión. La temperatura que tendría a 500 milibares se resta de la temperatura existente de 500 milibares (mb). La diferencia es el índice elevado; puede ser positivo, cero o negativo.\nLa respuesta (B) es incorrecta porque un índice positivo significa que la porción de aire levantada es más fría que el aire existente a 500 mb, y el aire es estable.\nLa respuesta (C) es incorrecta porque un índice negativo significa que la porción de aire elevada está más caliente que el aire existente a 500 mb, y el aire es inestable."
+    "explanation": "El índice elevado (índice de elevación) se calcula como si una parcela de aire cerca de la superficie se elevara a 500 milibares. A medida que el aire se 'eleva', se enfría por expansión. La temperatura que tendría a 500 milibares se resta de la temperatura existente de 500 milibares (mb). La diferencia es el índice elevado; puede ser positivo, cero o negativo.\nLa respuesta (B) es incorrecta porque un índice positivo significa que la porción de aire levantada es más fría que el aire existente a 500 mb, y el aire es estable.\nLa respuesta (C) es incorrecta porque un índice negativo significa que la porción de aire elevada está más caliente que el aire existente a 500 mb, y el aire es inestable."
   },
   {
     "id": "5440",
@@ -5190,7 +5190,7 @@
       "C": "Cartas de análisis de presión constante."
     },
     "answer": "C",
-    "explanation": "La tabla de análisis de presión constante es una fuente de temperatura observada, dispersión de temperatura / punto de rocío, humedad y viento.\nLa respuesta (A) es incorrecta porque las cartas de estabilidad brindan información sobre estabilidad, nivel de congelación, precipitación y humedad relativa promedio.\nLa respuesta (B) es incorrecta porque los pronósticos de vientos en altura no brindan información sobre la propagación de temperatura / punto de rocío."
+    "explanation": "La carta de análisis de presión constante es una fuente observada de temperatura, dispersión de temperatura / punto de rocío, humedad y viento.\nLa respuesta (A) es incorrecta porque las cartas de estabilidad brindan información sobre estabilidad, nivel de congelación, precipitación y humedad relativa promedio.\nLa respuesta (B) es incorrecta porque los pronósticos de vientos en altura no brindan información sobre la propagación de temperatura / punto de rocío."
   },
   {
     "id": "5443",
@@ -5214,7 +5214,7 @@
       "C": "turbulencia moderada."
     },
     "answer": "B",
-    "explanation": "La turbulencia que provoca momentáneamente cambios leves y erráticos en la altitud y/o actitud (cabeceo, balanceo, guiñada) se informa como turbulencia leve / ligera.\nLa respuesta (A) es incorrecta porque el corte ligero es un golpe leve, rápido y algo rítmico.\nLa respuesta (C) es incorrecta porque una turbulen cia moderada provoca cambios en la altitud y / o actitud y variaciones en la velocidad indicada."
+    "explanation": "La turbulencia que provoca momentáneamente cambios leves y erráticos en la altitud y/o actitud (cabeceo, alabeo, guiñada) se informa como turbulencia leve / ligera.\nLa respuesta (A) es incorrecta porque el corte ligero es un golpe leve, rápido y algo rítmico.\nLa respuesta (C) es incorrecta porque una turbulen cia moderada provoca cambios en la altitud y / o actitud y variaciones en la velocidad indicada."
   },
   {
     "id": "5445",
