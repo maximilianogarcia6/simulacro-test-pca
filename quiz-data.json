@@ -5640,10 +5640,10 @@
     "options": {
       "A": "depender de la radio como método principal de navegación.",
       "B": "ascender a una altitud mayor porque será más fácil identificar los puntos de la ruta.",
-      "C": "aplicar cálculos básicos, estimaciones y otros atajos apropiados para desviar se al nuevo curso lo antes posible."
+      "C": "aplicar cálculos básicos, estimaciones y otros atajos apropiados para desviarse al nuevo curso lo antes posible."
     },
     "answer": "C",
-    "explanation": "Los cálculos de rumbo, tiempo, velocidad y distancia en vuelo requieren los mismos procedimientos básicos que se utilizan en la planificación previa al vuelo. Sin embargo, debido a las limitaciones de espacio en la cabina y al equipo disponible, y debido a que la atención del piloto debe dividirse entre la solución del problema y la operación de la aeronave, el piloto debe aprovechar todos los atajos posibles y los cálculos básicos.\nLa respuesta (A) es incorrecta porque cualquier forma de navegación es apro piada. La respuesta (B) es incorrecta porque los ascensos pueden consumir tiempo y combustible."
+    "explanation": "Los cálculos de rumbo, tiempo, velocidad y distancia en vuelo requieren los mismos procedimientos básicos que se utilizan en la planificación previa al vuelo. Sin embargo, debido a las limitaciones de espacio en la cabina y al equipo disponible, y debido a que la atención del piloto debe dividirse entre la solución del problema y la operación de la aeronave, el piloto debe aprovechar todos los atajos posibles y los cálculos básicos.\nLa respuesta (A) es incorrecta porque cualquier forma de navegación es apropiada. La respuesta (B) es incorrecta porque los ascensos pueden consumir tiempo y combustible."
   },
   {
     "id": "5537",
@@ -6109,7 +6109,7 @@
       "C": "Aumente la velocidad ligeramente por encima de la velocidad de aproximación normal para penetrar la turbulencia lo más rápido posible."
     },
     "answer": "A",
-    "explanation": "Las aproximaciones con motor a una velocidad ligeramente superior a la velocidad de aproximación normal deben utilizarse para aterrizar en aire significativamente turbulento. Esto proporciona un control más positivo del avión cuando se experimentan fuertes ráfagas de viento horizontal o corrientes ascendentes y descendentes.\nLa respuesta (B) es incorrecta porque, dado que la velocidad de aproximación está muy por debajo de V (A), no se producirán daños estructurales. La respuesta (C) es incorrecta porque el aumento de la velocidad de aproximación es para aumentar la efectividad del control, no para volar a través de turbulencias más rápido."
+    "explanation": "Las aproximaciones con motor a una velocidad ligeramente superior a la velocidad de aproximación normal deben utilizarse para aterrizar en aire significativamente turbulento. Esto proporciona un control más positivo del avión cuando se experimentan fuertes ráfagas de viento horizontal o corrientes ascendentes y descendentes.\nLa respuesta (B) es incorrecta porque, dado que la velocidad de aproximación está muy por debajo de $V_{A}$, no se producirán daños estructurales. La respuesta (C) es incorrecta porque el aumento de la velocidad de aproximación es para aumentar la efectividad del control, no para volar a través de turbulencias más rápido."
   },
   {
     "id": "5663",
@@ -6118,7 +6118,7 @@
     "options": {
       "A": "establecer la actitud de planeo adecuada.",
       "B": "virar para enfrentar el viento",
-      "C": "ajustar el cabeceo para mantener VY."
+      "C": "ajustar el cabeceo para mantener $V_{Y}$."
     },
     "answer": "A",
     "explanation": "En el caso de una falla del motor en el ascenso inicial, la primera responsabilidad del piloto es mantener el control de la aeronave. En una actitud de ascenso sin potencia, el avión está en un ángulo de ataque de pérdida o cerca a éste. Al mismo tiempo, es posible que el piloto aún mantenga el timón de dirección deflectado a la derecha. El piloto debe bajar inmediatamente la nariz para evitar una pérdida mientras deflecta el timón de dirección para asegurar un vuelo coordinado. No se debe intentar volver a la pista desde la que se despegó. El piloto debería establecer un planeo controlado hacia un área de aterrizaje adecuada, preferiblemente dentro del rumbo de vuelo de la aeronave."
@@ -6211,19 +6211,19 @@
   {
     "id": "5307",
     "section": "Navegación",
-    "question": "5307.- A partir de los siguientes datos indique un valor aproximado para la altitud por densidad: Altitud de presión 5.000 pies Temperatura real del aire +30° C",
+    "question": "5307.- A partir de los siguientes datos indique un valor aproximado para la altitud de densidad: Altitud de presión 5.000 pies Temperatura real del aire +30° C",
     "options": {
       "A": "7,200 pies.",
       "B": "7,800 pies.",
       "C": "9,000 pies."
     },
     "answer": "B",
-    "explanation": "Utilizando un computador de vuelo E6-B:\n1. Refiérase a la casilla \"Density Altitude\". Observe que la escala situada encima e stá identificada como “air temperature (°C)”, la escala dentro de la casilla está identificada como “pressure altitude (in thousand of feet )”. Gire el disco y ajuste la altitud de presión (pressure altitude) de 5,000 pies frente a una temperatura del aire (air temperature) 30°C.\n2. La altitud por densidad mostrada en la ventana es de 7.800 pies."
+    "explanation": "Utilizando un computador de vuelo E6-B:\n1. Refiérase a la casilla \"Density Altitude\". Observe que la escala situada encima está identificada como “air temperature (°C)”, la escala dentro de la casilla está identificada como “pressure altitude (in thousand of feet )”. Gire el disco y ajuste la altitud de presión (pressure altitude) de 5,000 pies frente a una temperatura del aire (air temperature) 30°C.\n2. La altitud por densidad mostrada en la ventana es de 7.800 pies."
   },
   {
     "id": "5308",
     "section": "Navegación",
-    "question": "5308.- A partir de los siguientes datos indique un valor aproximado para la altitud por densidad: Altitud de presión 6,000 pies Temperatura real del aire +30°F",
+    "question": "5308.- A partir de los siguientes datos indique un valor aproximado para la altitud de densidad: Altitud de presión 6,000 pies Temperatura real del aire +30°F",
     "options": {
       "A": "9,000 pies.",
       "B": "5,500 pies.",
@@ -6235,7 +6235,7 @@
   {
     "id": "5309",
     "section": "Navegación",
-    "question": "5309.- A partir de los siguientes datos indique un valor aproximado para la altitud por densidad: Altitud de presión 7,000 pies Temperatura real del aire (TAT) + 15°C",
+    "question": "5309.- A partir de los siguientes datos indique un valor aproximado para la altitud de densidad: Altitud de presión 7,000 pies Temperatura real del aire (TAT) + 15°C",
     "options": {
       "A": "5,000 pies.",
       "B": "8,500 pies.",
@@ -6278,7 +6278,7 @@
       "C": "13 minutos, 271°, 26 NM, 2.5 galones."
     },
     "answer": "C",
-    "explanation": "1. Calcula el tiempo de descenso: Tiempo = distancia vertical ÷ velocidad vertical"
+    "explanation": "1. Calcula el tiempo de descenso: Tiempo = distancia vertical ÷ velocidad vertical\n\nDonde distancia vertical = 10,500 – 2,700 = 7,800 pies\nTiempo = 7,800 pies ÷ 600 FPM = 13 minutos = 0.2167 hora\n2. Calcule el combustible requerido:\n11.5 gal/h x 0.2167 hora = 2.49 galón\n3. Calcule el ángulo de corrección del viento y la velocidad con respecto suelo utilizando un triángulo de viento:\nWCA = 12° derecha\nVelocidad con respecto al suelo = 120 nudos\n4. Calcule el rumbo verdadero (TH = TC + WCA):\n263° + 12° = 275° TH\n5. Calcular el rumbo de la brújula (CH = TH + Var + Dev):\n275° - 7° + 3° = 271° CH\n6. Calcule la distancia volada:\n120 nudos x 0.2167 hora = 26 NM."
   },
   {
     "id": "5469",
