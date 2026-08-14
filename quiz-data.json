@@ -130,19 +130,19 @@
       "C": "variara en función de la resultante del vector de sustentación."
     },
     "answer": "A",
-    "explanation": "Para cualquier ángulo de inclinación la tasa de inclinación variara con respecto a la velocidad del aire. En otras palabras, si el ángulo de banqueo se mantiene constante y la velocidad del aire aumenta, la tasa de giro decrecerá, o si la velocidad del aire disminuye, la tasa de giro incrementará. Debido a esto, no hay un cambio en la fuerza centrífuga para una inclinación dada. Por lo tanto, el factor de carga seguirá siendo el mismo.\nLa respuesta (B) es incorrecta porque la velocidad de giro varía en función de la velocidad del aire con un ángulo de inclinación constante. La respuesta (C) es incorrecta porque el factor de carga varía en función del vector de carga resultante."
+    "explanation": "Para cualquier ángulo de inclinación el regimen de viraje variará con respecto a la velocidad del aire. En otras palabras, si el ángulo de banqueo se mantiene constante y la velocidad indicada aumenta, el regimen de viraje decrecerá, o si la velocidad indicada disminuye, la el regimen de viraje incrementará. Debido a esto, no hay un cambio en la fuerza centrífuga para una inclinación dada. Por lo tanto, el factor de carga seguirá siendo el mismo.\nLa respuesta (B) es incorrecta porque la velocidad de giro varía en función de la velocidad del aire con un ángulo de inclinación constante. La respuesta (C) es incorrecta porque el factor de carga varía en función del vector de carga resultante."
   },
   {
     "id": "5160",
     "section": "Aerodinámica básica",
-    "question": "5160.- La necesidad de reducir la velocidad de una aeronave por debajo de V(A) se produce por el siguiente fenómeno meteorológico:",
+    "question": "5160.- La necesidad de reducir la velocidad de una aeronave por debajo de $V_{A}$ se produce por el siguiente fenómeno meteorológico:",
     "options": {
       "A": "alta densidad por altitud, que incrementa la velocidad indicada de pérdida.",
       "B": "turbulencia, que causa incrementos en la velocidad de pérdida.",
       "C": "turbulencia, que causa una disminución en la velocidad de pérdida."
     },
     "answer": "B",
-    "explanation": "Cuando se encuentra una turbulencia severa, el avión debe volarse a una velocidad de maniobra o inferior. Esta es la velocidad con menos probabilidades de provocar daños estructurales en el avión, incluso si se utiliza todo el recorrido de control, sin embargo, permite un margen de seguridad suficiente por encima de la velocidad de pérdida en aire turbulento. Cuando un avión está volando a una velocidad alta con un ángulo de ataque bajo y de repente se encuentra con una corriente vertical de aire que se mueve hacia arriba, el viento relativo cambia a una dirección ascendente al encontrarse con el perfil aerodinámico. Esto aumenta el ángulo de ataque en las alas y tiene el mismo efecto que aplicar una fuerte presión de retroceso en el control del elevador. Aumenta el factor de carga lo que a su vez aumenta la velocidad de pérdida.\nLa respuesta (A) es incorrecta porque la velocidad de pérdida indicada no se ve afectada por los cambios en la altitud por densidad. La respuesta (C) es incorrecta porque los factores de carga más elevados impuestos a la aeronave por la turbulencia aumentan la velocidad de pérdida."
+    "explanation": "Cuando se encuentra una turbulencia severa, el avión debe volarse a una velocidad de maniobra o inferior ($V_{A}$). Esta es la velocidad con menos probabilidades de provocar daños estructurales en el avión, incluso si se utiliza todo el recorrido de control, sin embargo, permite un margen de seguridad suficiente por encima de la velocidad de pérdida en aire turbulento. Cuando un avión está volando a una velocidad alta con un ángulo de ataque bajo y de repente se encuentra con una corriente vertical de aire que se mueve hacia arriba, el viento relativo cambia a una dirección ascendente al encontrarse con el perfil aerodinámico. Esto aumenta el ángulo de ataque en las alas y tiene el mismo efecto que aplicar una fuerte presión de retroceso en el control del elevador. Aumenta el factor de carga lo que a su vez aumenta la velocidad de pérdida.\nLa respuesta (A) es incorrecta porque la velocidad de pérdida indicada no se ve afectada por los cambios en la altitud por densidad. La respuesta (C) es incorrecta porque los factores de carga más elevados impuestos a la aeronave por la turbulencia aumentan la velocidad de pérdida."
   },
   {
     "id": "5161",
@@ -463,7 +463,7 @@
   {
     "id": "5205",
     "section": "Aerodinámica básica",
-    "question": "5205.- En aviones pequeños, la recuperación normal de los giros puede generar dificultades si:",
+    "question": "5205.- En aviones pequeños, la recuperación normal de los giros (barrenas o spins) puede generar dificultades si:",
     "options": {
       "A": "el CG está demasiado atrás y la rotación es alrededor del eje longitudinal.",
       "B": "el CG está demasiado atrás y la rotación es alrededor del CG.",
@@ -518,7 +518,7 @@
       "C": "deberá ser disminuido o incrementado el ángulo de giro."
     },
     "answer": "C",
-    "explanation": "Para compensar la sustentación añadida que se producirá si la velocidad del aire aumenta durante un giro, el ángulo de ataque debe disminuirse, o el ángulo de giro debe ser incrementado, si se quiere mantener una altitud constante.\nLa respuesta (A) es incorrecta porque se puede disminuir el ángulo de ataque o aumentar el ángulo de inclinación para mantener la altitud al aumentar la velocidad del aire. La respuesta (B) es incorrecta porque para mantener una altitud constante en un giro a medida que aumenta la velocidad del aire, el ángulo de inclinación debe disminuir."
+    "explanation": "Para compensar la sustentación añadida que se producirá si la velocidad del aire aumenta durante un giro, el ángulo de ataque debe disminuirse, o el ángulo de banqueo debe ser incrementado, si se quiere mantener una altitud constante.\nLa respuesta (A) es incorrecta porque se puede disminuir el ángulo de ataque o aumentar el ángulo de banqueo para mantener la altitud al aumentar la velocidad del aire. La respuesta (B) es incorrecta porque para mantener una altitud constante en un viraje a medida que aumenta la velocidad del aire, el ángulo de banqueo debe disminuir."
   },
   {
     "id": "5210.1",
@@ -605,7 +605,7 @@
       "C": "incrementa, e induce que la resistencia parásita aumente."
     },
     "answer": "A",
-    "explanation": "Si el avión es llevado bajo el efecto suelo con un ángulo de ataque constante, experimentará un crecimiento en el coeficiente de sustentación y una reducción del empuje requerido. La reducción de los vórtices en la punta del ala debido al efecto tierra alteran la distribución de sustentación a lo largo de la envergadura y reduce el flujo inducido. La reducción del flujo inducido causa significantes reducciones en la resistencia inducida, pero no tiene un efecto directo sobre la resistencia parásita."
+    "explanation": "Si el avión es llevado bajo el efecto suelo con un ángulo de ataque constante, experimentará un crecimiento en el coeficiente de sustentación y una reducción de potencia será requerida. La reducción de los vórtices en la punta del ala debido al efecto suelo alteran la distribución de sustentación a lo largo de la envergadura y reduce el flujo inducido. La reducción del flujo inducido causa significantes reducciones en la resistencia inducida, pero no tiene un efecto directo sobre la resistencia parásita."
   },
   {
     "id": "5217",
@@ -793,7 +793,7 @@
   {
     "id": "5230",
     "section": "Aerodinámica básica",
-    "question": "5230.- Si la altitud inicial del avión tiende a retornar a su posición original después de presionar el mando del elevador hacia delante y soltarlo, el avión muestra:",
+    "question": "5230.- Si la actitud inicial del avión tiende a retornar a su posición original después de presionar el mando del elevador hacia delante y soltarlo, el avión muestra:",
     "options": {
       "A": "estabilidad dinámica positiva.",
       "B": "estabilidad estática positiva.",
@@ -995,7 +995,7 @@
       "C": "es una práctica indeseable, pero indica que nada está mal."
     },
     "answer": "B",
-    "explanation": "Si el cable de tierra del interruptor magnético está desconectado, el magneto está encendido, aunque el interruptor de encendido esté en la posición apagado. El motor podría disparar si la hélice se mueve desde fuera del avión.\nLa respuesta (A) es incorrecta porque el motor debe detenerse cuando se gira la llave de encendido a la posición apagado.\nLa respuesta (C) es incorrecta porque indica que hay un cable de tierra defectuoso."
+    "explanation": "Si el cable de tierra del interruptor de magneto está desconectado, el magneto está encendido, aunque el interruptor de encendido esté en la posición apagado. El motor podría disparar si la hélice se mueve desde fuera del avión.\nLa respuesta (A) es incorrecta porque el motor debe detenerse cuando se gira la llave de encendido a la posición apagado.\nLa respuesta (C) es incorrecta porque indica que hay un cable de tierra defectuoso."
   },
   {
     "id": "5170",
@@ -1151,7 +1151,7 @@
       "C": "evita que la combinación de aire / combustible se empobrece a medida que el avión asciende."
     },
     "answer": "A",
-    "explanation": "A medida que la aeronave asciende, la mezcla de aire y combustible se vuelv e más rica y el exceso de combustible hace que el motor pierda potencia y funcione más bruscamente. El control de mezcla proporciona un medio para que el piloto reduzca el combustible para compensar este desequilibrio en la mezcla a medida que aumenta la altitud.\nLa respuesta (B) es incorrecta porque el acelerador regula el flujo de aire a través del Venturi del carburador.\nLa respuesta (C) es incorrecta porque la razón combustible / aire se vuelve más rica a medida que la aeronave asciende."
+    "explanation": "A medida que la aeronave asciende, la mezcla de aire y combustible se vuelve más rica y el exceso de combustible hace que el motor pierda potencia y funcione más bruscamente. El control de mezcla proporciona un medio para que el piloto reduzca el combustible para compensar este desequilibrio en la mezcla a medida que aumenta la altitud.\nLa respuesta (B) es incorrecta porque el acelerador regula el flujo de aire a través del Venturi del carburador.\nLa respuesta (C) es incorrecta porque la razón combustible / aire se vuelve más rica a medida que la aeronave asciende."
   },
   {
     "id": "5189",
@@ -1259,7 +1259,7 @@
       "C": "Se enriquece la mezcla de combustible/aire."
     },
     "answer": "C",
-    "explanation": "El uso del calor del carburador enriquece la mezcla, lo que tiende a reducir la potencia del motor y también aumenta la temperatura de funcionamiento."
+    "explanation": "El uso del calefactor del carburador enriquece la mezcla, lo que tiende a reducir la potencia del motor y también aumenta la temperatura de funcionamiento. \nEl aire caliente es menos denso (pesa menos), por lo que entra menos masa de aire al motor mientras el flujo de combustible permanece constante."
   },
   {
     "id": "5607",
@@ -1283,7 +1283,7 @@
       "C": "La densidad del aire que ingresa al carburador disminuye y la cantidad de combustible permanece constante."
     },
     "answer": "C",
-    "explanation": "El flujo de combustible permanece constante si no se realizan ajustes. El mismo volumen de aire entra en el carburador, pero el peso y la densidad del aire son menores, lo que provoca una mezcla excesivamente rica, lo cual que las bujías se ensucien y disminuyan la potencia."
+    "explanation": "El flujo de combustible permanece constante si no se realizan ajustes. El mismo volumen de aire entra en el carburador, pero el peso y la densidad del aire son menores, lo que provoca una mezcla excesivamente rica, lo cual hace que las bujías se ensucien y disminuyan la potencia."
   },
   {
     "id": "5609",
@@ -1384,7 +1384,7 @@
   {
     "id": "5767",
     "section": "Sistemas de aeronaves",
-    "question": "5767.- ¿Cuál es la verdad con respecto al precalentamiento de una aeronave durante las operaciones en clima frío?",
+    "question": "5767.- ¿Cuál afirmación es correcta con respecto al precalentamiento de una aeronave durante las operaciones en clima frío?",
     "options": {
       "A": "El área de la cabina y el motor deben precalentarse.",
       "B": "El área de la cabina no debe precalentarse con calentadores portátiles.",
@@ -1535,7 +1535,7 @@
       "C": "número Mach"
     },
     "answer": "C",
-    "explanation": "El número Mach es la relación entre la velocidad verdadera y la velocidad del sonido."
+    "explanation": "El número Mach es la relación entre la velocidad verdadera y la velocidad del sonido. Mach = TAS / velocidad del sonido"
   },
   {
     "id": "5177.2",
@@ -1692,7 +1692,7 @@
       "C": "vuelo con aire en calma."
     },
     "answer": "B",
-    "explanation": "La velocidad máxima de crucero estructural ($V_{NO}$) es una velocidad tal, que de excederse el factor de carga límite, se pueden producir deformaciones permanentes a la estructura de la aeronave. Esta es la velocidad máxima para la operación normal.\nLa respuesta (A) es incorrecta porque la velocidad de maniobra ($V_{A}$) es la velocidad máxima para maniobras abruptas. La respuesta (C) es incorrecta porque el arco amarillo iden tifica el rango donde solo se recomienda volar con aire en calma."
+    "explanation": "La velocidad máxima de crucero estructural ($V_{NO}$) es una velocidad tal, que de excederse el factor de carga límite, se pueden producir deformaciones permanentes a la estructura de la aeronave. Esta es la velocidad máxima para la operación normal.\nLa respuesta (A) es incorrecta porque la velocidad de maniobra ($V_{A}$) es la velocidad máxima para maniobras abruptas. La respuesta (C) es incorrecta porque el arco amarillo identifica el rango donde solo se recomienda volar con aire en calma."
   },
   {
     "id": "5669",
@@ -2508,7 +2508,7 @@
       "C": "acercándose a usted de frente."
     },
     "answer": "A",
-    "explanation": "El piloto está viendo la baliza giratoria y la luz blanca en la cola. El otro avión se aleja.\nLa respuesta (B) es incorrecta porque vería una luz roja fija si el otro avión cruzara a su izquierda. La respuesta (C) es incorrecta porque vería las luces de posición de la punta del ala tanto roja como verde si el otro avión se acercara a usted de frente. (LAR 91 Apéndice C).\n\nTotal: 59 preguntas."
+    "explanation": "El piloto está viendo la baliza giratoria y la luz blanca en la cola. El otro avión se aleja.\nLa respuesta (B) es incorrecta porque vería una luz roja fija si el otro avión cruzara a su izquierda. La respuesta (C) es incorrecta porque vería las luces de posición de la punta del ala tanto roja como verde si el otro avión se acercara a usted de frente. (LAR 91 Apéndice C)."
   },
   {
     "id": "5083",
@@ -2676,7 +2676,7 @@
       "C": "40 NM."
     },
     "answer": "A",
-    "explanation": "El radio normal del área exterior será de 20 NM. Esta es el área donde se proporciona la separación después de que se establece la comunicación bidireccional. Es solo un requisito comunicarse con ATC antes de ingresar al espacio aéreo Clase C de 10 NM que se muestra en la carta seccional."
+    "explanation": "El radio normal del área exterior no representada el las cartas será de 20 NM. Esta es el área donde se proporciona la separación después de que se establece la comunicación bidireccional. Es solo un requisito comunicarse con ATC antes de ingresar al espacio aéreo Clase C de 10 NM que se muestra en la carta seccional."
   },
   {
     "id": "5120.2",
@@ -2712,7 +2712,7 @@
       "C": "ubicación de balizas de luz giratorias."
     },
     "answer": "A",
-    "explanation": "Antes de un vuelo nocturno, y particularmente de un vuelo nocturno, los pilotos deben verificar la disponibilidad y el estado de los sistemas de iluminación en el aeropuerto de destino."
+    "explanation": "Antes de un vuelo nocturno, y particularmente de un vuelo nocturno de travesía, los pilotos deben verificar la disponibilidad y el estado de los sistemas de iluminación en el aeropuerto de destino."
   },
   {
     "id": "5134",
@@ -2821,7 +2821,7 @@
       "C": "los conos de los ojos se han adaptado a la oscuridad en aproximadamente 5 minutos."
     },
     "answer": "B",
-    "explanation": "Al entrar en una habitación oscura, es difícil ver algo hasta que los ojos se adapten a la oscuridad. Después de aproximadamente 5 a 10 minutos, los conos se ajustan a la luz tenue y los ojos se vuelven 100 veces más sensibles a la luz de lo que eran antes de entrar en la habitación oscura. Se necesita mucho más tiempo, unos 30 minutos, para que las varillas se adapten a la oscuridad; pero cuando se ajustan, son unas 100.000 veces más sensibles a la luz que en el área iluminada."
+    "explanation": "Al entrar en una habitación oscura, es difícil ver algo hasta que los ojos se adapten a la oscuridad. Después de aproximadamente 5 a 10 minutos, los conos se ajustan a la luz tenue y los ojos se vuelven 100 veces más sensibles a la luz de lo que eran antes de entrar en la habitación oscura. Se necesita mucho más tiempo, unos 30 minutos, para que los bastones (varillas) se adapten a la oscuridad; pero cuando se ajustan, son unas 100.000 veces más sensibles a la luz que en el área iluminada."
   },
   {
     "id": "5491.2",
@@ -2984,7 +2984,7 @@
       "C": "un aeropuerto de uso no público."
     },
     "answer": "C",
-    "explanation": "El 'Pvt ' después de los nombres de los aeropuertos indica que el aeropuerto de Van Vleck es un aeropuerto de uso restringido o no público.\nLa respuesta (A) es incorrecta porque la R en el círculo indica que el aeropuerto no es de uso público.\nLa respuesta (B) es incorrecta porque el cuadro azul cerca del aeropuerto Van Vleck indica un área de alerta."
+    "explanation": "El 'Pvt' después de los nombres de los aeropuertos indica que el aeropuerto de Van Vleck es un aeropuerto de uso restringido o no público.\nLa respuesta (A) es incorrecta porque la R en el círculo indica que el aeropuerto no es de uso público.\nLa respuesta (B) es incorrecta porque el cuadro azul cerca del aeropuerto Van Vleck indica un área de alerta."
   },
   {
     "id": "5656.1",
@@ -3001,7 +3001,7 @@
   {
     "id": "5656.2",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5656.2.- ¿Cuál es la visibilidad mínima y el techo requeridos para que un pi loto reciba una autorización de aterrizaje y espera corta (LAHSO)?",
+    "question": "5656.2.- ¿Cuál es la visibilidad mínima y el techo requeridos para que un piloto reciba una autorización de aterrizaje y espera corta (LAHSO)?",
     "options": {
       "A": "3 millas terrestres y 1,500 pies.",
       "B": "3 millas náuticas y 1,000 pies.",
@@ -3325,7 +3325,7 @@
       "C": "identificando actitudes personales peligrosas para un vuelo seguro."
     },
     "answer": "C",
-    "explanation": "Los pasos para una buena toma de decisiones son: identificar las actitudes personales peligrosas para un vuelo seguro, aprender técnicas de modificación de la conducta, aprender a reconocer y afrontar el estrés, desarrollar habilidades de evaluación de riesgos, utilizar todos los recursos en una situación de múltiples tripulaciones y evaluar la eficacia de las propias habilidades de ADM."
+    "explanation": "Los pasos para una buena toma de decisiones son: \n\n1. Identificar las actitudes personales peligrosas para un vuelo seguro. \n2. Aprender técnicas de modificación de la conducta. \n3. Aprender a reconocer y afrontar el estrés. \n4. Desarrollar habilidades de evaluación de riesgos. \n5. Utilizar todos los recursos. \n6. Evaluar la eficacia de las propias habilidades de ADM."
   },
   {
     "id": "5944",
@@ -3397,7 +3397,7 @@
       "C": "Mala toma de decisiones, conciencia de la situación y juicio."
     },
     "answer": "A",
-    "explanation": "ADM aborda las siguientes cinco actitudes peligrosas: Anti-autoridad (¡no me lo digas!), Impulsividad (¡haz algo rápido!), Invulnerabilidad (no me sucederá a mí), Macho (puedo hacerlo), Resignación (¿de qué sirve?)."
+    "explanation": "ADM aborda las siguientes cinco actitudes peligrosas: \n\n1. Anti-autoridad (¡no me lo digas!), \n2. Impulsividad (¡haz algo rápido!), \n3. Invulnerabilidad (no me sucederá a mí), \n4. Macho (puedo hacerlo), \n5. Resignación (¿de qué sirve?)."
   },
   {
     "id": "5950",
@@ -3676,7 +3676,7 @@
       "C": "en una calle de rodaje que cruza la pista 04/22."
     },
     "answer": "C",
-    "explanation": "Esta pregunta probablemente incluirá un gráfico en pantalla de un letrero de ubicación de calle de rodaje con un letrero de dirección o un letrero de posición de espera en la pista. Este tipo de señal se utiliza en una intersección de pistas de rodaje."
+    "explanation": "Este es el tipo de señal que se utiliza en una intersección de calle de rodaje (taxiway) con pistas (runway). Determina para que lado queda cada cabecera según el numero mostrado en la señal. En este caso, la pista 04 queda a la izquierda y la pista 22 queda a la derecha."
   },
   {
     "id": "5983.2",
@@ -3694,7 +3694,7 @@
   {
     "id": "5984",
     "section": "Procedimientos operacionales de aeródromos",
-    "question": "5984.- (Refiérase a la Figura 64). Verá este letrero cuando se mantenga cerca de la pista. Recibe autorización para realizar un rodaje en retroceso en la pista para una salida completa de la pista 8. ¿En qué dirección debe girar la primera vez que rueda hacia la pista para el despegue?",
+    "question": "5984.- (Refiérase a la Figura 64). Verá este letrero cuando se mantenga cerca de la pista. Recibe autorización para realizar un rodaje en retroceso (backtrack) en la pista para una salida completa de la pista 08. ¿En qué dirección debe girar la primera vez que rueda hacia la pista para el despegue?",
     "image-id": "figure_64",
     "options": {
       "A": "Izquierda.",
@@ -3755,14 +3755,14 @@
   {
     "id": "5310.1",
     "section": "Meteorología",
-    "question": "5310.1.- La altitud por densidad es la distancia vertical sobre el nivel medio del mar en la atmósfera estándar en la que:",
+    "question": "5310.1.- La altitud de densidad es la distancia vertical sobre el nivel medio del mar en la atmósfera estándar en la que:",
     "options": {
       "A": "la altitud por presión se corrige para la temperatura estándar.",
       "B": "una densidad atmosférica determinada.",
       "C": "se consideran la temperatura, la presión, la altitud y la humedad."
     },
     "answer": "B",
-    "explanation": "La altitud por densidad es la distancia vertical sobre el nivel del mar en la atmósfera estándar en la que se encuentra una densidad determinada. La densidad del aire tiene efectos significativos en el rendimiento del avión."
+    "explanation": "La altitud de densidad es la distancia vertical sobre el nivel del mar en la atmósfera estándar en la que se encuentra una densidad determinada. La densidad del aire tiene efectos significativos en el rendimiento del avión."
   },
   {
     "id": "5311",
@@ -4619,7 +4619,7 @@
   {
     "id": "5378",
     "section": "Meteorología",
-    "question": "5378.- ¿Qué levanta la niebla de advección en las nubes bajas?",
+    "question": "5378.- ¿Qué levanta la niebla de advección en nubes bajas?",
     "options": {
       "A": "Enfriamiento nocturno.",
       "B": "La sequedad de la masa terrestre subyacente.",
@@ -4662,7 +4662,7 @@
       "C": "Límite superior absoluto de formación de nubes."
     },
     "answer": "B",
-    "explanation": "Al ser la fina capa límite entre la troposfera y la estratosfera, la tropopausa señala un cambio abrupto en el gradiente de temperatura."
+    "explanation": "Al ser la fina capa límite entre la troposfera y la estratosfera, la tropopausa señala un cambio abrupto en el gradiente de temperatura. \nLa respuesta (A) es incorrecta porque la tropopausa está más lejos de la superficie de la Tierra en el ecuador que en los polos. La respuesta (C) es incorrecta porque las nubes pueden formarse por encima de la tropopausa."
   },
   {
     "id": "5382",
@@ -4734,7 +4734,7 @@
       "C": "Una corriente en chorro que se produce durante el verano en las latitudes más bajas."
     },
     "answer": "B",
-    "explanation": "Las corrientes en chorro curvas, especialmente la s que se curvan alrededor de una depresión profunda, son más propensas a tener bordes turbulentos que las corrientes en chorro rectas.\nLa respuesta (A) es incorrecta porque una corriente en chorro curvada es más fuerte que una corriente en chorro recta. La respuesta (C) es incorrecta porque la corriente en chorro es más débil en verano."
+    "explanation": "Las corrientes en chorro curvas, especialmente las que se curvan alrededor de una depresión profunda, son más propensas a tener bordes turbulentos que las corrientes en chorro rectas.\nLa respuesta (A) es incorrecta porque una corriente en chorro curvada es más fuerte que una corriente en chorro recta. La respuesta (C) es incorrecta porque la corriente en chorro es más débil en verano."
   },
   {
     "id": "5448",
@@ -4871,14 +4871,14 @@
   {
     "id": "5405",
     "section": "Servicios meteorológicos",
-    "question": "5405.- ¿Qué condiciones de viento prevería cuando se reporten tormentas en su destino?",
+    "question": "5405.- ¿Qué condiciones de viento prevería cuando se reporten tormentas (turbonadas) en su destino?",
     "options": {
       "A": "Variaciones rápidas en la velocidad del viento de 15 nudos o más entre picos y calma.",
       "B": "Ráfagas máximas de al menos 35 nudos combinadas con un cambio en la dirección del viento de 30° o más.",
       "C": "Aumentos repentinos de la velocidad del viento de al menos 16 nudos a una velocidad sostenida de 22 nudos o más durante al menos 1 minuto."
     },
     "answer": "C",
-    "explanation": "Una ráfaga es un aumento repentino de la velocidad del viento de 16 nudos a una velocidad sostenida de 22 nudos o más que dura al menos 1 minuto.\nLa respuesta (A) es incorrecta porque describe ráfagas.\nLa respuesta (B) es incorrecta porque describe la cizalladura del viento."
+    "explanation": "Un squall o turbonada es un aumento repentino de la velocidad del viento de 16 nudos a una velocidad sostenida de 22 nudos o más que dura al menos 1 minuto.\nLa respuesta (A) es incorrecta porque describe ráfagas.\nLa respuesta (B) es incorrecta porque describe la cizalladura del viento."
   },
   {
     "id": "5406",
@@ -4943,7 +4943,7 @@
   {
     "id": "5412",
     "section": "Servicios meteorológicos",
-    "question": "5412.- En el siguiente METAR / TAF para HOU, ¿cuál es el techo y visibilidad pronosticada para el séptimo día del mes a las 0600Z? KHOU 061734Z 0618/0718 16014G22KT P6SM VCSH BKN018 BKN035 FM070100 17010KT P6SM BKN015 OVC025 FM070500 17008KT 4SM BR SCT008 OVC012 FM071000 18005KT 3SM BR OVC007 FM071500 23008KT 5SM BR VCSH SCT008 OVC015:",
+    "question": "5412.- En el siguiente METAR / TAF para HOU, ¿cuál es el techo y visibilidad pronosticada para el séptimo día del mes a las 0600Z? \nKHOU 061734Z 0618/0718 16014G22KT P6SM VCSH BKN018 BKN035 FM070100 17010KT P6SM BKN015 OVC025 FM070500 17008KT 4SM BR SCT008 OVC012 FM071000 18005KT 3SM BR OVC007 FM071500 23008KT 5SM BR VCSH SCT008 OVC015:",
     "options": {
       "A": "Visibilidad de 6 millas con un techo fracturado a 15,000 pies MSL.",
       "B": "A 4 millas náuticas de visibilidad y cielo cubierto a 700 pies MSL.",
@@ -5159,14 +5159,14 @@
   {
     "id": "5440",
     "section": "Servicios meteorológicos",
-    "question": "5440.- La eclosión en una carta de análisis de presión constante indica:",
+    "question": "5440.- La eclosión (rayado) en una carta de análisis de presión constante indica:",
     "options": {
       "A": "ojo del huracán.",
       "B": "velocidad del viento de 70 nudos a 110 nudos.",
       "C": "velocidad del viento de 110 nudos a 150 nudos."
     },
     "answer": "B",
-    "explanation": "Para ayudar a identificar áreas de vientos fuertes, el sombreado indica velocidades del viento de 70 a 110 nudos, un área despejada dentro de un área sombreada indica viento de 110 a 150 nudos y un área de 150 a 190 nudos de viento está sombreada.\nLa respuesta (A) es incorrecta porque el ojo del huracán tiene vientos muy bajos.\nLa respuesta (C) es incorrecta porque un área despejada dentro de un área sombreada indica viento de 110 a 150 nudos."
+    "explanation": "Para ayudar a identificar áreas de vientos fuertes, el sombreado o rayado indica velocidades del viento de 70 a 110 nudos, un área despejada dentro de un área sombreada indica viento de 110 a 150 nudos y un área de 150 a 190 nudos de viento está sombreada.\nLa respuesta (A) es incorrecta porque el ojo del huracán tiene vientos muy bajos.\nLa respuesta (C) es incorrecta porque un área despejada dentro de un área sombreada indica viento de 110 a 150 nudos."
   },
   {
     "id": "5441",
@@ -5178,7 +5178,7 @@
       "C": "Sistemas frontales y obstrucciones a la visión en altura."
     },
     "answer": "A",
-    "explanation": "La carta de análisis de presión constante es una fuente de temperatura observada, dispersión de temperatura / punto de rocío, humedad y viento."
+    "explanation": "La carta de análisis de presión constante es una fuente de temperatura observada, dispersión de temperatura / punto de rocío, humedad y viento.\nLa respuesta (B) es incorrecta porque se pueden encontrar turbulencias de aire claro en las cartas de pronóstico y en los pronósticos de área.\nLa respuesta (C) es incorrecta porque los sistemas frontales y las obstrucciones a la visión en altura se pueden encontrar en las cartas de Análisis de superficie y Representación meteorológica."
   },
   {
     "id": "5442",
@@ -5214,7 +5214,7 @@
       "C": "turbulencia moderada."
     },
     "answer": "B",
-    "explanation": "La turbulencia que provoca momentáneamente cambios leves y erráticos en la altitud y/o actitud (cabeceo, alabeo, guiñada) se informa como turbulencia leve / ligera.\nLa respuesta (A) es incorrecta porque el corte ligero es un golpe leve, rápido y algo rítmico.\nLa respuesta (C) es incorrecta porque una turbulen cia moderada provoca cambios en la altitud y / o actitud y variaciones en la velocidad indicada."
+    "explanation": "La turbulencia que provoca momentáneamente cambios leves y erráticos en la altitud y/o actitud (cabeceo, alabeo, guiñada) se informa como turbulencia leve / ligera.\nLa respuesta (A) es incorrecta porque el corte ligero es un golpe leve, rápido y algo rítmico.\nLa respuesta (C) es incorrecta porque una turbulencia moderada provoca cambios en la altitud y/o actitud y variaciones en la velocidad indicada."
   },
   {
     "id": "5445",
@@ -5322,7 +5322,7 @@
       "C": "A medida que aumenta la temperatura, el empuje disminuye."
     },
     "answer": "C",
-    "explanation": "Un aumento de altitud hace que el flujo de aire del motor disminuya de una manera casi idéntica a la relación de densidad de altitud. Esto provoca una disminución significativa del empuje en altitud frente al empuje a nivel del mar a medida que aumenta la altitud. Un aumento en la temperatura del aire de entrada proporcionará una menor energía del gas de combustión y provocará una menor velocidad del chorro"
+    "explanation": "Un aumento de altitud hace que el flujo de aire del motor disminuya de una manera casi idéntica a la relación de altitud de densidad. Esto provoca una disminución significativa del empuje en altitud frente al empuje a nivel del mar a medida que aumenta la altitud. Un aumento en la temperatura del aire de entrada proporcionará una menor energía del gas de combustión y provocará una menor velocidad del chorro"
   },
   {
     "id": "5302",
@@ -6422,7 +6422,7 @@
       "C": "16 minutos, 128°, 32 NM, 3.8 galones."
     },
     "answer": "B",
-    "explanation": "1. Calcule el tiempo de ascenso: Tiempo = distancia vertical ÷ velocidad vertical"
+    "explanation": "1. Calcule el tiempo de ascenso: Tiempo = distancia vertical ÷ velocidad vertical\n\nDonde distancia vertical = 9,500 – 1,500 = 8,000 pies\nTiempo = 8,000 pies ÷ 500 FPM = 16 minutos = 0.27 horas\n2. Calcule el combustible requerido:\n14 gal/h x 0.2666 hora = 3.73 galones\n3. Calcule el ángulo de corrección del viento y la velocidad con respecto al suelo utilizando un triángulo de viento:\nWCA = 5° izquierda\nVelocidad con respecto al suelo = 153 nudos\n4. Calcule el rumbo verdadero (TH = TC + WCA):\n145° - 5° = 140° TH\n5. Calcular el rumbo de la brújula (CH = TH + Var + Dev):\n140° - 5° - 3° = 132° CH\n6. Calcule la distancia recorrida:\nDistancia = 153 nudos x 0.27 horas = 41.31 NM."
   },
   {
     "id": "5501",
@@ -6576,14 +6576,14 @@
   {
     "id": "5990",
     "section": "Navegación",
-    "question": "5990.- A medida que la temperatura del aire aumenta, la altitud por densidad:",
+    "question": "5990.- A medida que la temperatura del aire aumenta, la altitud de densidad:",
     "options": {
       "A": "disminuye.",
       "B": "incrementa.",
       "C": "permanece igual."
     },
     "answer": "B",
-    "explanation": "La altitud por densidad es la altitud en condiciones de aire estándar, donde la densidad es la misma que la existente. Dicha densidad depende de la presión, temperatura y humedad del aire. Tanto una disminución de la presión como un aumento de la temperatura disminuyen la densidad del aire y aumentan la altitud por densidad."
+    "explanation": "La altitud de densidad es la altitud en condiciones de aire estándar, donde la densidad es la misma que la existente. Dicha densidad depende de la presión, temperatura y humedad del aire. Tanto una disminución de la presión como un aumento de la temperatura disminuyen la densidad del aire y aumentan la altitud de densidad."
   },
   {
     "id": "5999.1",
