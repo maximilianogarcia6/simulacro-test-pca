@@ -1848,7 +1848,7 @@
       "C": "Solo el tiempo de vuelo durante el cual el copiloto es el único manipulador de los controles."
     },
     "answer": "B",
-    "explanation": "La respuesta A está incompleta porque puede registrar las horas de vuelo realizadas como copiloto en una aeronave que por certificado tipo requiera esta función o cuando las realice p or requisitos operacionales establecidos por la AAC.\nLa respuesta C no es correcta al no estar exigida esa condición en el reglamento. [LAR 61.120 (c)(3)]."
+    "explanation": "La respuesta A está incompleta porque puede registrar las horas de vuelo realizadas como copiloto en una aeronave que por certificado tipo requiera esta función o cuando las realice por requisitos operacionales establecidos por la AAC.\nLa respuesta C no es correcta al no estar exigida esa condición en el reglamento. [LAR 61.120 (c)(3)]."
   },
   {
     "id": "5028",
@@ -3361,7 +3361,7 @@
       "C": "la presión de los compañeros, la puesta en práctica, la pérdida de conciencia de la posición o la situación y el funcionamiento sin reservas de combustible adecuadas."
     },
     "answer": "C",
-    "explanation": "Hay una serie de trampas de comportamiento clásicas en las que se sabe que caen los pilotos. Estas tendencias peligrosas o patrones de comportamiento, que deben identificarse y eliminarse, incluyen: presión de grupo, mentalidad, llegar allí, síndrome de agacharse, correr rápido, seguir las reglas de vuelo visual en condiciones de instrumentos, ponerse detrás de la aeronav e, pérdida de conciencia posicional o de situación, operar sin reservas de combustible adecuadas, descender por debajo de la altitud mínima en ruta, volar fuera de la envolvente, negligencia en la planificación del vuelo, inspecciones previas al vuelo, listas de verificación, etc."
+    "explanation": "Hay una serie de trampas de comportamiento clásicas en las que se sabe que caen los pilotos. Estas tendencias peligrosas o patrones de comportamiento, que deben identificarse y eliminarse, incluyen: presión de grupo, mentalidad, llegar allí, síndrome de agacharse, correr rápido, seguir las reglas de vuelo visual en condiciones de instrumentos, ponerse detrás de la aeronave, pérdida de conciencia posicional o de situación, operar sin reservas de combustible adecuadas, descender por debajo de la altitud mínima en ruta, volar fuera de la envolvente, negligencia en la planificación del vuelo, inspecciones previas al vuelo, listas de verificación, etc."
   },
   {
     "id": "5947",
